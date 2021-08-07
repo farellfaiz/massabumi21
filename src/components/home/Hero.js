@@ -69,7 +69,7 @@ import { FaUsers } from "react-icons/fa"
               marginTop="80px"
               overflow={'hidden'}>
               <Image
-                alt={'FITB 2021'}
+                alt={''}
                 fit={'contain'}
                 align={'center'}
                 w={'100%'}
@@ -80,7 +80,7 @@ import { FaUsers } from "react-icons/fa"
                 marginBottom="-10px"
               />
               <Image
-                alt={'FITB 2021'}
+                alt={''}
                 fit={'contain'}
                 align={'center'}
                 w={'100%'}
