@@ -31,7 +31,7 @@ const Footer = () => {
                 <Text align="center" maxWidth="400px" marginX={4} marginBottom={7}>
                     Updates you’ll want to know about FITB ITB students batch 2021. Our stories, events, and another updates.
                 </Text>
-                <form action="https://formsubmit.co/fitb.itb2021@gmail.com" method="POST">
+                <form action="https://formsubmit.co/dev.fitb21@gmail.com" method="POST">
                     <Flex justifyContent="center" alignItems="center" marginX={5} marginBottom={7}>
                         <InputGroup>
                             <Input 
