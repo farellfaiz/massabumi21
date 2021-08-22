@@ -15,6 +15,7 @@ import {
   Family,
   Contact,
   About,
+  Test
 } from "./pages/";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/family" exact component={() => <Family />} />
           <Route path="/contact" exact component={() => <Contact />} />
           <Route path="/about" exact component={() => <About />} />
+          <Route path="/test" exact component={() => <Test />} />
         </Switch>
         <Footer />
       </Router>
