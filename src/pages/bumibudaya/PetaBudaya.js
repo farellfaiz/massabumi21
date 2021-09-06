@@ -41,7 +41,7 @@ const PetaBudaya = () => {
                             bgColor="white"
                             width="48%"
                         >
-                            Articles
+                            Article
                         </Button>
                         <Button 
                             leftIcon={<FaRegEdit />} 
@@ -50,7 +50,7 @@ const PetaBudaya = () => {
                             bgColor="white"
                             width="48%"
                         >
-                            Guest Book
+                            Guestbook
                         </Button>
                     </Box>
                     <Box width={{ md:"50%" }} display="flex" justifyContent="space-between" margin="10px">
@@ -61,7 +61,7 @@ const PetaBudaya = () => {
                             bgColor="white"
                             width="48%"
                         >
-                            Featured Hope
+                            Hope
                         </Button>
                         <Button 
                             leftIcon={<BiDonateHeart />} 
