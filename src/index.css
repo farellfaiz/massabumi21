@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Mick Kelly';
+  src: local('Mick Kelly'), url(./fonts/Mick\ Kelly.ttf) format('truetype');
+}
+
 html {
   background-color: #F4F8FB;
 }
