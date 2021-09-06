@@ -12,3 +12,6 @@ export { default as Carousel } from "./home/Carousel";
 export { default as Hero } from "./home/Hero";
 export { default as Cards } from "./family/Cards";
 export { default as FamilyHead } from "./family/FamilyHead";
+
+// Bumi Budaya
+export { default as SmallTab } from "./bumibudaya/SmallTab";

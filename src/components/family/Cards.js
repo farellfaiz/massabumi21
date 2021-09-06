@@ -1,6 +1,6 @@
 import { Box, Flex, Image, Link, ChakraComponent, Skeleton, chakra } from "@chakra-ui/react"
 
-const Cards = ({ img, name, domisili }) => {
+const Cards = ({ img, title, desc }) => {
     return (
         <Flex
             bg="#F9FAFB"
@@ -34,13 +34,13 @@ const Cards = ({ img, name, domisili }) => {
                         color="gray.800"
                         fontWeight="bold"
                     >
-                        {name}
+                        {title}
                     </Link>
                     <chakra.span
                         fontSize="sm"
                         color="gray.700"
                     >
-                        {domisili}
+                        {desc}
                     </chakra.span>
                 </Box>
             </Box>

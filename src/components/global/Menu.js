@@ -16,6 +16,10 @@ import {
     FaBars, FaHome, FaUsers, FaPhoneAlt
 } from "react-icons/fa";
 
+import {
+    IoEarthOutline
+} from "react-icons/io5";
+
 const Menu = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
 

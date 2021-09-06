@@ -16,8 +16,8 @@ const Family = () => {
                         <Link key={family.id} href={family.iglink}>
                             <Cards 
                                 img={family.foto}
-                                name={family.nama}
-                                domisili={family.domisili}
+                                title={family.nama}
+                                desc={family.domisili}
                             />
                         </Link>
                     </Skeleton>

@@ -15,6 +15,7 @@ import {
   Family,
   Contact,
   About,
+  PetaBudaya,
   Test
 } from "./pages/";
 
@@ -30,6 +31,8 @@ function App() {
           <Route path="/contact" exact component={() => <Contact />} />
           <Route path="/about" exact component={() => <About />} />
           <Route path="/test" exact component={() => <Test />} />
+
+          <Route path="/bumibudaya/peta" exact component={() => <PetaBudaya />} />
         </Switch>
         <Footer />
       </Router>
