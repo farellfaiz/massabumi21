@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "Semarak Festival Krakatau",
+        "daerah": "Lampung",
+        "thumbnail": "http://picture.triptrus.com/image/2019/02/lampung.jpeg",
+        "file": "{() => <Satu />}",
+        "path": "/bumibudaya/artikel/semarak-festival-krakatau"
+    },
+    {
+        "id": 2,
+        "title": "Mengenal Seba, Tradisi Unik dari Suku Baduy",
+        "daerah": "Kabupaten Lebak",
+        "thumbnail": "https://www.goodnewsfromindonesia.id/wp-content/uploads/images/source/asriyati/20191009baduy.jpg",
+        "file": "{() => <Dua />}",
+        "path": "/bumibudaya/artikel/tradisi-seba"
+    },
+    {
+        "id": 3,
+        "title": "Chit Ngiat Phan, Tradisi Solidaritas Masyarakat Bangka",
+        "daerah": "Kabupaten Bangka",
+        "thumbnail": "https://cdn-2.tstatic.net/tribunnews/foto/images/preview/20130822_ritual-chit-ngiat-pan-di-bangka-belitung_3270.jpg",
+        "file": "{() => <Tiga />}",
+        "path": "/bumibudaya/artikel/chit-ngiat-phan"
+    },
+    {
+        "id": 4,
+        "title": "Pesona Surga Bumi Sriwijaya",
+        "daerah": "Sumatra Selatan",
+        "thumbnail": "https://cdn-2.tstatic.net/palembang/foto/bank/images/gunung-dempo_20170819_202052.jpg",
+        "file": "{() => <Tiga />}",
+        "path": "/bumibudaya/artikel/chit-ngiat-phan"
+    },
+    {
+        "id": 5,
+        "title": "Sistem Kekerabatan Matrilineal di Sumatra Barat",
+        "daerah": "Sumatra Barat",
+        "thumbnail": "https://i1.wp.com/www.nesabamedia.com/wp-content/uploads/2019/05/Keunikan-Rumah-Adat-Minangkabau-e1557061441228.jpg?resize=600%2C400&ssl=1",
+        "file": "{() => <Tiga />}",
+        "path": "/bumibudaya/artikel/chit-ngiat-phan"
+    },
+    {
+        "id": 6,
+        "title": "Tabot, Festival Religi di Bumi Rafflesia",
+        "daerah": "Bengkulu",
+        "thumbnail": "https://seringjalan.com/wp-content/uploads/2020/07/1-upacara-adat-bengkulu-816x581.jpg",
+        "file": "{() => <Tiga />}",
+        "path": "/bumibudaya/artikel/chit-ngiat-phan"
+    },
+    {
+        "id": 7,
+        "title": "Fakta-Fakta Unik tentang Kepulauan Riau",
+        "daerah": "Kabupaten Bangka",
+        "thumbnail": "https://iili.io/RVp30X.png",
+        "file": "{() => <Tiga />}",
+        "path": "/bumibudaya/artikel/chit-ngiat-phan"
+    },
+    {
+        "id": 8,
+        "title": "Anak Gimbal dari Dieng",
+        "daerah": "Jawa Tengah",
+        "thumbnail": "https://jateng.garudacitizen.com/wp-content/uploads/2019/01/255-contoh_anak_berambut_gimbal_di_dataran_tinggi_dieng.jpg",
+        "file": "{() => <Tiga />}",
+        "path": "/bumibudaya/artikel/chit-ngiat-phan"
+    }
+]

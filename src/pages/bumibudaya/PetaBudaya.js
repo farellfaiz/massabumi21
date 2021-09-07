@@ -1,25 +1,109 @@
-import { Box, Heading, useBreakpointValue, Flex, Button } from "@chakra-ui/react"
+import { 
+    Box, 
+    Heading, 
+    useBreakpointValue, 
+    Flex, 
+    Button, 
+    Divider, 
+    IconButton,
+    Modal,
+    ModalOverlay,
+    ModalContent,
+    ModalHeader,
+    ModalFooter,
+    ModalBody,
+    ModalCloseButton,
+    useDisclosure,
+    Accordion,
+    AccordionItem,
+    AccordionButton,
+    AccordionPanel,
+    AccordionIcon,
+    Center,
+    Text
+} from "@chakra-ui/react"
 import React from "react"
 import { SmallTab } from "../../components"
 import { ArrowBackIcon } from '@chakra-ui/icons'
-import { BsFileText, BsBook } from "react-icons/bs";
+import { BsFileText, BsFillInfoCircleFill, BsMicFill, BsMic, BsGrid } from "react-icons/bs";
 import { HiOutlineSun } from "react-icons/hi";
-import { BiDonateHeart } from "react-icons/bi";
+import { FiMapPin } from "react-icons/fi";
 import { FaRegEdit } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const PetaBudaya = () => {
-    const responsiveHeight = useBreakpointValue({ base: "900px", sm: "400px", md: "1000px" })
+    const responsiveHeight = useBreakpointValue({ base: "1200px", sm: "1200px", md: "1200px" })
+    const { isOpen, onOpen, onClose } = useDisclosure()
 
     return (
-        <Box w="100%" height={responsiveHeight} paddingY={8} bg="gray.50" marginBottom="-50px" display="flex" justifyContent="center">
+        <Box w="100%" height="auto" paddingY={8} bg="gray.50" marginBottom="-50px" display="flex" justifyContent="center">
+            <Modal isOpen={isOpen} onClose={onClose} size="lg">
+                <ModalOverlay />
+                <ModalContent>
+                    <ModalHeader fontFamily="Mick Kelly" fontWeight="300">Sekilas tentang Peta Budaya</ModalHeader>
+                    <ModalCloseButton />
+                    <ModalBody>
+                        <Accordion allowToggle defaultIndex={[0]} >
+                            <AccordionItem>
+                                <h2>
+                                <AccordionButton>
+                                    <Box flex="1" textAlign="left" fontWeight="600" display="flex" flexDir="row">
+                                        <Box paddingTop="4.5px">
+                                            <FiMapPin />
+                                        </Box>
+                                        <Text marginLeft={2}>Peta Budaya</Text>
+                                    </Box>
+                                    <AccordionIcon />
+                                </AccordionButton>
+                                </h2>
+                                <AccordionPanel pb={4}>
+                                    Peta Budaya berisikan kebudayaan-kebudayaan unik dan menarik berdasarkan persebaran mahasiswa FITB 2021, lho!<br /><br />
+                                    Yuk kita jelajahi budaya yang ada di daerah mereka! :D
+                                </AccordionPanel>
+                            </AccordionItem>
+
+                            <AccordionItem>
+                                <h2>
+                                <AccordionButton>
+                                    <Box flex="1" textAlign="left" fontWeight="600" display="flex" flexDir="row">
+                                        <Box paddingTop="4.5px">
+                                            <BsMic />
+                                        </Box>
+                                        <Text marginLeft={2}>Podcast</Text>
+                                    </Box>
+                                    <AccordionIcon />
+                                </AccordionButton>
+                                </h2>
+                                <AccordionPanel pb={4}>
+                                    Peta Budaya berisikan kebudayaan-kebudayaan unik dan menarik berdasarkan persebaran mahasiswa FITB 2021, lho!<br /><br />
+                                    Yuk kita jelajahi budaya yang ada di daerah mereka! :D
+                                </AccordionPanel>
+                            </AccordionItem>
+                        </Accordion>
+                    </ModalBody>
+
+                    <ModalFooter>
+                        <Button onClick={onClose}>
+                            Continue Adventure
+                        </Button>
+                    </ModalFooter>
+                </ModalContent>
+            </Modal>
             <Box display="flex" flexDir="column" width="80%" alignItems="center" position="relative">
                 <Flex width="100%" flexDir="column" justifyContent="center" alignItems="center" marginTop={3}>
                     <Heading fontFamily="Mick Kelly" fontWeight="bold" marginBottom={2} size="2xl" bgGradient="linear(to-r, #85665e, #B4887C)" bgClip="text" lineHeight="65px">
                         Peta Budaya
                     </Heading>
                 </Flex>
-                <Box position="absolute" top="9%" left="0">
-                    <SmallTab icon={<ArrowBackIcon />} text="Menu" variant="ghost" />
+                <Box display="flex" flexDir="row" justifyContent="space-between" w="full">
+                    <Box>
+                        <Link to="/bumibudaya">
+                            <SmallTab icon={<ArrowBackIcon />} text="Back" variant="ghost" />
+                        </Link>
+                    </Box>
+                    <Box>
+                        <IconButton icon={<BsFillInfoCircleFill />} onClick={onOpen} />
+                    </Box>
                 </Box>
                 <Box 
                     width="100%"
@@ -28,50 +112,103 @@ const PetaBudaya = () => {
                     rounded="md"
                     shadow="md"
                     padding="10px"
-                    marginTop="50px"
+                    marginTop="10px"
                 >
                     <iframe src="https://www.google.com/maps/d/embed?mid=1vxz_KEGWq2zczoxl7eAP2GQmJkoHytzc" width="100%" height="100%"></iframe>
                 </Box>
+                <Box marginY={4} w="full">
+                    <Accordion allowToggle>
+                        <AccordionItem>
+                            <AccordionButton rounded="md" shadow="md" marginTop="2px" bgColor="white">
+                                <Box flex="1" textAlign="left">
+                                    <Center>
+                                        <BsMicFill /><Text marginLeft={2} fontFamily="Mick Kelly">Podcast</Text>
+                                    </Center>
+                                </Box>
+                                <AccordionIcon />
+                            </AccordionButton>
+                            <AccordionPanel pb={4}>
+                            <iframe src="https://open.spotify.com/embed/episode/0nIMRbyHFdNHSxM1Nto52q?theme=0" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                                <Center>
+                                    <Text marginTop={2} color="gray.400" textAlign="center">
+                                        <i>
+                                            Jangan menutup tab <b>Podcast</b> ketika sedang mendengarkan :D<br />
+                                            Kalau lagi nyalain lagu aksang FITB, jangan lupa dipause dulu yaa!
+                                        </i>
+                                    </Text>
+                                </Center>
+                            </AccordionPanel>
+                        </AccordionItem>
+                    </Accordion>
+                </Box>
                 <Box width="100%" display="flex" flexDir={{ base: "column", md: "row" }} justifyContent="space-between" marginY="10px">
                     <Box width={{ md:"50%" }} display="flex" justifyContent="space-between" margin="10px">
-                        <Button 
-                            leftIcon={<BsFileText />} 
-                            variant="solid"
-                            shadow="md"
-                            bgColor="white"
-                            width="48%"
-                        >
-                            Article
-                        </Button>
-                        <Button 
-                            leftIcon={<FaRegEdit />} 
-                            variant="solid"
-                            shadow="md"
-                            bgColor="white"
-                            width="48%"
-                        >
-                            Guestbook
-                        </Button>
+                        <Box width="48%">
+                            <Link to="/bumibudaya">
+                                <Button 
+                                    leftIcon={<BsGrid />} 
+                                    variant="solid"
+                                    shadow="md"
+                                    bgColor="white"
+                                    fontFamily="Mick Kelly"
+                                    fontSize="13px"
+                                    fontWeight="200"
+                                    width="100%"
+                                >
+                                    Menu
+                                </Button>
+                            </Link>
+                        </Box>
+                        <Box width="48%">
+                            <Link to="/bumibudaya/artikel">
+                                <Button 
+                                    leftIcon={<BsFileText />} 
+                                    variant="solid"
+                                    shadow="md"
+                                    bgColor="white"
+                                    fontFamily="Mick Kelly"
+                                    fontSize="13px"
+                                    fontWeight="200"
+                                    width="100%"
+                                >
+                                    Article
+                                </Button>
+                            </Link>
+                        </Box>
                     </Box>
                     <Box width={{ md:"50%" }} display="flex" justifyContent="space-between" margin="10px">
-                        <Button 
-                            leftIcon={<HiOutlineSun />} 
-                            variant="solid"
-                            shadow="md"
-                            bgColor="white"
-                            width="48%"
-                        >
-                            Hope
-                        </Button>
-                        <Button 
-                            leftIcon={<BiDonateHeart />} 
-                            variant="solid"
-                            shadow="md"
-                            bgColor="white"
-                            width="48%"
-                        >
-                            Donation
-                        </Button>
+                        <Box width="48%">
+                            <Link to="/bumibudaya/guestbook">
+                                <Button 
+                                    leftIcon={<FaRegEdit />} 
+                                    variant="solid"
+                                    shadow="md"
+                                    bgColor="white"
+                                    fontFamily="Mick Kelly"
+                                    fontSize="13px"
+                                    fontWeight="200"
+                                    width="100%"
+                                >
+                                    Guestbook
+                                </Button>
+                            </Link>
+                        </Box>
+                        <Box width="48%">
+                            <Link to="/bumibudaya/hope">
+                                <Button 
+                                    leftIcon={<HiOutlineSun />} 
+                                    variant="solid"
+                                    shadow="md"
+                                    bgColor="white"
+                                    fontFamily="Mick Kelly"
+                                    fontSize="13px"
+                                    fontWeight="200"
+                                    width="100%"
+                                >
+                                    Hope
+                                </Button>
+                            </Link>
+                        </Box>
                     </Box>
                 </Box>
             </Box>

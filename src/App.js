@@ -15,9 +15,18 @@ import {
   Family,
   Contact,
   About,
+  MainMenu,
   PetaBudaya,
-  Test
+  Test,
+  Guestbook,
+  Artikel,
+  Hope,
+  Satu,
+  Dua,
+  Tiga,
 } from "./pages/";
+
+import articles from "./json/artikel.json"
 
 function App() {
   return (
@@ -32,7 +41,16 @@ function App() {
           <Route path="/about" exact component={() => <About />} />
           <Route path="/test" exact component={() => <Test />} />
 
+          <Route path="/bumibudaya" exact component={() => <MainMenu />} />
           <Route path="/bumibudaya/peta" exact component={() => <PetaBudaya />} />
+          <Route path="/bumibudaya/guestbook" exact component={() => <Guestbook />} />
+          <Route path="/bumibudaya/artikel" exact component={() => <Artikel />} />
+          <Route path="/bumibudaya/hope" exact component={() => <Hope />} />
+
+          <Route path="/bumibudaya/artikel/semarak-festival-krakatau" exact component={() => <Satu />} />
+          <Route path="/bumibudaya/artikel/tradisi-seba" exact component={() => <Dua />} />
+          <Route path="/bumibudaya/artikel/ritual-chit-ngiat-phan" exact component={() => <Tiga />} />
+
         </Switch>
         <Footer />
       </Router>
