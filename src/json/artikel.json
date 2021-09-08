@@ -21,7 +21,7 @@
         "daerah": "Kabupaten Bangka",
         "thumbnail": "https://cdn-2.tstatic.net/tribunnews/foto/images/preview/20130822_ritual-chit-ngiat-pan-di-bangka-belitung_3270.jpg",
         "file": "{() => <Tiga />}",
-        "path": "/bumibudaya/artikel/chit-ngiat-phan"
+        "path": "/bumibudaya/artikel/ritual-chit-ngiat-phan"
     },
     {
         "id": 4,
