@@ -25,7 +25,7 @@ const Navigation = () => {
                 <Spacer />
                 <Box position="absolute" top={phoneSize ? "8px" : "-8px"}>
                     <Link to="/">
-                        <Image src="/img/rounded.png" alt="FITB 2021" width={phoneSize ? "78px" : "78px"} marginTop={phoneSize ? "-15px" : "0px"} />
+                        <Image src="/img/rounded.png" alt="" width={phoneSize ? "78px" : "78px"} marginTop={phoneSize ? "-15px" : "0px"} />
                     </Link>
                 </Box>
                 <Spacer />

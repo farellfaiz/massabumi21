@@ -1,6 +1,7 @@
-import { Grid, Box, useBreakpointValue, Flex, Skeleton, Link } from "@chakra-ui/react"
+import { Grid, Box, useBreakpointValue, Flex, Link } from "@chakra-ui/react"
 import { Cards, FamilyHead } from '../components'
 import families from "../json/family.json"
+import Skeleton from 'react-loading-skeleton';
 
 const Family = () => {
     const responsiveGrid = useBreakpointValue({ base: "repeat(1, 1fr)", sm: "repeat(2, 1fr)", md: "repeat(3, 1fr)", lg: "repeat(4, 1fr)" })
@@ -12,15 +13,13 @@ const Family = () => {
             <FamilyHead />
             <Grid h="auto" templateColumns={responsiveGrid} gap="30px">
                 {families.map((family) => (
-                    <Skeleton isLoaded>
-                        <Link key={family.id} href={family.iglink}>
-                            <Cards 
-                                img={family.foto}
-                                title={family.nama}
-                                desc={family.domisili}
-                            />
-                        </Link>
-                    </Skeleton>
+                    <Link key={family.id} href={family.iglink}>
+                        <Cards 
+                            img={family.foto}
+                            title={family.nama}
+                            desc={family.domisili}
+                        />
+                    </Link>
                 ))}
             </Grid>
             </Flex>

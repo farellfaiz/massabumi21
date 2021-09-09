@@ -1,4 +1,4 @@
-import { Box, Flex, Image, Link, ChakraComponent, Skeleton, chakra } from "@chakra-ui/react"
+import { Box, Flex, Image, Link, chakra } from "@chakra-ui/react"
 
 const Cards = ({ img, title, desc }) => {
     return (
@@ -17,18 +17,15 @@ const Cards = ({ img, title, desc }) => {
                 mx="auto"
                 h="250px"
             >
-                <Skeleton isLoaded fadeDuration={1}>
-                    <Image
+                <Image
                     w="full"
                     h={40}
                     fit="cover"
                     src={img}
                     alt=""
-                    />
-                </Skeleton>
+                />
                 <Box display="flex" flexDir="column" textAlign="center" justifyContent="center" h="85px">
                     <Link
-                        
                         display="block"
                         fontSize="md"
                         color="gray.800"
