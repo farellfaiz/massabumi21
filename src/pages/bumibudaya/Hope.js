@@ -1,7 +1,6 @@
 import { 
     Box, 
     Heading, 
-    useBreakpointValue, 
     Flex, 
     Button,
     useDisclosure,
@@ -14,7 +13,12 @@ import {
     ModalBody,
     ModalCloseButton,
     Image,
-    Text
+    Text,
+    Accordion,
+    AccordionItem,
+    AccordionButton,
+    AccordionPanel,
+    AccordionIcon,
 } from "@chakra-ui/react"
 import React from "react"
 import { SmallTab } from "../../components"
@@ -23,10 +27,9 @@ import { BsFileText, BsGrid, BsFillInfoCircleFill } from "react-icons/bs";
 import { FiMapPin } from "react-icons/fi";
 import { FaRegEdit } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import hope from "../../json/hope-zero.json";
+import hopezero from "../../json/hope-zero.json";
 
 const Guestbook = () => {
-    const responsiveHeight = useBreakpointValue({ base: "1200px", sm: "1200px", md: "1200px" })
     const { isOpen, onOpen, onClose } = useDisclosure()
 
     return (
@@ -66,85 +69,161 @@ const Guestbook = () => {
                         <IconButton icon={<BsFillInfoCircleFill />} onClick={onOpen} />
                     </Box>
                 </Box>
-                {hope.map((hopes) => (
-                    <Box 
-                        width="100%"
-                        height="auto"
-                        bgColor="#fff"
-                        rounded="md"
-                        shadow="md"
-                        padding="20px"
-                        marginTop="10px"
-                        marginBottom="20px"
-                    >
-                        <Box display="flex" flexDir={{ base: 'column', sm: 'column', md: 'row' }} width="100%">
-                            <Box marginRight="20px" bgColor="white" w={{ base: 'full', md: '250px' }} h="auto" display="flex" flexDir="column" alignItems="center" justifyContent="center">
-                                <Image boxSize="100px" src={hopes.gambar} />
-                                <Text fontWeight="bold" textAlign="center" marginTop={2}>{hopes.nama}</Text>
-                                <Text textAlign="center">{hopes.instansi}</Text>
-                            </Box>
-                            <Box bgColor="white" w="full" h="auto" padding="10px">
-                                <Text fontWeight="bold">Kesan &amp; Harapan terhadap Budaya Indonesia</Text>
-                                <Text textAlign="justify">{hopes.harapan}</Text>
-                                
-                                <Text marginTop="10px" fontWeight="bold">Budaya Favorit</Text>
-                                <Text textAlign="justify">{hopes.favorit}</Text>
-                            </Box>
-                        </Box>
-                    </Box>
-                ))}
 
-                <Box 
-                    width="100%"
-                    height="auto"
-                    bgColor="#fff"
-                    rounded="md"
-                    shadow="md"
-                    padding="20px"
-                    marginTop="10px"
-                    marginBottom="20px"
-                >
-                    <Box display="flex" flexDir="row" width="100%">
-                        <Box marginRight="20px" bgColor="white" w="250px" h="auto" display="flex" flexDir="column" alignItems="center" justifyContent="center">
-                            <Image boxSize="100px" src="https://upload.wikimedia.org/wikipedia/id/9/95/Logo_Institut_Teknologi_Bandung.png" />
-                            <Text fontWeight="bold" textAlign="center" marginTop={2}>Nama Pengunjung</Text>
-                            <Text textAlign="center">Nama Instansi</Text>
-                        </Box>
-                        <Box bgColor="white" w="full" h="auto" padding="10px">
-                            <Text fontWeight="bold">Kesan &amp; Harapan terhadap Budaya Indonesia</Text>
-                            <Text textAlign="justify">Cras sem nisl, hendrerit molestie sodales nec, egestas id erat. Nulla libero mi, venenatis sit amet mollis et, posuere a massa. Proin maximus diam non nisl elementum, in porttitor nibh ornare. Proin feugiat leo at ex feugiat, eget egestas dolor eleifend. Quisque auctor aliquet laoreet. Nullam sollicitudin ligula id felis venenatis, eget scelerisque tortor efficitur. Nam malesuada pretium lacus vel laoreet. </Text>
-                            
-                            <Text marginTop="10px" fontWeight="bold">Budaya Favorit</Text>
-                            <Text textAlign="justify">Cras sem nisl, hendrerit molestie sodales nec, egestas id erat. Nulla libero mi, venenatis sit amet mollis et, posuere a massa. Proin maximus diam non nisl elementum, in porttitor nibh ornare. Proin feugiat leo at ex feugiat, eget egestas dolor eleifend. Quisque auctor aliquet laoreet. Nullam sollicitudin ligula id felis venenatis, eget scelerisque tortor efficitur. Nam malesuada pretium lacus vel laoreet. </Text>
-                        </Box>
-                    </Box>
-                </Box>
-
-                <Box 
-                    width="100%"
-                    height="auto"
-                    bgColor="#fff"
-                    rounded="md"
-                    shadow="md"
-                    padding="20px"
-                    marginTop="10px"
-                    marginBottom="20px"
-                >
-                    <Box display="flex" flexDir="row" width="100%">
-                        <Box marginRight="20px" bgColor="white" w="250px" h="auto" display="flex" flexDir="column" alignItems="center" justifyContent="center">
-                            <Image boxSize="100px" src="https://upload.wikimedia.org/wikipedia/id/9/95/Logo_Institut_Teknologi_Bandung.png" />
-                            <Text fontWeight="bold" textAlign="center" marginTop={2}>Nama Pengunjung</Text>
-                            <Text textAlign="center">Nama Instansi</Text>
-                        </Box>
-                        <Box bgColor="white" w="full" h="auto" padding="10px">
-                            <Text fontWeight="bold">Kesan &amp; Harapan terhadap Budaya Indonesia</Text>
-                            <Text textAlign="justify">Cras sem nisl, hendrerit molestie sodales nec, egestas id erat. Nulla libero mi, venenatis sit amet mollis et, posuere a massa. Proin maximus diam non nisl elementum, in porttitor nibh ornare. Proin feugiat leo at ex feugiat, eget egestas dolor eleifend. Quisque auctor aliquet laoreet. Nullam sollicitudin ligula id felis venenatis, eget scelerisque tortor efficitur. Nam malesuada pretium lacus vel laoreet. </Text>
-                            
-                            <Text marginTop="10px" fontWeight="bold">Budaya Favorit</Text>
-                            <Text textAlign="justify">Cras sem nisl, hendrerit molestie sodales nec, egestas id erat. Nulla libero mi, venenatis sit amet mollis et, posuere a massa. Proin maximus diam non nisl elementum, in porttitor nibh ornare. Proin feugiat leo at ex feugiat, eget egestas dolor eleifend. Quisque auctor aliquet laoreet. Nullam sollicitudin ligula id felis venenatis, eget scelerisque tortor efficitur. Nam malesuada pretium lacus vel laoreet. </Text>
-                        </Box>
-                    </Box>
-                </Box>
+                <Accordion defaultIndex={[0]} allowMultiple allowToggle w="full" marginTop={2}>
+                    <AccordionItem>
+                        <h2>
+                        <AccordionButton marginBottom={2} marginTop={2}>
+                            <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">
+                            Example
+                            </Box>
+                            <AccordionIcon />
+                        </AccordionButton>
+                        </h2>
+                        <AccordionPanel pb={4}>
+                        {hopezero.map((hopes) => (
+                            <Box 
+                                width="100%"
+                                height="auto"
+                                bgColor="#fff"
+                                rounded="md"
+                                shadow="md"
+                                padding="20px"
+                                marginTop="10px"
+                                marginBottom="20px"
+                            >
+                                <Box display="flex" flexDir={{ base: 'column', sm: 'column', md: 'row' }} width="100%">
+                                    <Box marginRight="20px" bgColor="white" w={{ base: 'full', md: '250px' }} h="auto" display="flex" flexDir="column" alignItems="center" justifyContent="center">
+                                        <Image boxSize="100px" src={hopes.gambar} />
+                                        <Text fontWeight="bold" textAlign="center" marginTop={2}>{hopes.nama}</Text>
+                                        <Text textAlign="center">{hopes.instansi}</Text>
+                                    </Box>
+                                    <Box bgColor="white" w="full" h="auto" padding="10px">
+                                        <Text fontWeight="bold">Kesan &amp; Harapan terhadap Budaya Indonesia</Text>
+                                        <Text textAlign="justify">{hopes.harapan}</Text>
+                                        
+                                        <Text marginTop="10px" fontWeight="bold">Budaya Favorit</Text>
+                                        <Text textAlign="justify">{hopes.favorit}</Text>
+                                    </Box>
+                                </Box>
+                            </Box>
+                        ))}
+                        </AccordionPanel>
+                    </AccordionItem>
+                    
+                    <AccordionItem>
+                        <h2>
+                        <AccordionButton shadow="md" rounded="3xl" marginBottom={2} marginTop={2} bgColor="white" colorScheme="teal">
+                            <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">
+                            Day 1
+                            </Box>
+                            <AccordionIcon />
+                        </AccordionButton>
+                        </h2>
+                        <AccordionPanel pb={4} textAlign="center" fontStyle="italic" color="gray.500" >
+                        Soon to be updated! Stay Tuned :D<br />
+                        Jangan lupa isi <b><u><Link to="/bumibudaya/guestbook">Guest Book</Link></u></b>!
+                        </AccordionPanel>
+                    </AccordionItem>
+                    
+                    {/* <AccordionItem>
+                        <h2>
+                        <AccordionButton shadow="md" rounded="3xl" marginBottom={2} marginTop={2} bgColor="white">
+                            <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">
+                            Day 2
+                            </Box>
+                            <AccordionIcon />
+                        </AccordionButton>
+                        </h2>
+                        <AccordionPanel pb={4}>
+                        Tes
+                        </AccordionPanel>
+                    </AccordionItem>
+                    
+                    <AccordionItem>
+                        <h2>
+                        <AccordionButton shadow="md" rounded="3xl" marginBottom={2} marginTop={2} bgColor="white">
+                            <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">
+                            Day 3
+                            </Box>
+                            <AccordionIcon />
+                        </AccordionButton>
+                        </h2>
+                        <AccordionPanel pb={4}>
+                        Tes
+                        </AccordionPanel>
+                    </AccordionItem>
+                    
+                    <AccordionItem>
+                        <h2>
+                        <AccordionButton shadow="md" rounded="3xl" marginBottom={2} marginTop={2} bgColor="white">
+                            <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">
+                            Day 4
+                            </Box>
+                            <AccordionIcon />
+                        </AccordionButton>
+                        </h2>
+                        <AccordionPanel pb={4}>
+                        Tes
+                        </AccordionPanel>
+                    </AccordionItem>
+                    
+                    <AccordionItem>
+                        <h2>
+                        <AccordionButton shadow="md" rounded="3xl" marginBottom={2} marginTop={2} bgColor="white">
+                            <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">
+                            Day 5
+                            </Box>
+                            <AccordionIcon />
+                        </AccordionButton>
+                        </h2>
+                        <AccordionPanel pb={4}>
+                        Tes
+                        </AccordionPanel>
+                    </AccordionItem>
+                    
+                    <AccordionItem>
+                        <h2>
+                        <AccordionButton shadow="md" rounded="3xl" marginBottom={2} marginTop={2} bgColor="white">
+                            <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">
+                            Day 6
+                            </Box>
+                            <AccordionIcon />
+                        </AccordionButton>
+                        </h2>
+                        <AccordionPanel pb={4}>
+                        Tes
+                        </AccordionPanel>
+                    </AccordionItem>
+                    
+                    <AccordionItem>
+                        <h2>
+                        <AccordionButton shadow="md" rounded="3xl" marginBottom={2} marginTop={2} bgColor="white">
+                            <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">
+                            Day 7
+                            </Box>
+                            <AccordionIcon />
+                        </AccordionButton>
+                        </h2>
+                        <AccordionPanel pb={4}>
+                        Tes
+                        </AccordionPanel>
+                    </AccordionItem>
+                    
+                    <AccordionItem>
+                        <h2>
+                        <AccordionButton shadow="md" rounded="3xl" marginBottom={2} marginTop={2} bgColor="white">
+                            <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">
+                            Day 8
+                            </Box>
+                            <AccordionIcon />
+                        </AccordionButton>
+                        </h2>
+                        <AccordionPanel pb={4}>
+                        Tes
+                        </AccordionPanel>
+                    </AccordionItem> */}
+                    </Accordion>
 
                 <Box width="100%" display="flex" flexDir={{ base: "column", md: "row" }} justifyContent="space-between" marginY="10px">
                     <Box width={{ md:"50%" }} display="flex" justifyContent="space-between" margin="10px">

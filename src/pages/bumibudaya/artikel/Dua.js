@@ -1,7 +1,6 @@
 import { 
     Box, 
     Heading, 
-    useBreakpointValue, 
     Flex, 
     Button, 
 } from "@chakra-ui/react"
@@ -14,7 +13,6 @@ import { FiMapPin } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 const FestivalKrakatau = () => {
-    const responsiveHeight = useBreakpointValue({ base: "1200px", sm: "1200px", md: "1200px" })
     const judul = "Mengenal Seba, Tradisi Unik dari Suku Baduy"
 
     return (

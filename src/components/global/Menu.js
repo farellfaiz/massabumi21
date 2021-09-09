@@ -17,6 +17,10 @@ import {
 } from "react-icons/fa";
 
 import {
+    IoEarth
+} from "react-icons/io5";
+
+import {
     IoEarthOutline
 } from "react-icons/io5";
 
@@ -28,9 +32,9 @@ const Menu = () => {
         <IconButton aria-label="Menu" icon={<FaBars />} onClick={onOpen} />
         <Drawer placement="left" onClose={onClose} isOpen={isOpen}>
             <DrawerOverlay />
-            <DrawerContent bg="#E4E1D6">
+            <DrawerContent bg="#E4E1Dff6">
                 <DrawerHeader borderBottomWidth="1px" display="flex" justifyContent="center">
-                    <Image src="/img/logo-wobg.png" alt="FITB 2021" width="200px" />
+                    <Image src="/img/logo.png" alt="" width="200px" />
                 </DrawerHeader>
                 <DrawerBody>
                     <Link to="/">
@@ -38,6 +42,9 @@ const Menu = () => {
                     </Link>
                     <Link to="/family">
                         <MenuButton name="&nbsp;&nbsp;Family&nbsp;&nbsp;" icon={<FaUsers />} />
+                    </Link>
+                    <Link to="/bumibudaya">
+                        <MenuButton name="&nbsp;&nbsp;Bumi Budaya&nbsp;&nbsp;" icon={<IoEarth />} />
                     </Link>
                 </DrawerBody>
             </DrawerContent>

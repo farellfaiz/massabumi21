@@ -14,7 +14,7 @@ export { default as Hope } from "./bumibudaya/Hope";
 export { default as Satu } from "./bumibudaya/artikel/Satu";
 export { default as Dua } from "./bumibudaya/artikel/Dua";
 export { default as Tiga } from "./bumibudaya/artikel/Tiga";
-/* export { default as Empat } from "./bumibudaya/artikel/Empat";
+export { default as Empat } from "./bumibudaya/artikel/Empat";
 export { default as Lima } from "./bumibudaya/artikel/Lima";
 export { default as Enam } from "./bumibudaya/artikel/Enam";
 export { default as Tujuh } from "./bumibudaya/artikel/Tujuh";
@@ -41,4 +41,4 @@ export { default as Duatujuh } from "./bumibudaya/artikel/Duatujuh";
 export { default as Duadelapan } from "./bumibudaya/artikel/Duadelapan";
 export { default as Duasembilan } from "./bumibudaya/artikel/Duasembilan";
 export { default as Tigapuluh } from "./bumibudaya/artikel/Tigapuluh";
-export { default as Tigasatu } from "./bumibudaya/artikel/Tigasatu"; */
+export { default as Tigasatu } from "./bumibudaya/artikel/Tigasatu";

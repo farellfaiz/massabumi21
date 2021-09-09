@@ -1,10 +1,8 @@
 import { 
     Box, 
     Heading, 
-    useBreakpointValue, 
     Flex, 
     Button, 
-    Divider, 
     IconButton,
     Modal,
     ModalOverlay,
@@ -32,7 +30,6 @@ import { FaRegEdit } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const PetaBudaya = () => {
-    const responsiveHeight = useBreakpointValue({ base: "1200px", sm: "1200px", md: "1200px" })
     const { isOpen, onOpen, onClose } = useDisclosure()
 
     return (
@@ -75,8 +72,8 @@ const PetaBudaya = () => {
                                 </AccordionButton>
                                 </h2>
                                 <AccordionPanel pb={4}>
-                                    Peta Budaya berisikan kebudayaan-kebudayaan unik dan menarik berdasarkan persebaran mahasiswa FITB 2021, lho!<br /><br />
-                                    Yuk kita jelajahi budaya yang ada di daerah mereka! :D
+                                    Sambil menjelajahi budaya dan keindahan tiap daerah, yuk kita sama-sama dengarkan podcast yang membahas tentang isu budaya yang ada di Indonesia!<br /><br />
+                                    Pasti seru, insightful, dan ga ngebosenin!
                                 </AccordionPanel>
                             </AccordionItem>
                         </Accordion>

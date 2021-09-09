@@ -1,6 +1,6 @@
 import { 
     Box, 
-    Heading,  
+    Heading, 
     Flex, 
     Button, 
 } from "@chakra-ui/react"
@@ -13,7 +13,7 @@ import { FiMapPin } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 const FestivalKrakatau = () => {
-    const judul = "Semarak Festival Krakatau"
+    const judul = "Inilah Fakta-Fakta Unik Tentang Kepulauan Riau yang Perlu Kalian  Ketahui!"
 
     return (
         <Box w="100%" minHeight="1200px" paddingY={8} bg="gray.50" marginBottom="-50px" display="flex" justifyContent="center">
@@ -43,18 +43,26 @@ const FestivalKrakatau = () => {
                     textAlign="justify"
                     className="artikel"
                 >
-                    <p><img src="http://picture.triptrus.com/image/2019/02/lampung.jpeg" alt="" /></p><br />
-                    <p><em>Tabik Pun! Halo seunyinni!</em><br /> <br />
-                    Pesona kemilau Sang Bumi Ruwa Jurai terpancar dalam festival terbesar di bumi Lampung, Festival Krakatau. Selengkapnya, <em>kanca – kanca seunyinni</em> dapat membaca ringkasan di bawah ini.</p><br />
-                    <p>Festival Krakatau merupakan festival pariwisata terbesar yang diselenggarakan secara tahunan di Provinsi Lampung. Nama festival ini diambil dari nama salah satu gunung yaitu Gunung Krakatau yang terletak di Selat Sunda. Festival ini merupakan festival yang menjadi unggulan Provinsi Lampung. Tujuan diselenggarakan festival ini guna mempromosikan unggulan-unggulan daerah khususnya atraksi sebagai daya tarik wisata di Lampung. Selain itu, diadakannya festival ini sekaligus sebagai pengingat peristiwa bersejarah yang pernah terjadi yaitu meletusnya Gunung Krakatau pada tahun 1883. Bahkan, festival ini sudah menjadi budaya yang dilakukan oleh masyarakat Lampung.</p><br />
-                    <p>Festival Krakatau selalu mengusung tema yang berbeda-beda pada setiap pelaksanaannya. Tema-tema tersebut mengandung nilai-nilai yang dapat dijadikan tuntunan bagi masyarakat Lampung. Misalnya, pada tahun 2019 Festival Krakatau mengusung tema pariwisata lingkungan yang aman dan berkelanjutan bertajuk “<strong>Krakatau-Sebesi Safe and Sustainable Eco Tourism</strong>&quot;. Diusungnya tema lingkungan pada tahun tersebut diharapkan menjadi langkah awal pemulihan ekosistem selepas diguncang bencana tsunami pada Desember 2018. Kemudian, pada tahun 2019, Festival Krakatau mengusung tema <strong>Urban Etnik</strong>. Tema ini merupakan sebuah konsep yang memadukan unsur modern perkotaan dengan unsur tradisi yang berakar dari adat istiadat/tradisi budaya masyarakat serta sosial yang unik dan menarik untuk ditampilkan menjadi sebuah sajian seni maupun pertunjukan budaya. </p><br />
-                    <p>Berbagai kegiatan dilakukan setiap Festival Krakatau. Pada tahun 2019 festival yang diadakan di Lapangan Saburai Bandar Lampung menampilkan lima kegiatan utama, yaitu, Pesona Kemilau Sai Bumi Ruwa Jurai, Krakatau Expo, Parade Permainan Anak Tradisional , Trip Krakatau dan Parade Budaya Lampung Culture and Tapis Carnival.  Parade Budaya Lampung Culture and Tapis Carnival sangat menarik perhatian. Parade diikuti oleh masyarakat Lampung dengan balutan kostum kreasi yang menonjolkan simbol Provinsi Lampung yaitu siger serta kain khas Lampung yang sudah mendunia yaitu kain tapis.  Setiap kostum yang dipakai memiliki warna yang mencolok. Rangkaian parade budaya merupakan salah satu bagian acara festival yang sangat ditunggu. Adapun Trip Krakatau yang dikemas dalam bentuk perjalanan yang mengandung unsur studi observasi pengetahuan Gunung Anak Krakatau pasca letusan dan tsunami.</p><br />
-                    <p>Festival ini setiap tahunnya memiliki rangkaian acara yang sangat padat. Sajian eventnya pun sangat beragam. Tidak hanya acara utama yang ditonjolkan, festival ini juga memiliki serangkaian acara sampingan seperti kunjungan ke tempat wisata, festival musik, festival kuliner, parade budaya, pameran berbagai UKM yang ada di Lampung, dan masih banyak acara sampingan lain yang berbeda tiap tahunnya. Acara-acara di dalam festival ini sudah menjadi tontonan wajib yang dilakukan bukan hanya oleh masyarakat Lampung tetapi juga wisatawan luar Lampung.  Jika ingin menyaksikan festival ini secara langsung, jangan lupa untuk mencari tahu jadwal pelaksanaannya. <em>Kanca-kanca</em> bisa mencari infonya dengan cara mengunjungi website Dinas Kebudayaan dan Pariwisata Provinsi Lampung.</p><br />
-                    <p><strong>Catatan:</strong><br />
-                    <em>Tabik pun</em>    : Sapaan dalam Bahasa Lampung<br />
-                    <em>Seunyinni</em>    : Semuanya <br />
-                    <em>Kanca</em>    : Teman<br />
-                    <em>Gham</em>    : Saya </p>
+                    <p>Kepulauan Riau (disingkat Kepri) adalah sebuah provinsi yang ada di Indonesia. Provinsi Kepulauan Riau merupakan provinsi yang penuh dengan limpahan rahmat dari Tuhan Yang Maha Esa. Selain letak geografisnya yang sangat strategis karena berada pada pintu masuk Selat Malaka dari sebelah Timur juga berbatasan dengan pusat bisnis dan keuangan di Asia Pasifik yakni Singapura. Disamping itu Provinsi ini juga berbatasan langsung dengan Malaysia. </p><br />
+                    <p>Karena letak geografisnya yang sangat strategis sehingga Provinsi Kepri ini termasuk kedalam Zona Perdagangan Bebas atau biasa disebut Free Trade Zone. Hal ini merupakan salah satu keunikan dari Provinsi Kepri. Nah, Provinsi Kepri ini masih memiliki banyak fakta uniknya lho. Mau tau? Yuk simak!</p><br />
+                    <p><b>1. Kepulauan Riau Merupakan Provinsi dengan Pulau Terbanyak di Indonesia<br /></b>
+                    Indonesia sebagai negara kepulauan tentu saja memiliki jumlah pulau yang jumlahnya ratusan ribu, akan tetapi dari jumlah pulau itu sendiri provinsi dengan Kepulauan terbanyak di Indonesia adalah Kepulauan Riau. </p><br />
+                    <p><a href=""><img src="https://iili.io/RVmQ0F.jpg" alt="" /></a></p><br />
+                    <p>Kepulauan Riau pun dijuluki Bumi Segantang Lada, karena pulau-pulaunya memang bertaburan seperti lada, dari kawasan Anambas, Natuna, hingga Batam dan Bintan. Tapi, berapakah jumlah pulau di Kepri sebenarnya?<br />
+                    Menurut Badan Pusat Statistik (BPS), Kepri mengoleksi 2.408 pulau mewakili 14% total pulau di Indonesia. Dengan catatan ini, Kepri pun bertengger sebagai provinsi dengan pulau terbanyak di Indonesia. </p><br />
+                    <p><b>2. Masyarakat Kepulauan Riau Lebih Murah Wisata di Luar Negeri daripada di Jakarta</b></p><br />
+                    <p><a href=""><img src="https://iili.io/RVmDJa.jpg" alt="" /></a></p><br />
+                    <p>Jakarta sebagai Ibukota Indonesia memang memiliki daya tarik tersendiri untuk berwisata, akan tetapi perlu dipahami bahwa biaya untuk wisata di DKI Jakarta dan di luar negeri menurut masyarakat Kepri lebih murah di luar negeri. Karena letak Kepri sangat dekat dengan negara asing sehingga biaya yang diperlukan hanya berkisar Rp250.000</p><br />
+                    <b><p>3. Memiliki Banyak Tempat Wisata</p></b>
+                    <p>-<a href=""><img src="https://iili.io/RVmmOv.jpg" alt="" /></a></p><br />
+                    <p>Provinsi Kepri ini memiliki potensi wisata terutama wisata kepulauan. Provinsi ini memiliki karakteristik yang berbeda-beda untuk dijadikan kawasan destinasi wisata terpadu, diantaranya wisata alam atau bahari, wisata religi, wisata belanja, wisata agro, wisata MICE, wisata kuliner, wisata olahraga,dan wisata sejarah. </p><br />
+                    <p>Tidak heran provinsi ini memiliki banyak destinasi wisata karena memiliki letak geografis yang sangat strategis sebagai pertemuan tiga negara, yaitu Indonesia, Malaysia, dan Singapura. Sehingga banyak wisatawan asing yang berkunjung ke destinasi wisata di Provinsi Kepri. Beberapa diantaranya ialah Pulau Ranoh, Batu Lepe, Pulau Bawah Anambas, Pulau Mubut, Jembatan Barelang Batam, Gurun Telaga Biru, dan masih banyak lagi wisata lainnya. Pastikan kalau mau liburan ke Kepri briefing dulu karena banyak wisatanya, kalau tidak nanti malah bingung mau berkunjung ke yang mana satu.</p><br />
+                    <b><p>4. Surganya Barang Branded Berharga Miring</p><br /></b>
+                    <p><a href=""><img src="https://iili.io/RVmb5J.jpg" alt="" /></a></p><br />
+                    <p>Batam yang merupakan salah satu kota di Provinsi Kepri juga terkenal dengan black market-nya. Namun, konsumen harus benar-benar teliti saat membelinya agar tidak bermasalah di kemudian hari. Batam juga menjadi rumah bagi barang-barang branded dengan harga lebih miring. Tas-tas bermerek dijajakan di sejumlah toko yang tersebar di pusat kota, seperti keluaran Gucci, Bonia, atau Braun Buffel. Bukan hanya tas-tas saja </p><br />
+                    <p>lho, tapi jualan HP di Batam juga murah-murah sampai masuk Youtube Gadgetin lagi, keren bukan?<br />
+                    Fenomena unik ini lantaran disebabkan karena penetapan kota ini sebagai area perdagangan bebas pajak. Semua kegiatan ekspor dan impor serta aktivitas pelabuhan tidak dipungut pajak. Akibatnya, harga barang lebih murah dibanding kota lainnya di Indonesia. Mau punya barang branded tapi murah? Yuk, ke Batam!</p><br />
+                    <p>Nah, sekarang kalian sudah tahu kan fakta-fakta unik apa aja yang ada di provinsi Kepulauan Riau. Pastinya kalian sangat ingin wisata ke Kepri kan? Atau kalian mau ke Batam karena barang-barang branded disana murah-murah? Pasti dong, kalau tidak rugi bangetkan.</p><br />
 
                 </Box>
 

@@ -1,6 +1,6 @@
 import { 
     Box, 
-    Heading,  
+    Heading, 
     Flex, 
     Button, 
 } from "@chakra-ui/react"
@@ -13,7 +13,7 @@ import { FiMapPin } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 const FestivalKrakatau = () => {
-    const judul = "Semarak Festival Krakatau"
+    const judul = "Mitos Lada"
 
     return (
         <Box w="100%" minHeight="1200px" paddingY={8} bg="gray.50" marginBottom="-50px" display="flex" justifyContent="center">
@@ -43,19 +43,17 @@ const FestivalKrakatau = () => {
                     textAlign="justify"
                     className="artikel"
                 >
-                    <p><img src="http://picture.triptrus.com/image/2019/02/lampung.jpeg" alt="" /></p><br />
-                    <p><em>Tabik Pun! Halo seunyinni!</em><br /> <br />
-                    Pesona kemilau Sang Bumi Ruwa Jurai terpancar dalam festival terbesar di bumi Lampung, Festival Krakatau. Selengkapnya, <em>kanca – kanca seunyinni</em> dapat membaca ringkasan di bawah ini.</p><br />
-                    <p>Festival Krakatau merupakan festival pariwisata terbesar yang diselenggarakan secara tahunan di Provinsi Lampung. Nama festival ini diambil dari nama salah satu gunung yaitu Gunung Krakatau yang terletak di Selat Sunda. Festival ini merupakan festival yang menjadi unggulan Provinsi Lampung. Tujuan diselenggarakan festival ini guna mempromosikan unggulan-unggulan daerah khususnya atraksi sebagai daya tarik wisata di Lampung. Selain itu, diadakannya festival ini sekaligus sebagai pengingat peristiwa bersejarah yang pernah terjadi yaitu meletusnya Gunung Krakatau pada tahun 1883. Bahkan, festival ini sudah menjadi budaya yang dilakukan oleh masyarakat Lampung.</p><br />
-                    <p>Festival Krakatau selalu mengusung tema yang berbeda-beda pada setiap pelaksanaannya. Tema-tema tersebut mengandung nilai-nilai yang dapat dijadikan tuntunan bagi masyarakat Lampung. Misalnya, pada tahun 2019 Festival Krakatau mengusung tema pariwisata lingkungan yang aman dan berkelanjutan bertajuk “<strong>Krakatau-Sebesi Safe and Sustainable Eco Tourism</strong>&quot;. Diusungnya tema lingkungan pada tahun tersebut diharapkan menjadi langkah awal pemulihan ekosistem selepas diguncang bencana tsunami pada Desember 2018. Kemudian, pada tahun 2019, Festival Krakatau mengusung tema <strong>Urban Etnik</strong>. Tema ini merupakan sebuah konsep yang memadukan unsur modern perkotaan dengan unsur tradisi yang berakar dari adat istiadat/tradisi budaya masyarakat serta sosial yang unik dan menarik untuk ditampilkan menjadi sebuah sajian seni maupun pertunjukan budaya. </p><br />
-                    <p>Berbagai kegiatan dilakukan setiap Festival Krakatau. Pada tahun 2019 festival yang diadakan di Lapangan Saburai Bandar Lampung menampilkan lima kegiatan utama, yaitu, Pesona Kemilau Sai Bumi Ruwa Jurai, Krakatau Expo, Parade Permainan Anak Tradisional , Trip Krakatau dan Parade Budaya Lampung Culture and Tapis Carnival.  Parade Budaya Lampung Culture and Tapis Carnival sangat menarik perhatian. Parade diikuti oleh masyarakat Lampung dengan balutan kostum kreasi yang menonjolkan simbol Provinsi Lampung yaitu siger serta kain khas Lampung yang sudah mendunia yaitu kain tapis.  Setiap kostum yang dipakai memiliki warna yang mencolok. Rangkaian parade budaya merupakan salah satu bagian acara festival yang sangat ditunggu. Adapun Trip Krakatau yang dikemas dalam bentuk perjalanan yang mengandung unsur studi observasi pengetahuan Gunung Anak Krakatau pasca letusan dan tsunami.</p><br />
-                    <p>Festival ini setiap tahunnya memiliki rangkaian acara yang sangat padat. Sajian eventnya pun sangat beragam. Tidak hanya acara utama yang ditonjolkan, festival ini juga memiliki serangkaian acara sampingan seperti kunjungan ke tempat wisata, festival musik, festival kuliner, parade budaya, pameran berbagai UKM yang ada di Lampung, dan masih banyak acara sampingan lain yang berbeda tiap tahunnya. Acara-acara di dalam festival ini sudah menjadi tontonan wajib yang dilakukan bukan hanya oleh masyarakat Lampung tetapi juga wisatawan luar Lampung.  Jika ingin menyaksikan festival ini secara langsung, jangan lupa untuk mencari tahu jadwal pelaksanaannya. <em>Kanca-kanca</em> bisa mencari infonya dengan cara mengunjungi website Dinas Kebudayaan dan Pariwisata Provinsi Lampung.</p><br />
-                    <p><strong>Catatan:</strong><br />
-                    <em>Tabik pun</em>    : Sapaan dalam Bahasa Lampung<br />
-                    <em>Seunyinni</em>    : Semuanya <br />
-                    <em>Kanca</em>    : Teman<br />
-                    <em>Gham</em>    : Saya </p>
-
+                    <p><img src="https://media-cdn.tripadvisor.com/media/photo-s/11/81/2c/be/goa-belanda.jpg" alt="" /></p><br />
+                    <p><em>Sampurasun</em>,<em> Akang</em> dan <em>Teteh</em>! Siapa, nih, yang percaya sama mitos? Banyak mitos yang berkembang di daerah- daerah Indonesia. Kali ini, kami  akan membagikan salah satu mitos yang tersohor dari Tanah Sunda. Tanah Sunda memiliki beragam mitos, salah satunya adalah larangan atau <em>pamali </em>menyebut kata lada.</p><br />
+                    <p>Larangan ini tidak berlaku di seluruh Tanah Sunda, tetapi hanya berlaku di Goa Belanda dan Goa Jepang. Warga Bandung dan sekitarnya pasti sudah hafal dengan kedua tempat tersebut. Goa Belanda dan Goa Jepang berada di kawasan Tahura (Taman Hutan Raya Juanda) yang beralamat di Kompleks Tahura, Jl. Ir. H. Juanda No.99, Ciburial, Kec. Cimenyan, Bandung. Goa Jepang dan Belanda adalah peninggalan pada masa penjajahan Jepang dan Belanda. Goa Belanda sendiri sebenarnya adalah terowongan yang digunakan untuk membendung aliran air Cikapundung. Lalu oleh Belanda dipergunakan sebagai stasiun radio dan digunakan oleh pejuang Indonesia untuk gudang mesiu. Sedangkan, Jepang menggunakannya sebagai markas militer, seperti tempat pengintaian, ruang pertemuan, dan lain – lain.</p><br />
+                    <p><img src="https://media-cdn.tripadvisor.com/media/photo-i/0e/1d/7e/3e/goa-jepang-bisa-dimasuki.jpg" alt="" /></p><br />
+                    <p>Lantas, apa yang membuat pantangan mengucapkan kata<em> lada</em> di Goa Belanda dan Jepang? Konon, pada zaman dahulu terdapat seorang gubernur bernama Hyang Prabu Jaya Lada Kusumah atau Hyang Lada. Beliau adalah seorang gubernur yang sangat dihormati oleh rakyat setempat karena kebijaksanaan dan kebaikannya. Saking diseganinya, rakyat setempat tidak berani untuk menyebut namanya. Kebiasaan itu diceritakan dari mulut ke mulut dan dilanjutkan penyebarannya dari generasi ke generasi selanjutnya, sehingga menjadi budaya berupa mitos yang masih dianut hingga zaman sekarang. Terdapat juga versi lain yaitu kata <em>lada</em> adalah bagian dari nama leluhur daerah setempat yang sangat dihormati, Eyang Lada Wisesa. Jika mengucapkan kata <em>lada</em> di Goa Jepang atau Goa Belanda, sosok leluhur tersebut akan ikut hadir. Selain itu, para serdadu Belanda dan Jepang akan merasa terusik dan marah sehingga dapat terjadi kejadian yang tidak diinginkan.</p><br />
+                    <p>Begitulah, mitos yang dipercaya Warga Bandung, <em>Akang</em> dan <em>Teteh</em>. Dari mitos ini, kita dapat mengambil pelajaran bahwa kita harus menghormati leluhur kita  kalau dari mitos ini sih, dengan cara tidak mengucapkan <em>lada</em> di Goa Jepang dan Belanda. Juga, selain menjadi mitos yang diceritakan secara turun temurun, Goa Belanda dan Jepang juga sering digunakan sebagai sarana uji nyali.</p><br />
+                    <p>Walaupun mitos ini cukup dikenal oleh masyarakat sekitar, masih ada orang-orang yang sengaja datang dengan niat membuktikan benar tidaknya mitos <em>lada</em>. Banyak juga yang datang pada malam hari dengan alasan pada malam hari aktivitas mistis lebih sering terjadi. Tak jarang juga, para penguji nyali datang berbekal alat perekam untuk mengabadikan momen keberanian mereka. Bahkan, portal berita hingga stasiun televisi pun turut berpartisipasi. Kalau <em>akang</em> dan <em>teteh</em> bagaimana, nih? Setelah membaca tentang mitos<em> lada</em> apakah berminat untuk menguji nyali juga?</p><br />
+                    <p><b>Daftar Pustaka</b></p>
+                    <p>Kangsaputra, L. (2019, Agustus 15).<em> Lifestyle Okezone</em>. Retrieved from Misteri Pantangan Ucap Kata &#39;Lada&#39; di Goa Belanda Dago Pakar: <a href="https://lifestyle.okezone.com/read/2019/08/15/612/2092163/misteri-pantangan-ucap-kata-lada-di-goa-belanda-dago-pakar">https://lifestyle.okezone.com/read/2019/08/15/612/2092163/misteri-pantangan-ucap-kata-lada-di-goa-belanda-dago-pakar</a><br /><br />
+                    Kurniasih, A. (2020). <em>Mitos 5 Kata Larangan yang Dipercaya &#39;Mengundang&#39; Hantu</em>. Yogyakarta: Urbanasia.<br /><br />
+                    Puri, Y. (2017, November 1). <em>Misteri di Balik Pantangan Mengucap Kata &#39;Lada&#39; di Dago Pakar</em>. Retrieved from Dream.co.id: <a href="https://m.dream.co.id/travel/destination/misteri-di-balik-pantangan-mengucap-kata-lada-di-dago-pakar-171101o.html">https://m.dream.co.id/travel/destination/misteri-di-balik-pantangan-mengucap-kata-lada-di-dago-pakar-171101o.html</a></p><br /><br />
                 </Box>
 
                 <Box width="100%" display="flex" flexDir={{ base: "column", md: "row" }} justifyContent="space-between" marginY="10px">

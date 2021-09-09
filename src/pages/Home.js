@@ -1,4 +1,4 @@
-import { Box, Center, useBreakpointValue } from "@chakra-ui/react"
+import { Box, useBreakpointValue } from "@chakra-ui/react"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Hero } from "../components"
 

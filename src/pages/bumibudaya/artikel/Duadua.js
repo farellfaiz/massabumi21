@@ -1,6 +1,6 @@
 import { 
     Box, 
-    Heading,  
+    Heading, 
     Flex, 
     Button, 
 } from "@chakra-ui/react"
@@ -13,7 +13,7 @@ import { FiMapPin } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 const FestivalKrakatau = () => {
-    const judul = "Semarak Festival Krakatau"
+    const judul = "Peusijuek, Tradisi 'Tepung Tawar' pada Masyarakat Aceh"
 
     return (
         <Box w="100%" minHeight="1200px" paddingY={8} bg="gray.50" marginBottom="-50px" display="flex" justifyContent="center">
@@ -43,19 +43,15 @@ const FestivalKrakatau = () => {
                     textAlign="justify"
                     className="artikel"
                 >
-                    <p><img src="http://picture.triptrus.com/image/2019/02/lampung.jpeg" alt="" /></p><br />
-                    <p><em>Tabik Pun! Halo seunyinni!</em><br /> <br />
-                    Pesona kemilau Sang Bumi Ruwa Jurai terpancar dalam festival terbesar di bumi Lampung, Festival Krakatau. Selengkapnya, <em>kanca – kanca seunyinni</em> dapat membaca ringkasan di bawah ini.</p><br />
-                    <p>Festival Krakatau merupakan festival pariwisata terbesar yang diselenggarakan secara tahunan di Provinsi Lampung. Nama festival ini diambil dari nama salah satu gunung yaitu Gunung Krakatau yang terletak di Selat Sunda. Festival ini merupakan festival yang menjadi unggulan Provinsi Lampung. Tujuan diselenggarakan festival ini guna mempromosikan unggulan-unggulan daerah khususnya atraksi sebagai daya tarik wisata di Lampung. Selain itu, diadakannya festival ini sekaligus sebagai pengingat peristiwa bersejarah yang pernah terjadi yaitu meletusnya Gunung Krakatau pada tahun 1883. Bahkan, festival ini sudah menjadi budaya yang dilakukan oleh masyarakat Lampung.</p><br />
-                    <p>Festival Krakatau selalu mengusung tema yang berbeda-beda pada setiap pelaksanaannya. Tema-tema tersebut mengandung nilai-nilai yang dapat dijadikan tuntunan bagi masyarakat Lampung. Misalnya, pada tahun 2019 Festival Krakatau mengusung tema pariwisata lingkungan yang aman dan berkelanjutan bertajuk “<strong>Krakatau-Sebesi Safe and Sustainable Eco Tourism</strong>&quot;. Diusungnya tema lingkungan pada tahun tersebut diharapkan menjadi langkah awal pemulihan ekosistem selepas diguncang bencana tsunami pada Desember 2018. Kemudian, pada tahun 2019, Festival Krakatau mengusung tema <strong>Urban Etnik</strong>. Tema ini merupakan sebuah konsep yang memadukan unsur modern perkotaan dengan unsur tradisi yang berakar dari adat istiadat/tradisi budaya masyarakat serta sosial yang unik dan menarik untuk ditampilkan menjadi sebuah sajian seni maupun pertunjukan budaya. </p><br />
-                    <p>Berbagai kegiatan dilakukan setiap Festival Krakatau. Pada tahun 2019 festival yang diadakan di Lapangan Saburai Bandar Lampung menampilkan lima kegiatan utama, yaitu, Pesona Kemilau Sai Bumi Ruwa Jurai, Krakatau Expo, Parade Permainan Anak Tradisional , Trip Krakatau dan Parade Budaya Lampung Culture and Tapis Carnival.  Parade Budaya Lampung Culture and Tapis Carnival sangat menarik perhatian. Parade diikuti oleh masyarakat Lampung dengan balutan kostum kreasi yang menonjolkan simbol Provinsi Lampung yaitu siger serta kain khas Lampung yang sudah mendunia yaitu kain tapis.  Setiap kostum yang dipakai memiliki warna yang mencolok. Rangkaian parade budaya merupakan salah satu bagian acara festival yang sangat ditunggu. Adapun Trip Krakatau yang dikemas dalam bentuk perjalanan yang mengandung unsur studi observasi pengetahuan Gunung Anak Krakatau pasca letusan dan tsunami.</p><br />
-                    <p>Festival ini setiap tahunnya memiliki rangkaian acara yang sangat padat. Sajian eventnya pun sangat beragam. Tidak hanya acara utama yang ditonjolkan, festival ini juga memiliki serangkaian acara sampingan seperti kunjungan ke tempat wisata, festival musik, festival kuliner, parade budaya, pameran berbagai UKM yang ada di Lampung, dan masih banyak acara sampingan lain yang berbeda tiap tahunnya. Acara-acara di dalam festival ini sudah menjadi tontonan wajib yang dilakukan bukan hanya oleh masyarakat Lampung tetapi juga wisatawan luar Lampung.  Jika ingin menyaksikan festival ini secara langsung, jangan lupa untuk mencari tahu jadwal pelaksanaannya. <em>Kanca-kanca</em> bisa mencari infonya dengan cara mengunjungi website Dinas Kebudayaan dan Pariwisata Provinsi Lampung.</p><br />
-                    <p><strong>Catatan:</strong><br />
-                    <em>Tabik pun</em>    : Sapaan dalam Bahasa Lampung<br />
-                    <em>Seunyinni</em>    : Semuanya <br />
-                    <em>Kanca</em>    : Teman<br />
-                    <em>Gham</em>    : Saya </p>
-
+                    <p><img src="https://steemitimages.com/DQme55cwL46fq8UoZyRPJVkD6TgqqzgcxQogPpKLBfCDNkF/20180208_094623.png" alt="" /></p><br />
+                    <p>Lain tempat, lain juga kebudayaannya. Namun siapa sangka, kebudayaan di Aceh ini juga sama dengan kebudayaan di Melayu. Jika di Tanah Melayu disebut dengan tepung tawar, maka di Tanah Aceh hal ini disebut dengan <em>peusijuek</em>. Lalu ada apa dengan perlengkapan di atas? Mengapa menggunakan dedaunan? Mari kita simak artikel berikut!</p><br />
+                    <p><em>Peusijuek</em> merupakan suatu prosesi adat dalam kebudayaan masyarakat Aceh yang masih melekat bahkan dipraktekkan hingga saat ini. <em>Peusijuek</em> sendiri dalam bahasa Indonesia berarti &#39;menepung tawari&#39; atau membuat sesuatu menjadi &quot;sejuk atau dingin&quot; (<em>peu</em> berarti membuat atau menjadikan, <em>sijuek </em>berarti sejuk atau dingin) yang mengandung makna bahwa dengan mengadakan <em>peusijuek</em> atau menepung tawari diharapkan akan memperoleh berkah, anugerah, atau berada dalam keadaan yang baik. </p><br />
+                    <p>Kebiasaan melakukan <em>peusijuek</em> sudah berlangsung lama dalam masyarakat Aceh. Kebiasaan ini telah dilakukan masyarakat Aceh jauh sebelum Islam datang. Yakni ketika pengaruh agama Hindu masuk ke Aceh, atau lebih jauh sebelum itu, ketika masyarakat masih menganut kepercayaan animisme dan dinamisme. Akhirnya, seiring berjalan zaman, tradisi <em>peusijuk</em> berakulturasi dengan kebudayaan Islam.</p><br />
+                    <p>Tradisi ini dilakukan pada hampir semua kegiatan adat dalam kehidupan masyarakat di Aceh tak terkecuali pada pernikahan saja. <em>Peusijuk</em> juga dilakukan ketika membeli kendaraan baru, menyelesaikan persengketaan, memulai membuat usaha, menempati rumah baru, merayakan kelulusan, akan melakukan kurban hewan ternak, kembalinya keluarga dari perantauan, khitanan dan masih banyak lagi.</p><br />
+                    <p>Prosesi <em>Peusijuk</em> tidak dilakukan oleh sembarang orang. Diutamakan dilakukan oleh orang yang sangat memahami serta menguasai hukum agama, sebab prosesi ini berlangsungan dengan proses mendoakan keselamatan dan kesejahteraan bersama sesuai ajaran agama yang umum dianut di Aceh, yakni Islam. Apabila orang yang di-<em>peusijuek</em> adalah kaum laki-laki, biasanya dilakukan oleh <em>teungku</em> (ulama) atau orang yang dituakan (majelis adat), sedangkan apabila yang di-<em>peusijuek</em> adalah kaum perempuan, maka akan dilakukan oleh <em>ummi</em> atau seorang wanita yang dituakan oleh masyarakat.</p><br />
+                    <p>Terdapat unsur-unsur penting dari <em>peusijuek</em>. Pertama, bahan yang digunakan, dari dedaunan, rerumputan, padi, tepung, air, nasi ketan dan  <em>tumpoe</em>. <em>Tumpoe</em> merupakan sejenis kue di terbuat dari adonan tepung, pisang, santan, gula dan garam dengan takaran tertentu. Kedua, gerakan yang dilakukan pada saat di-<em>peusijuek</em>. Ketiga adalah doa yang dibacakan menurut acara <em>peusijuek</em>. Dan yang terakhir adalah <em>teumutuek</em> (pemberian uang).</p><br />
+                    <p>Gerakan-gerakan pada saat prosesi ini sangat unik, gerakan-gerakan ini hampir menyerupai gerakan saat melakukan ritual dalam agama Hindu. Tetapi, gerakan ini terjadi hanya mengikuti arah memercikkan air dari kiri ke kanan dan dari kanan ke kiri dan sesekali disilang. Banyak para <em>teungku</em> berpendapat bahwa adanya kesamaan ritual <em>peusijuek</em> dengan praktik pemujaan dalam agama Hindu bukan berarti bahwa <em>peusijuek</em> tersebut adalah ritual agama Hindu. Karena ritual itu sendiri sangat berbeda baik dari segi tujuan, cara, dan isi dari <em>peusijuek</em> tersebut.</p><br />
+                    <p>Di saat ini, Upacara <em>peusijuek</em> sudah dipandang sebagai hal yang tidak lagi memberikan pengaruh bila dilakukan atau tidak dilakukan. Padahal, <em>peusijuek</em> semula mengandung nilai sakral dan dipandang sebagai suatu keharusan. Inilah bentuk pergeseran yang telah terjadi dalam beberapa dasawarsa ini. Semakin modern kehidupan masyarakat Aceh semakin luntur pula pelaksanaan adat peusijuek. Namun hendaknya upacara ini dilestarikan demi keberlangsungan untuk anak cucu nanti.</p><br />
                 </Box>
 
                 <Box width="100%" display="flex" flexDir={{ base: "column", md: "row" }} justifyContent="space-between" marginY="10px">

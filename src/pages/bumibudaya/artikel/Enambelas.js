@@ -1,6 +1,6 @@
 import { 
     Box, 
-    Heading,  
+    Heading, 
     Flex, 
     Button, 
 } from "@chakra-ui/react"
@@ -13,7 +13,7 @@ import { FiMapPin } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 const FestivalKrakatau = () => {
-    const judul = "Semarak Festival Krakatau"
+    const judul = "Nyangku, Ritual Adat di Panjalu"
 
     return (
         <Box w="100%" minHeight="1200px" paddingY={8} bg="gray.50" marginBottom="-50px" display="flex" justifyContent="center">
@@ -43,19 +43,17 @@ const FestivalKrakatau = () => {
                     textAlign="justify"
                     className="artikel"
                 >
-                    <p><img src="http://picture.triptrus.com/image/2019/02/lampung.jpeg" alt="" /></p><br />
-                    <p><em>Tabik Pun! Halo seunyinni!</em><br /> <br />
-                    Pesona kemilau Sang Bumi Ruwa Jurai terpancar dalam festival terbesar di bumi Lampung, Festival Krakatau. Selengkapnya, <em>kanca – kanca seunyinni</em> dapat membaca ringkasan di bawah ini.</p><br />
-                    <p>Festival Krakatau merupakan festival pariwisata terbesar yang diselenggarakan secara tahunan di Provinsi Lampung. Nama festival ini diambil dari nama salah satu gunung yaitu Gunung Krakatau yang terletak di Selat Sunda. Festival ini merupakan festival yang menjadi unggulan Provinsi Lampung. Tujuan diselenggarakan festival ini guna mempromosikan unggulan-unggulan daerah khususnya atraksi sebagai daya tarik wisata di Lampung. Selain itu, diadakannya festival ini sekaligus sebagai pengingat peristiwa bersejarah yang pernah terjadi yaitu meletusnya Gunung Krakatau pada tahun 1883. Bahkan, festival ini sudah menjadi budaya yang dilakukan oleh masyarakat Lampung.</p><br />
-                    <p>Festival Krakatau selalu mengusung tema yang berbeda-beda pada setiap pelaksanaannya. Tema-tema tersebut mengandung nilai-nilai yang dapat dijadikan tuntunan bagi masyarakat Lampung. Misalnya, pada tahun 2019 Festival Krakatau mengusung tema pariwisata lingkungan yang aman dan berkelanjutan bertajuk “<strong>Krakatau-Sebesi Safe and Sustainable Eco Tourism</strong>&quot;. Diusungnya tema lingkungan pada tahun tersebut diharapkan menjadi langkah awal pemulihan ekosistem selepas diguncang bencana tsunami pada Desember 2018. Kemudian, pada tahun 2019, Festival Krakatau mengusung tema <strong>Urban Etnik</strong>. Tema ini merupakan sebuah konsep yang memadukan unsur modern perkotaan dengan unsur tradisi yang berakar dari adat istiadat/tradisi budaya masyarakat serta sosial yang unik dan menarik untuk ditampilkan menjadi sebuah sajian seni maupun pertunjukan budaya. </p><br />
-                    <p>Berbagai kegiatan dilakukan setiap Festival Krakatau. Pada tahun 2019 festival yang diadakan di Lapangan Saburai Bandar Lampung menampilkan lima kegiatan utama, yaitu, Pesona Kemilau Sai Bumi Ruwa Jurai, Krakatau Expo, Parade Permainan Anak Tradisional , Trip Krakatau dan Parade Budaya Lampung Culture and Tapis Carnival.  Parade Budaya Lampung Culture and Tapis Carnival sangat menarik perhatian. Parade diikuti oleh masyarakat Lampung dengan balutan kostum kreasi yang menonjolkan simbol Provinsi Lampung yaitu siger serta kain khas Lampung yang sudah mendunia yaitu kain tapis.  Setiap kostum yang dipakai memiliki warna yang mencolok. Rangkaian parade budaya merupakan salah satu bagian acara festival yang sangat ditunggu. Adapun Trip Krakatau yang dikemas dalam bentuk perjalanan yang mengandung unsur studi observasi pengetahuan Gunung Anak Krakatau pasca letusan dan tsunami.</p><br />
-                    <p>Festival ini setiap tahunnya memiliki rangkaian acara yang sangat padat. Sajian eventnya pun sangat beragam. Tidak hanya acara utama yang ditonjolkan, festival ini juga memiliki serangkaian acara sampingan seperti kunjungan ke tempat wisata, festival musik, festival kuliner, parade budaya, pameran berbagai UKM yang ada di Lampung, dan masih banyak acara sampingan lain yang berbeda tiap tahunnya. Acara-acara di dalam festival ini sudah menjadi tontonan wajib yang dilakukan bukan hanya oleh masyarakat Lampung tetapi juga wisatawan luar Lampung.  Jika ingin menyaksikan festival ini secara langsung, jangan lupa untuk mencari tahu jadwal pelaksanaannya. <em>Kanca-kanca</em> bisa mencari infonya dengan cara mengunjungi website Dinas Kebudayaan dan Pariwisata Provinsi Lampung.</p><br />
-                    <p><strong>Catatan:</strong><br />
-                    <em>Tabik pun</em>    : Sapaan dalam Bahasa Lampung<br />
-                    <em>Seunyinni</em>    : Semuanya <br />
-                    <em>Kanca</em>    : Teman<br />
-                    <em>Gham</em>    : Saya </p>
-
+                    <p>Kita semua sebagai bangsa Indonesia tentu setuju bahwa negeri ini memiliki amat banyak budaya yang tersebar di seluruh penjurunya. Tapi sebenarnya, apa sih budaya itu? Budaya berasal dari Bahasa Sansekerta budhayah yang berarti budi atau akal. Menurut Melville Jean Herskovits, seorang antropolog Amerika, budaya adalah sesuatu yang turun temurun dari satu generasi ke generasi lain, yang kemudian disebut sebagai superorganik. </p><br />
+                    <p>Di antara banyaknya budaya di Indonesia, ada satu budaya bernama nyangku. Nyangku ini merupakan budaya dari daerah Panjalu, Kabupaten Ciamis, Jawa Barat. Nyangku ini merupakan sebuah ritual atau upacara adat yang dilakukan untuk menghormati leluhur Panjalu yang sudah menyebarkan agama Islam. </p><br />
+                    <p>Ritual ini sebenarnya adalah prosesi membersihkan benda-benda pusaka peninggalan Prabu Sanghyang Borosngora, para raja, dan bupati Panjalu serta para penerusnya. Benda-benda pusaka ini tersimpan di Pasucian Bumi Alit. Tempat itu seperti museum bagi warga Panjalu. Benda-benda pusaka tersebut diantaranya; pedang zulfikar, keris pancaworo, bangreng, gong kecil, cis, keris komando, trisula, dan lain-lain. Namun benda yang akan dibersihkan tidak semua, hanya pusaka yang disebutkan saja.</p><br />
+                    <p><img src="https://iili.io/ROI88P.jpg" alt="" /></p><br />
+                    <p>Upacara ini dilakukan tiap hari Senin atau Kamis terakhir pada bulan Maulid atau Rabiul Awal. Sekaligus merayakan Maulid Nabi Muhammad Shallallahu &#39;Alaihi wa Sallam. Biasanya yang melaksanakan ritual ini adalah Yayasan Borosngora yang didukung seluruh tetua Panjalu, Pemerintah Desa Panjalu, para tokoh masyarakat, juru kunci makam keramat, keturunan Raja Panjalu dan pihak bersangkutan yang lainnya. </p><br />
+                    <p>Ritual dimulai dengan mengeluarkan benda-benda pusaka yang ditutupi oleh kain putih. Lalu pusaka-pusaka tersebut dibawa menuju Nusa Gede yang berada di tengan Situ Lengkong (dulunya merupakan Bukit Pasir Jambu). Nusa Gede juga merupakan makam para prabu dan raja serta keturunannya yang terdahulu. Benda-benda pusaka tersebut dibawa beriringan disertai dengan bacaan salawat dan permainan alat musik gembyung. Mereka juga mengambil air dari Situ Lengkong dan beberapa mata air lain. Setelah itu, mereka membawa benda-benda pusaka tersebut ke taman Borosngora. Di tempat itulah pusaka-pusaka tersebut dibersihkan. Acara pembersihan pusaka ini sering kali ditonton oleh warga sekitar. Kebanyakan warga antusias menyambut ritual ini, bahkan beberapa banyak yang berebut air bekas cucian benda pusaka, menurut mereka, air tersebut memiliki banyak manfaat. Namun biasanya, yang dipertontonkan hanyalah pencucian Pedang Zulfikar, Kujang Panjalu, dan Keris Stok Komando. Tiga benda pusaka ini juga sekaligus menjadi lambang simbolis dari ritual ini.</p><br />
+                    <p><img src="https://iili.io/ROAV9I.jpg" alt="" /></p><br />
+                    <p>Setelah dicuci, benda-benda pusaka ini akan dikeringkan dengan cara diasapi. Kemudian benda-benda pusaka tersebut akan ditutupi lagi dengan kain putih dilengkapi dengan minyak khusus. Benda-benda pusaka akan dikembalikan ke Pasucian Bumi Alit. </p><br />
+                    <p><img src="https://iili.io/ROAhtn.jpg" alt="" /></p><br />
+                    <p>Siapa sih Prabu Sanghyang Borosngora ini? Kok sampai dibuat ritual tiap tahunnya untuk menghormati beliau? Konon Katanya, beliau merupakan pangeran yang menyebarkan agama Islam di Kerajaan Panjalu. Konon katanya beliau langsung berguru pada Ali bin Abi Thalib di Mekkah, hingga diwarisi pedang Zulfikar. Beliau juga membawa air zam-zam dari Mekkah yang dari air tersebut kini terbentuk Situ Lengkong. Situ Lengkong sendiri dulunya berupa lembah yang mengelilingi bukit yang dinamai Bukit Pasir Jambu. Prabu Sanghyang juga dijuluki sebagai Syeikh Haji Sampulur Sauma Dipa Ulama.</p><br />
+                    <p>Menurut para ahli, Prabu Sanghyang ini hidup pada tahun 1400-an. Kurang lebih berada pada waktu yang sama dengan Sunan Gunung Jati dari Kacirebonan. Lalu bagaimana bisa ia bertemu Ali bin Abi Thalib yang hidup di zaman berbeda dengan beliau? Hal ini masih menjadi kontroversial. Namun, apapun kebenarannya, Prabu Sanghyang ini akan tetap dihormati oleh warga Panjalu atas jasanya yang besar. </p><br />
                 </Box>
 
                 <Box width="100%" display="flex" flexDir={{ base: "column", md: "row" }} justifyContent="space-between" marginY="10px">

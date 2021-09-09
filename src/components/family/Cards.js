@@ -16,6 +16,8 @@ const Cards = ({ img, title, desc }) => {
                 overflow="hidden"
                 mx="auto"
                 h="250px"
+                _hover={{ shadow: "xl", transition: "all 0.3s", transform: "translate(0px, -7px)" }}
+                transition="all 0.3s"
             >
                 <Image
                     w="full"

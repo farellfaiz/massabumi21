@@ -5,6 +5,7 @@
 
 html {
   background-color: #F4F8FB;
+  overflow-x: hidden;
 }
 
 body {
@@ -21,4 +22,19 @@ code {
 .artikel img {
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px;
+}
+
+.artikel li {
+  margin-left: 18px;
+}
+
+.artikel a {
+  text-decoration: underline;
+}
+
+table {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

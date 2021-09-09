@@ -1,7 +1,6 @@
 import { 
     Box, 
     Heading, 
-    useBreakpointValue, 
     Flex, 
     Button, 
 } from "@chakra-ui/react"
@@ -14,7 +13,6 @@ import { FiMapPin } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 const FestivalKrakatau = () => {
-    const responsiveHeight = useBreakpointValue({ base: "1200px", sm: "1200px", md: "1200px" })
     const judul = "Chit Ngiat Phan, Tradisi Solidaritas Masyarakat Bangka"
 
     return (
@@ -46,7 +44,7 @@ const FestivalKrakatau = () => {
                     className="artikel"
                 >
                     <p><img src="https://cdn-2.tstatic.net/tribunnews/foto/images/preview/20130822_ritual-chit-ngiat-pan-di-bangka-belitung_3270.jpg" alt="" /></p><br />
-                    <p><em>Ape kabar peradik? Semoga baek-baek bai okk!</em><br />
+                    <p><em>Ape kabar peradik? Semoga baek-baek bai okk!</em><br /><br />
                     Pada kesempatan kali ini, kita akan mengulik serta mengenal salah satu kebudayaan berbentuk tradisi dari daerah Kepulauan Bangka Belitung yaitu tradisi upacara<em> Chit Ngiat Phan</em>. Tahan dulu semua pertanyaan di pikiran kalian mengenai tradisi upacara <em>Chit Ngiat Phan</em> ini karena kita akan terlebih dahulu  membahas sekilas mengenai apa sih itu kebudayaan? Serta apa itu tradisi? Nah kebudayaan sendiri memiliki definisi berupa konsep atau suatu cara hidup yang berkembang dan dimiliki bersama oleh sebuah kelompok orang dan diwariskan dari generasi ke generasi. Lalu kenapa tradisi tersebut tidak terputuskan atau lekang oleh waktu? Karena tradisi sendiri sangat melekat dan menjadi keyakinan yang mengikat bagi kehidupan kelompok tersebut. Nah beralih ke tradisi yang merupakan salah satu bentuk dari kebudayaan berupa suatu gagasan yang sudah diwariskan pada masa lalu dan sampai sekarang masih benar-benar ada, serta terus dilaksanakan sesuai dengan apa yang sudah pernah dijalankan.</p><br />
                     <p>Selanjutnya kita akan membahas mengenai tradisi upacara<em> Chit Ngiat Phan</em>. Tradisi upacara <em>Chit Ngiat Phan</em> sendiri merupakan kebudayaan khas yang dimiliki masyarakat Kabupaten Bangka (salah satu kabupaten di Kepulauan Bangka Belitung) yang selalu dirayakan oleh warga Tionghoa Bangka pada bulan ke-7 tanggal 15 (penanggalan China) di setiap kelenteng. Tradisi ini bertujuan untuk memberikan penghormatan kepada arwah leluhur mereka. Tradisi ini sendiri didasari oleh kepercayaan warga Tionghoa Bangka bahwa pada bulan ke-7 (penanggalan China) atau disebut dengan Bulan Hantu yang mana dipercayai selama kurun waktu setengah bulan, pintu akhirat terbuka dan seluruh arwah akan turun ke bumi. Di antara arwah tersebut, ada yang bergentayangan dalam keadaan terlantar dan sangat membutuhkan persembahan makanan. Arwah yang terlantar ini disebabkan tidak memiliki keturunan, meninggal secara tidak wajar, dan meninggal dalam kurun waktu yang sudah sangat lama.</p><br />
                     <p><img src="https://cdn-2.tstatic.net/tribunnews/foto/images/preview/20130822_ritual-chit-ngiat-pan-di-bangka-belitung_2497.jpg" alt="" /></p><br />
@@ -63,11 +61,11 @@ const FestivalKrakatau = () => {
                     Tradisi upacara <em>Chit Ngiat Phan</em> sebagai suatu daya tarik bagi orang-orang dari luar Bangka untuk ikut menyaksikan/menonton rangkaian kegiatan yang diadakan.</li><br />
                     </ol>
                     <p><strong>Referensi:</strong></p>
-<ul>
-<li>Theo, Rika dan Fennie Lie. Kisah Kultur dan Tradisi Tionghoa Bangka. Penerbit Buku Kompas. Jakarta. (2014).</li>
-<li>Oqtavia, Mentari. (2015). Tradisi Upacara “Chit Ngiat Phan”, 1-6. Diakses 27 Agustus 2021, dari Universitas Multimedia Nusantara.</li>
-<li>Tan, Shirley. (2014). Celebrate Chinese Culture : Chinese Literature. (Li En dan Chan Ying Kit, Terjemahan). Jakarta : PT. Elex Media Komputindo.</li>
-</ul>
+                    <ul>
+                    <li>Theo, Rika dan Fennie Lie. Kisah Kultur dan Tradisi Tionghoa Bangka. Penerbit Buku Kompas. Jakarta. (2014).</li>
+                    <li>Oqtavia, Mentari. (2015). Tradisi Upacara “Chit Ngiat Phan”, 1-6. Diakses 27 Agustus 2021, dari Universitas Multimedia Nusantara.</li>
+                    <li>Tan, Shirley. (2014). Celebrate Chinese Culture : Chinese Literature. (Li En dan Chan Ying Kit, Terjemahan). Jakarta : PT. Elex Media Komputindo.</li>
+                    </ul>
                 </Box>
 
                 <Box width="100%" display="flex" flexDir={{ base: "column", md: "row" }} justifyContent="space-between" marginY="10px">

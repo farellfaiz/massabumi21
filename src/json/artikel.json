@@ -4,23 +4,20 @@
         "title": "Semarak Festival Krakatau",
         "daerah": "Lampung",
         "thumbnail": "http://picture.triptrus.com/image/2019/02/lampung.jpeg",
-        "file": "{() => <Satu />}",
         "path": "/bumibudaya/artikel/semarak-festival-krakatau"
     },
     {
         "id": 2,
         "title": "Mengenal Seba, Tradisi Unik dari Suku Baduy",
-        "daerah": "Kabupaten Lebak",
+        "daerah": "Banten",
         "thumbnail": "https://www.goodnewsfromindonesia.id/wp-content/uploads/images/source/asriyati/20191009baduy.jpg",
-        "file": "{() => <Dua />}",
         "path": "/bumibudaya/artikel/tradisi-seba"
     },
     {
         "id": 3,
         "title": "Chit Ngiat Phan, Tradisi Solidaritas Masyarakat Bangka",
-        "daerah": "Kabupaten Bangka",
+        "daerah": "Kepulauan Bangka Belitung",
         "thumbnail": "https://cdn-2.tstatic.net/tribunnews/foto/images/preview/20130822_ritual-chit-ngiat-pan-di-bangka-belitung_3270.jpg",
-        "file": "{() => <Tiga />}",
         "path": "/bumibudaya/artikel/ritual-chit-ngiat-phan"
     },
     {
@@ -28,39 +25,195 @@
         "title": "Pesona Surga Bumi Sriwijaya",
         "daerah": "Sumatra Selatan",
         "thumbnail": "https://cdn-2.tstatic.net/palembang/foto/bank/images/gunung-dempo_20170819_202052.jpg",
-        "file": "{() => <Tiga />}",
-        "path": "/bumibudaya/artikel/chit-ngiat-phan"
+        "path": "/bumibudaya/artikel/pesona-bumi-sriwijaya"
     },
     {
         "id": 5,
         "title": "Sistem Kekerabatan Matrilineal di Sumatra Barat",
         "daerah": "Sumatra Barat",
         "thumbnail": "https://i1.wp.com/www.nesabamedia.com/wp-content/uploads/2019/05/Keunikan-Rumah-Adat-Minangkabau-e1557061441228.jpg?resize=600%2C400&ssl=1",
-        "file": "{() => <Tiga />}",
-        "path": "/bumibudaya/artikel/chit-ngiat-phan"
+        "path": "/bumibudaya/artikel/sistem-kekerabatan-matrilineal"
     },
     {
         "id": 6,
         "title": "Tabot, Festival Religi di Bumi Rafflesia",
         "daerah": "Bengkulu",
         "thumbnail": "https://seringjalan.com/wp-content/uploads/2020/07/1-upacara-adat-bengkulu-816x581.jpg",
-        "file": "{() => <Tiga />}",
-        "path": "/bumibudaya/artikel/chit-ngiat-phan"
+        "path": "/bumibudaya/artikel/festival-religi-tabot"
     },
     {
         "id": 7,
-        "title": "Fakta-Fakta Unik tentang Kepulauan Riau",
-        "daerah": "Kabupaten Bangka",
-        "thumbnail": "https://iili.io/RVp30X.png",
-        "file": "{() => <Tiga />}",
-        "path": "/bumibudaya/artikel/ritual-chit-ngiat-phan"
-    },
-    {
-        "id": 8,
         "title": "Anak Gimbal dari Dieng",
         "daerah": "Jawa Tengah",
         "thumbnail": "https://jateng.garudacitizen.com/wp-content/uploads/2019/01/255-contoh_anak_berambut_gimbal_di_dataran_tinggi_dieng.jpg",
-        "file": "{() => <Tiga />}",
-        "path": "/bumibudaya/artikel/chit-ngiat-phan"
+        "path": "/bumibudaya/artikel/anak-gimbal-dari-dieng"
+    },
+    {
+        "id": 8,
+        "title": "Fakta-Fakta Unik tentang Kepulauan Riau",
+        "daerah": "Kepulauan Riau",
+        "thumbnail": "https://iili.io/RVp30X.png",
+        "path": "/bumibudaya/artikel/fakta-unik-kepulauan-riau"
+    },
+    {
+        "id": 9,
+        "title": "Gabungan Kebudayaan yang Berbeda, Budaya Banten Sebenarnya Apa?",
+        "daerah": "Banten",
+        "thumbnail": "https://media.suara.com/pictures/970x544/2020/09/07/44179-peta-banten.jpg",
+        "path": "/bumibudaya/artikel/mengenal-kebudayaan-banten"
+    },
+    {
+        "id": 10,
+        "title": "Misteri di balik Situs Watu Tulis Cipaku",
+        "daerah": "Jawa Tengah",
+        "thumbnail": "https://1.bp.blogspot.com/-Htla4kk3MPo/XgA2uuIbMRI/AAAAAAAABGo/LJpL-5OAVDwjjUfHPNjApUKTMaqGkBDhACLcBGAsYHQ/w1200-h630-p-k-no-nu/IMG_0290.jpg",
+        "path": "/bumibudaya/artikel/misteri-situs-watu-tulis-cipaku"
+    },
+    {
+        "id": 11,
+        "title": "Mitos Kandasnya Asmara Setelah Mendatangi Tempat Wisata di Yogyakarta",
+        "daerah": "Daerah Istimewa Yogyakarta",
+        "thumbnail": "https://iili.io/ROMF9a.jpg",
+        "path": "/bumibudaya/artikel/mitos-asmara-tempat-wisata-jogja"
+    },
+    {
+        "id": 12,
+        "title": "Ludruk",
+        "daerah": "Jawa Timur",
+        "thumbnail": "https://indonesiakaya.com/wp-content/uploads/2020/10/Ludruk_1200.jpg",
+        "path": "/bumibudaya/artikel/ludruk"
+    },
+    {
+        "id": 13,
+        "title": "Di Balik Malam Satu Suro",
+        "daerah": "Jawa",
+        "thumbnail": "https://asset.kompas.com/crops/EfwPUPLqXEunv-K-cj9J8FmCVEU=/0x0:0x0/750x500/data/photo/2020/08/21/5f3f22f69b25a.jpg",
+        "path": "/bumibudaya/artikel/malam-satu-suro"
+    },
+    {
+        "id": 14,
+        "title": "Mengenal Ngaben, Upacara Pembakaran Jenazah Umat Hindu di Bali",
+        "daerah": "Bali",
+        "thumbnail": "https://www.asuransi-jiwa.org/wp-content/uploads/2018/01/Upacara-Ngaben-Itu-Mahal.jpg",
+        "path": "/bumibudaya/artikel/upacara-ngaben"
+    },
+    {
+        "id": 15,
+        "title": "Perayaan Obor Pattimura",
+        "daerah": "Maluku Tengah",
+        "thumbnail": "http://photos1.blogger.com/blogger/278/1433/320/Walikota-dan-Obor__P2.jpg",
+        "path": "/bumibudaya/artikel/perayaan-obor-pattimura"
+    },
+    {
+        "id": 16,
+        "title": "Nyangku, Ritual Adat di Panjalu",
+        "daerah": "Jawa Barat",
+        "thumbnail": "https://iili.io/ROI88P.jpg",
+        "path": "/bumibudaya/artikel/ritual-adat-nyangku"
+    },
+    {
+        "id": 17,
+        "title": "Festival Panen Sumbun",
+        "daerah": "Jambi",
+        "thumbnail": "https://radarjambi.co.id/foto_berita/2021/03/19/8images-3.jpg",
+        "path": "/bumibudaya/artikel/festival-panen-sumbun"
+    },
+    {
+        "id": 18,
+        "title": "Sigale-Gale: Patung Mistis dari Sumatera Utara",
+        "daerah": "Sumatera Utara",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Sigale-gale-face.jpg",
+        "path": "/bumibudaya/artikel/patung-mistis-sigale-gale"
+    },
+    {
+        "id": 19,
+        "title": "Kiprah Kiai Hamzanwadi di Bidang Pendidikan",
+        "daerah": "Nusa Tenggara Barat",
+        "thumbnail": "https://iili.io/RVyZAJ.jpg",
+        "path": "/bumibudaya/artikel/kiprah-kiai-hamzanwadi-di-pendidikan"
+    },
+    {
+        "id": 20,
+        "title": "Batik Gajah Oling Kekayaan Banyuwangi",
+        "daerah": "Jawa Timur",
+        "thumbnail": "https://inspirasipagi.id/wp-content/uploads/2018/11/motif-batik-gajah-oling.png",
+        "path": "/bumibudaya/artikel/batik-gajah-oling"
+    },
+    {
+        "id": 21,
+        "title": "Tego-Tego/Poalo",
+        "daerah": "Sulawesi Tenggara",
+        "thumbnail": "https://iili.io/RVQxWX.jpg",
+        "path": "/bumibudaya/artikel/tego-tego-poalo"
+    },
+    {
+        "id": 22,
+        "title": "Peusijuek, Tradisi 'Tepung Tawar' pada Masyarakat Aceh",
+        "daerah": "Nanggroe Aceh Darussalam",
+        "thumbnail": "https://steemitimages.com/DQme55cwL46fq8UoZyRPJVkD6TgqqzgcxQogPpKLBfCDNkF/20180208_094623.png",
+        "path": "/bumibudaya/artikel/tradisi-peusijuek"
+    },
+    {
+        "id": 23,
+        "title": "Bumi Bertuah Negeri Beradat",
+        "daerah": "Kepulauan Riau",
+        "thumbnail": "https://iili.io/RWHb4I.jpg",
+        "path": "/bumibudaya/artikel/bumi-bertuah-negara-beradat"
+    },
+    {
+        "id": 24,
+        "title": "Eksotisme Alam Pulau Biawak Indramayu",
+        "daerah": "Jawa Barat",
+        "thumbnail": "https://iili.io/RWHr21.jpg",
+        "path": "/bumibudaya/artikel/eksotisme-pulau-biawak"
+    },
+    {
+        "id": 25,
+        "title": "Bali Kedua di Kalimantan Timur",
+        "daerah": "Kalimantan Timur",
+        "thumbnail": "https://www.celebes.co/borneo/wp-content/uploads/2020/11/Pulau-Derawan.jpg",
+        "path": "/bumibudaya/artikel/bali-kedua-di-kaltim"
+    },
+    {
+        "id": 26,
+        "title": "Pengikiran Gigi, Adat Masyarakat Tanah Tadulako",
+        "daerah": "Sulawesi Tengah",
+        "thumbnail": "https://gasbanter.com/wp-content/uploads/2020/08/upacara-adat-sulawesi-tengah-2.jpg",
+        "path": "/bumibudaya/artikel/pengikiran-gigi-tadulako"
+    },
+    {
+        "id": 27,
+        "title": "Mitos Lada",
+        "daerah": "Jawa Barat",
+        "thumbnail": "https://media-cdn.tripadvisor.com/media/photo-i/0e/1d/7e/3e/goa-jepang-bisa-dimasuki.jpg",
+        "path": "/bumibudaya/artikel/mitos-lada"
+    },
+    {
+        "id": 28,
+        "title": "Lebih Dekat dengan Tugu Jogja",
+        "daerah": "Daerah Istimewa Yogyakarta",
+        "thumbnail": "https://iili.io/RedCv4.jpg",
+        "path": "/bumibudaya/artikel/lebih-dekat-dengan-tugu-jogja"
+    },
+    {
+        "id": 29,
+        "title": "Mitos Curug Cinulang",
+        "daerah": "Jawa Barat",
+        "thumbnail": "https://travelspromo.com/wp-content/uploads/2019/11/Keindahan-Curug-Cinulang.-Foto-Gmap-Bayu-Suseno-e1573089277819.jpg",
+        "path": "/bumibudaya/artikel/mitos-curug-cinulang"
+    },
+    {
+        "id": 30,
+        "title": "Mengenal Suku Kubu di Pedalaman Sumatera",
+        "daerah": "Jambi",
+        "thumbnail": "https://buguruku.com/wp-content/uploads/2020/05/33suku.jpg",
+        "path": "/bumibudaya/artikel/mengenal-suku-kubu"
+    },
+    {
+        "id": 31,
+        "title": "Mari Kita Berkenalan Dengan Pupuh Asmarandana",
+        "daerah": "Jawa Barat",
+        "thumbnail": "https://i1.wp.com/kuyahejo.com/wp-content/uploads/2016/08/Pupuh-Sunda.jpg?fit=1024%2C576&ssl=1",
+        "path": "/bumibudaya/artikel/berkenalan-dengan-pupuh-asmarandana"
     }
 ]

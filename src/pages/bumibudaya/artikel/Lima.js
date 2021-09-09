@@ -1,6 +1,6 @@
 import { 
     Box, 
-    Heading,  
+    Heading, 
     Flex, 
     Button, 
 } from "@chakra-ui/react"
@@ -13,7 +13,7 @@ import { FiMapPin } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 const FestivalKrakatau = () => {
-    const judul = "Semarak Festival Krakatau"
+    const judul = "Sistem Kekerabatan Matrilineal di Sumatra Barat"
 
     return (
         <Box w="100%" minHeight="1200px" paddingY={8} bg="gray.50" marginBottom="-50px" display="flex" justifyContent="center">
@@ -43,18 +43,32 @@ const FestivalKrakatau = () => {
                     textAlign="justify"
                     className="artikel"
                 >
-                    <p><img src="http://picture.triptrus.com/image/2019/02/lampung.jpeg" alt="" /></p><br />
-                    <p><em>Tabik Pun! Halo seunyinni!</em><br /> <br />
-                    Pesona kemilau Sang Bumi Ruwa Jurai terpancar dalam festival terbesar di bumi Lampung, Festival Krakatau. Selengkapnya, <em>kanca – kanca seunyinni</em> dapat membaca ringkasan di bawah ini.</p><br />
-                    <p>Festival Krakatau merupakan festival pariwisata terbesar yang diselenggarakan secara tahunan di Provinsi Lampung. Nama festival ini diambil dari nama salah satu gunung yaitu Gunung Krakatau yang terletak di Selat Sunda. Festival ini merupakan festival yang menjadi unggulan Provinsi Lampung. Tujuan diselenggarakan festival ini guna mempromosikan unggulan-unggulan daerah khususnya atraksi sebagai daya tarik wisata di Lampung. Selain itu, diadakannya festival ini sekaligus sebagai pengingat peristiwa bersejarah yang pernah terjadi yaitu meletusnya Gunung Krakatau pada tahun 1883. Bahkan, festival ini sudah menjadi budaya yang dilakukan oleh masyarakat Lampung.</p><br />
-                    <p>Festival Krakatau selalu mengusung tema yang berbeda-beda pada setiap pelaksanaannya. Tema-tema tersebut mengandung nilai-nilai yang dapat dijadikan tuntunan bagi masyarakat Lampung. Misalnya, pada tahun 2019 Festival Krakatau mengusung tema pariwisata lingkungan yang aman dan berkelanjutan bertajuk “<strong>Krakatau-Sebesi Safe and Sustainable Eco Tourism</strong>&quot;. Diusungnya tema lingkungan pada tahun tersebut diharapkan menjadi langkah awal pemulihan ekosistem selepas diguncang bencana tsunami pada Desember 2018. Kemudian, pada tahun 2019, Festival Krakatau mengusung tema <strong>Urban Etnik</strong>. Tema ini merupakan sebuah konsep yang memadukan unsur modern perkotaan dengan unsur tradisi yang berakar dari adat istiadat/tradisi budaya masyarakat serta sosial yang unik dan menarik untuk ditampilkan menjadi sebuah sajian seni maupun pertunjukan budaya. </p><br />
-                    <p>Berbagai kegiatan dilakukan setiap Festival Krakatau. Pada tahun 2019 festival yang diadakan di Lapangan Saburai Bandar Lampung menampilkan lima kegiatan utama, yaitu, Pesona Kemilau Sai Bumi Ruwa Jurai, Krakatau Expo, Parade Permainan Anak Tradisional , Trip Krakatau dan Parade Budaya Lampung Culture and Tapis Carnival.  Parade Budaya Lampung Culture and Tapis Carnival sangat menarik perhatian. Parade diikuti oleh masyarakat Lampung dengan balutan kostum kreasi yang menonjolkan simbol Provinsi Lampung yaitu siger serta kain khas Lampung yang sudah mendunia yaitu kain tapis.  Setiap kostum yang dipakai memiliki warna yang mencolok. Rangkaian parade budaya merupakan salah satu bagian acara festival yang sangat ditunggu. Adapun Trip Krakatau yang dikemas dalam bentuk perjalanan yang mengandung unsur studi observasi pengetahuan Gunung Anak Krakatau pasca letusan dan tsunami.</p><br />
-                    <p>Festival ini setiap tahunnya memiliki rangkaian acara yang sangat padat. Sajian eventnya pun sangat beragam. Tidak hanya acara utama yang ditonjolkan, festival ini juga memiliki serangkaian acara sampingan seperti kunjungan ke tempat wisata, festival musik, festival kuliner, parade budaya, pameran berbagai UKM yang ada di Lampung, dan masih banyak acara sampingan lain yang berbeda tiap tahunnya. Acara-acara di dalam festival ini sudah menjadi tontonan wajib yang dilakukan bukan hanya oleh masyarakat Lampung tetapi juga wisatawan luar Lampung.  Jika ingin menyaksikan festival ini secara langsung, jangan lupa untuk mencari tahu jadwal pelaksanaannya. <em>Kanca-kanca</em> bisa mencari infonya dengan cara mengunjungi website Dinas Kebudayaan dan Pariwisata Provinsi Lampung.</p><br />
-                    <p><strong>Catatan:</strong><br />
-                    <em>Tabik pun</em>    : Sapaan dalam Bahasa Lampung<br />
-                    <em>Seunyinni</em>    : Semuanya <br />
-                    <em>Kanca</em>    : Teman<br />
-                    <em>Gham</em>    : Saya </p>
+                    <p><img src="https://i1.wp.com/www.nesabamedia.com/wp-content/uploads/2019/05/Keunikan-Rumah-Adat-Minangkabau-e1557061441228.jpg?resize=600%2C400&amp;ssl=1" alt="" /></p><br />
+                    <p>Mendengar kata <strong>Minangkabau</strong> atau lebih biasa disebut dengan <strong>Minang</strong> maka pikiran kita akan langsung terbang melayang ke negeri nan elok penuh pesona, Sumatra Barat, walaupun sebenarnya kekuasaan Minangkabau bukan hanya Sumatra Barat tapi juga meliputi separuh daratan Riau, bagian utara Bengkulu, bagian barat Jambi, bagian selatan Sumatra Utara, barat daya Aceh, dan juga Negeri Sembilan di Malaysia.</p><br />
+                    <p>Provinsi Sumatra Barat bagi segelintir orang lebih diidentikkan dengan Padang, Ya memang, Padang merupakan Ibukota Provinsi Sumatra Barat. Selain itu, mendengar kata Padang atau Sumatra Barat tak lain masyarakat akan berpikir tentang masakan Padang atau lebih khususnya <strong>Rendang</strong> atau <strong>Randang</strong>. Makanan khas Sumatra Barat yang cita rasanya diakui dunia.</p><br />
+                    <p>Terlepas dari semua itu ada yang juga menarik dari Sumatra Barat yaitu sistem kekerabatan di Minangkabau (Sumatra Barat). Minangkabau atau Sumatra Barat khususnya menganut <strong>sistem kekerabatan matrilineal</strong> yaitu <strong>sistem kekerabatan berdasarkan garis keturunan ibu</strong>. Setiap anak yang lahir dalam sebuah keluarga Minangkabau akan menjadi kerabat keluarga ibunya, bukan kerabat ayahnya yang biasa terjadi di suku-suku lain di Indonesia. Hal ini menjadikan ciri khas tersendiri bagi Minangkabau yang membedakannya dengan suku lain di Indonesia.</p><br />
+                    <p>Adapun ciri-ciri dari sistem matrilineal yaitu sebagai berikut:</p>
+                    <ol>
+                    <li>Keturunan dihitung menurut garis ibu.</li>
+                    <li>Suku terbentuk menurut garis ibu</li>
+                    <li>Tiap orang diharuskan <em>kimpoi</em> (kawin/nikah) dengan orang luar sukunya atau eksogami karena di Minangkabau dilarang <em>kimpoi</em> sesuku.</li>
+                    <li>Pembalasan dendam merupakan satu kewajiban bagi seluruh suku.</li>
+                    <li><em>Perkimpoian</em> bersifat matrilokal, yaitu suami mengunjungi dan tinggal dirumah istrinya.</li>
+                    <li>Hak-hak dan pusaka diwariskan oleh mamak kepada kemenakannya dan dari saudara laki-laki ibu kepada anak dari saudara perempuan.</li><br />
+                    </ol>
+                    <p>Di dunia hanya beberapa suku saja yang menggunakan sistem matrilineal ini, yakni:</p>
+                    <ul>
+                    <li>Suku Minangkabau di Sumatra Barat, Indonesia</li>
+                    <li>Suku Indian di Apache Barat</li>
+                    <li>Suku Navajo, sebagian besar suku Pueblo, suku Crow, di Amerika Serikat</li>
+                    <li>Suku Khasi di Meghalaya, India Timur Laut</li>
+                    <li>Suku Nakhi di Provinsi Sichuan dan Yunnan, Tiongkok</li>
+                    <li>Beberapa suku kecil di kepulauan Asia Pasifik</li>
+                    </ul><br />
+                    <p>Dari beberapa suku tersebut diatas, suku Minangkabau merupakan suku terbesar penganut sistem kekerabatan yang menurut garis keturunan ibu ini.<br />
+                    Matrilineal merupakan salah satu aspek dalam menentukan dan mendefinisikan identitas masyarakat Minang. Kaum perempuan di Minangkabau memiliki kedudukan yang istimewa. Adat dan budaya di Minangkabau menempatkan pihak perempuan bertindak sebagai pewaris harta pusaka dan kekerabatan.</p><br />
+                    <p>Sampai detik ini sistem kekerabatan matrilineal masih tetap dipertahankan masyarakat Minangkabau. Pada setiap individu Minang, memiliki kecenderungan untuk menyerahkan harta pusaka yang seharusnya dibagi kepada setiap anak menurut hukum <em>faraidh</em> dalam Islam hanya kepada anak perempuannya. Anak perempuan itu nanti menyerahkan pula kepada anak perempuannya pula. Dan anak laki-laki tidak mendapat bagian harta pusaka.</p><br />
+                    <p>Dalam sistem keturunan matrilineal Minangkabau ini, ayah bukanlah anggota dari garis keturunan anak-anaknya. Dia dipandang tamu dan diperlakukan sebagai tamu dalam keluarga. Secara tradisi, setidak-tidaknya, tanggung jawabnya sebagai wali dari garis keturunannya dan pelindung atas harta benda garis keturunan itu sekalipun dia harus menahan dirinya dari menikmati hasil tanah dan harta pusaka kaumnya istrinya. Itu sebabnya lelaki Minang banyak yang hidup merantau ke daerah lain di luar Sumatra Barat.</p><br />
 
                 </Box>
 

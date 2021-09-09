@@ -2,6 +2,9 @@ import { Menu } from "./";
 import { Skeleton, Box, Flex, Spacer, Image, IconButton, useMediaQuery, useBreakpointValue } from "@chakra-ui/react"
 import { FaUsers } from "react-icons/fa"
 import { Link } from "react-router-dom";
+import {
+    IoEarth
+} from "react-icons/io5";
 
 const Navigation = () => {
     const [phoneSize] = useMediaQuery("(max-width: 500px)")
@@ -25,14 +28,14 @@ const Navigation = () => {
                 <Spacer />
                 <Box position="absolute" top={phoneSize ? "8px" : "-8px"}>
                     <Link to="/">
-                        <Image src="/img/rounded.png" alt="" width={phoneSize ? "78px" : "78px"} marginTop={phoneSize ? "-15px" : "0px"} />
+                        <Image src="/img/logo.png" alt="" width={phoneSize ? "60px" : "60px"} marginTop={phoneSize ? "-6px" : "10px"} />
                     </Link>
                 </Box>
                 <Spacer />
                 <Box>
-                    {/* <Link to="/contact">
-                        <IconButton display={btnDisplay} aria-label="Contact Us" icon={<FaPhoneAlt fontSize="13px" />} marginRight={2} variant="ghost" />
-                    </Link> */}
+                    <Link to="/bumibudaya">
+                        <IconButton display={btnDisplay} aria-label="Contact Us" icon={<IoEarth fontSize="13px" />} marginRight={2} variant="ghost" />
+                    </Link>
                     <Link to="/family">
                         <IconButton aria-label="Shop" icon={<FaUsers fontSize="13px" />} />
                     </Link>

@@ -6,10 +6,9 @@ import {
     Button,
     Grid,
     Skeleton,
-    useDisclosure,
 } from "@chakra-ui/react"
 import React from "react"
-import { Cards, CardAr } from '../../components'
+import { CardAr } from '../../components'
 import { SmallTab } from "../../components"
 import { ArrowBackIcon } from '@chakra-ui/icons'
 import { BsFileText, BsGrid } from "react-icons/bs";
@@ -19,7 +18,6 @@ import { Link } from "react-router-dom";
 import data from "../../json/artikel.json"
 
 const Guestbook = () => {
-    const responsiveHeight = useBreakpointValue({ base: "1200px", sm: "1200px", md: "1200px" })
     const responsiveGrid = useBreakpointValue({ base: "repeat(1, 1fr)", sm: "repeat(2, 1fr)", md: "repeat(3, 1fr)", lg: "repeat(4, 1fr)" })
 
     return (

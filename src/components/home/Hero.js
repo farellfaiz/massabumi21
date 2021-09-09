@@ -64,7 +64,6 @@ import { FaUsers } from "react-icons/fa"
               flexDir="column"
               height={'280px'}
               rounded={'2xl'}
-              boxShadow={'2xl'}
               width={'full'}
               marginTop="80px"
               overflow={'hidden'}>
@@ -75,19 +74,9 @@ import { FaUsers } from "react-icons/fa"
                 w={'100%'}
                 h={'100%'}
                 src={
-                  '/img/fotbar.png'
+                  '/img/logo.png'
                 }
-                marginBottom="-10px"
-              />
-              <Image
-                alt={''}
-                fit={'contain'}
-                align={'center'}
-                w={'100%'}
-                h={'100%'}
-                src={
-                  '/img/fotbar.png'
-                }
+                boxShadow="lg"
               />
             </Box>
           </Flex>
