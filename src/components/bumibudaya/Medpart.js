@@ -6,36 +6,20 @@ const Medpart = () => {
             position="relative" 
             bottom="20px"
             left="0"
-            flexDir="column" bgColor="white" w="100vw" display="flex" justifyContent="center" marginBottom="-70px" paddingY={8} alignItems="center" shadow="lg" marginTop="70px" paddingBottom="70px">
-            <Center fontWeight="" fontFamily="Mick Kelly" fontSize="20px" marginBottom="15px">
+            flexDir="column" bgColor="white" h="auto" w="full" display="flex" justifyContent="center" marginBottom="-70px" paddingY={8} alignItems="center" shadow="lg" marginTop="70px" paddingBottom="70px">
+            <Center fontFamily="Mick Kelly" fontSize="20px" marginBottom="15px">
                 Media Partner
             </Center>
-            <Wrap display="display" alignItems="center" spacing="30px" justify="Center">
-                <WrapItem>
-                    <Image src="/medpart/itbreceh.png" height="30px" />
-                </WrapItem>
-                <WrapItem>
-                    <Image src="/medpart/boulevard.png" height="30px" />
-                </WrapItem>
-                <WrapItem>
-                    <Image src="/medpart/eventbandung.jpg" height="30px" />
-                </WrapItem>
-                <WrapItem>
-                    <Image src="/medpart/eventcampus.png" height="30px" />
-                </WrapItem>
-                <WrapItem>
-                    <Image src="/medpart/eventmahasiswa.png" height="30px" />
-                </WrapItem>
-                <WrapItem>
-                    <Image src="/medpart/inilahonline.png" height="30px" />
-                </WrapItem>
-                <WrapItem>
-                    <Image src="/medpart/seputarinfo.png" height="30px" />
-                </WrapItem>
-                <WrapItem>
-                    <Image src="/medpart/yotbandung.png" height="30px" />
-                </WrapItem>
-            </Wrap>
+            <Box paddingX="20px">
+                    <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/itbreceh.png" height="30px" />
+                    <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/boulevard.png" height="30px" />
+                    <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/eventbandung.jpg" height="30px" />
+                    <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/eventcampus.png" height="30px" />
+                    <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/eventmahasiswa.png" height="30px" />
+                    <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/inilahonline.png" height="30px" />
+                    <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/seputarinfo.png" height="30px" />
+                    <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/yotbandung.png" height="30px" />
+            </Box>
         </Box>
     )
 }

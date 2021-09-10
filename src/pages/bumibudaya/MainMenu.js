@@ -12,7 +12,7 @@ import { BiBookContent } from "react-icons/bi";
 import { HiOutlineSun } from "react-icons/hi";
 import { RiRoadMapLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
-import { Medpart, Carousel } from "../../components"
+import { Medpart, Carousel, Preread } from "../../components"
 
 const Guestbook = () => {
     /* const MySwal = withReactContent(Swal)
@@ -35,9 +35,9 @@ const Guestbook = () => {
 
     return (
         <Box w="100%" h="auto" paddingY={8} bg="gray.50" marginBottom="-50px" display="flex" justifyContent="center">
-            
-            <Image src="/img/bg.png" position="fixed" top="0" right={["-200px", "-200px", "-200px", "0"]} alt="" />
-            <Image src="/img/bg.png" position="fixed" left={["-200px", "-200px", "-200px", "0"]} bottom="0" transform="rotate(180deg)" alt="" />
+            {/* <Preread /> */}
+            <Image src="/img/bg.png" position="fixed" top="0" right={["-100px", "-100px", "-100px", "0"]} alt="" />
+            <Image src="/img/bg.png" position="fixed" left={["-100px", "-100px", "-100px", "0"]} bottom="0" transform="rotate(180deg)" alt="" />
 
             <Box marginBottom="40px" display="flex" flexDir="column" width="80%" alignItems="center" position="relative">
                 <Flex width="100%" flexDir="column" justifyContent="center" alignItems="center" marginTop={3}>

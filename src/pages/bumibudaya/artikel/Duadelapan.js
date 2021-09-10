@@ -41,7 +41,7 @@ const FestivalKrakatau = () => {
                     bgColor="#fff"
                     rounded="md"
                     shadow="md"
-                    padding="40px"
+                    padding="20px"
                     marginTop="10px"
                     textAlign="justify"
                     className="artikel"

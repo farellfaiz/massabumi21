@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState, useEffect } from 'react';
 import {
     IconButton, 
     Box,
@@ -24,26 +24,35 @@ import {
 import { SearchIcon } from '@chakra-ui/icons';
 import ReactAudioPlayer from 'react-audio-player';
 import { BsFillQuestionCircleFill } from "react-icons/bs";
+import { Carousel } from '../../components';
 
 const Preread = () => {
-  const { isOpen, onOpen, onClose } = useDisclosure()
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
+  const [showModal, setShowModal] = useState(false)
+    
+      useEffect(() => {
+        const timeId = setTimeout(() => setShowModal(true), 1000)
+    
+        return () => clearTimeout(timeId)
+      })
+  
   return (
     <Box position="fixed" bottom="100px" right="40px" zIndex="20">
-        <IconButton variant="sghost" onClick={onOpen} icon={<BsFillQuestionCircleFill />} transition="all 0.3s" isRound w="60px" h="60px"  />
 
-        <Modal isOpen={isOpen} onClose={onClose}>
+        <Modal isOpen={showModal} onClose={onClose} size="xl">
           <ModalOverlay />
           <ModalContent>
-            <ModalHeader>Pudarnya Budaya</ModalHeader>
+            <ModalHeader fontFamily="Mick Kelly">Selamat Datang!</ModalHeader>
             <ModalCloseButton />
             <ModalBody>
+              <Carousel />
             </ModalBody>
 
             <ModalFooter>
               <Button colorScheme="blue" mr={3} onClick={onClose}>
-                Close
+                Mulai Eksplorasi!
               </Button>
-              <Button variant="ghost">Secondary Action</Button>
             </ModalFooter>
           </ModalContent>
         </Modal>

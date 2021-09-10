@@ -112,9 +112,7 @@ function App() {
           <Route path="/bumibudaya/artikel/berkenalan-dengan-pupuh-asmarandana" exact component={() => <Tigasatu />} />
 
         </Switch>
-        <Box zIndex="50">
-          <Medpart />
-        </Box>
+        <Medpart />
         <Footer />
       </Router>
     </ChakraProvider>
