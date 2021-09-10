@@ -5,6 +5,11 @@ import {
     Grid,
     Text,
     Image,
+    Accordion,
+    AccordionItem,
+    AccordionButton,
+    AccordionPanel,
+    AccordionIcon,
 } from "@chakra-ui/react"
 import React from "react"
 import { BsFileText, BsPlay } from "react-icons/bs";
@@ -13,24 +18,19 @@ import { HiOutlineSun } from "react-icons/hi";
 import { RiRoadMapLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import { Medpart, Carousel, Preread } from "../../components"
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
 
 const Guestbook = () => {
     /* const MySwal = withReactContent(Swal)
     MySwal.fire({
-        title: <p>Hello World</p>,
-        footer: 'Copyright 2018',
-        confirmButtonColor: '#fff',
+        title: <p>Selamat Datang</p>,
+        footer: 'Aksi Angkatan FITB 2021',
+        confirmButtonColor: 'white',
         confirmButtonText: 'Mari mulai berjelajah!',
         didOpen: () => {
           MySwal.clickConfirm()
         }
-      }).then(() => {
-        return MySwal.fire(
-            <>
-                <p>Shorthand works too</p>
-                <RiRoadMapLine size="70px" />
-            </>
-        )
       }) */
 
     return (
@@ -45,6 +45,22 @@ const Guestbook = () => {
                         Bumi Budaya
                     </Heading>
                 </Flex>
+
+                <Accordion allowToggle w={{ base: "300px", sm: "400px", md: "500px" }} marginTop={2} marginBottom={9} marginX="5px">
+                    <AccordionItem>
+                        <h2>
+                        <AccordionButton shadow="md" rounded="3xl" marginBottom={2} marginTop={2} bgColor="white" colorScheme="teal">
+                            <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">
+                            Selamat Datang
+                            </Box>
+                            <AccordionIcon />
+                        </AccordionButton>
+                        </h2>
+                        <AccordionPanel pb={4} textAlign="center" fontStyle="italic" color="gray.500" >
+                            <Carousel />
+                        </AccordionPanel>
+                    </AccordionItem>
+                </Accordion>
 
                 <Grid h="auto" templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(2, 1fr)" }} gap="50px">
                     <Link to="/bumibudaya/peta">
