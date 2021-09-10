@@ -11,14 +11,14 @@ const Medpart = () => {
                 Media Partner
             </Center>
             <Box paddingX="20px">
-                    <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/itbreceh.png" height="30px" />
-                    <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/boulevard.png" height="30px" />
+                    <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/itbreceh.PNG" height="30px" />
+                    <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/boulevard.PNG" height="30px" />
                     <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/eventbandung.jpg" height="30px" />
                     <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/eventcampus.png" height="30px" />
                     <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/eventmahasiswa.png" height="30px" />
-                    <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/inilahonline.png" height="30px" />
+                    <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/inilahonline.PNG" height="30px" />
                     <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/seputarinfo.png" height="30px" />
-                    <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/yotbandung.png" height="30px" />
+                    <Image marginX="10px" marginY="5px" display="inline-block" src="/medpart/yotbandung.PNG" height="30px" />
             </Box>
         </Box>
     )
