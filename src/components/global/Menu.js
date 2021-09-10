@@ -34,7 +34,7 @@ const Menu = () => {
             <DrawerOverlay />
             <DrawerContent bg="#E4E1Dff6">
                 <DrawerHeader borderBottomWidth="1px" display="flex" justifyContent="center">
-                    <Image src="/img/logo.png" alt="" width="200px" />
+                    <Image src="/img/logo.png" alt="" width="200px" height="200px" />
                 </DrawerHeader>
                 <DrawerBody>
                     <Link to="/">
