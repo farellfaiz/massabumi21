@@ -3,6 +3,7 @@ import {
     Heading, 
     Flex, 
     Button, 
+    Image
 } from "@chakra-ui/react"
 import React from "react"
 import { SmallTab } from "../../../components"
@@ -11,13 +12,15 @@ import { BsFileText, BsGrid } from "react-icons/bs";
 import { HiOutlineSun } from "react-icons/hi";
 import { FiMapPin } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import { BiBookContent } from "react-icons/bi";
 
 const FestivalKrakatau = () => {
     const judul = "Festival Panen Sumbun"
 
     return (
         <Box w="100%" minHeight="1200px" paddingY={8} bg="gray.50" marginBottom="-50px" display="flex" justifyContent="center">
-            
+            <Image src="/img/bg.png" position="fixed" top="0" right={["-200px", "-200px", "-200px", "0"]} alt="" />
+            <Image src="/img/bg.png" position="fixed" left={["-200px", "-200px", "-200px", "0"]} bottom="0" transform="rotate(180deg)" alt="" />
             <Box display="flex" flexDir="column" width="80%" alignItems="center" position="relative">
                 <Flex width="100%" flexDir="column" justifyContent="center" alignItems="center" marginTop={3}>
                     <Heading fontFamily="Mick Kelly" fontWeight="bold" marginBottom={2} size="2xl" bgGradient="linear(to-r, #85665e, #B4887C)" bgClip="text" lineHeight="65px" textAlign="center">
@@ -26,7 +29,7 @@ const FestivalKrakatau = () => {
                 </Flex>
                 <Box alignSelf="flex-start">
                     <Link to="/bumibudaya/artikel">
-                        <SmallTab icon={<ArrowBackIcon />} text="Back" variant="ghost" />
+                        <SmallTab icon={<ArrowBackIcon />} text="Kembali" variant="ghost" />
                     </Link>
                 </Box>
 
@@ -71,9 +74,9 @@ const FestivalKrakatau = () => {
                             </Link>
                         </Box>
                         <Box width="48%">
-                            <Link to="/bumibudaya/artikel">
+                            <Link to="/bumibudaya/bukutamu">
                                 <Button 
-                                    leftIcon={<BsFileText />} 
+                                    leftIcon={<BiBookContent />} 
                                     variant="solid"
                                     shadow="md"
                                     bgColor="white"
@@ -82,7 +85,7 @@ const FestivalKrakatau = () => {
                                     fontWeight="200"
                                     width="100%"
                                 >
-                                    Article
+                                    Buku Tamu
                                 </Button>
                             </Link>
                         </Box>
@@ -100,12 +103,12 @@ const FestivalKrakatau = () => {
                                     fontWeight="200"
                                     width="100%"
                                 >
-                                    Culture Map
+                                    Peta Budaya
                                 </Button>
                             </Link>
                         </Box>
                         <Box width="48%">
-                            <Link to="/bumibudaya/hope">
+                            <Link to="/bumibudaya/harapan">
                                 <Button 
                                     leftIcon={<HiOutlineSun />} 
                                     variant="solid"
@@ -116,7 +119,7 @@ const FestivalKrakatau = () => {
                                     fontWeight="200"
                                     width="100%"
                                 >
-                                    Hope
+                                    Harapan
                                 </Button>
                             </Link>
                         </Box>

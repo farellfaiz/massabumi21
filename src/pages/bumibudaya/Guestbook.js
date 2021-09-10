@@ -1,10 +1,9 @@
 import { 
     Box, 
     Heading, 
-    useBreakpointValue, 
+    Image,
     Flex, 
     Button,
-    useDisclosure,
 } from "@chakra-ui/react"
 import React from "react"
 import { SmallTab } from "../../components"
@@ -17,16 +16,17 @@ import { Link } from "react-router-dom";
 const Guestbook = () => {
     return (
         <Box w="100%" height="auto" paddingY={8} bg="gray.50" marginBottom="-50px" display="flex" justifyContent="center">
-            
+            <Image src="/img/bg.png" position="fixed" top="0" right={["-200px", "-200px", "-200px", "0"]} alt="" />
+            <Image src="/img/bg.png" position="fixed" left={["-200px", "-200px", "-200px", "0"]} bottom="0" transform="rotate(180deg)" alt="" />
             <Box display="flex" flexDir="column" width="80%" alignItems="center" position="relative">
                 <Flex width="100%" flexDir="column" justifyContent="center" alignItems="center" marginTop={3}>
                     <Heading fontFamily="Mick Kelly" fontWeight="bold" marginBottom={2} size="2xl" bgGradient="linear(to-r, #85665e, #B4887C)" bgClip="text" lineHeight="65px">
-                        Guest Book
+                        Buku Tamu
                     </Heading>
                 </Flex>
                 <Box alignSelf="flex-start">
                     <Link to="/bumibudaya">
-                        <SmallTab icon={<ArrowBackIcon />} text="Back" variant="ghost" />
+                        <SmallTab icon={<ArrowBackIcon />} text="Kembali" variant="ghost" />
                     </Link>
                 </Box>
 
@@ -36,10 +36,10 @@ const Guestbook = () => {
                     bgColor="#fff"
                     rounded="md"
                     shadow="md"
-                    padding="40px"
+                    padding={{ base: "5px", md: "40px"  }}
                     marginTop="10px"
                 >
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeVGaZ1FtNaeXGA33pxvwHdrRjjsKNL16h9R4tBg5S5sX0gUQ/viewform?embedded=true" width="100%" height="500px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeVGaZ1FtNaeXGA33pxvwHdrRjjsKNL16h9R4tBg5S5sX0gUQ/viewform?embedded=true" width="100%" height="500px" frameborder="0" marginheight="0" marginwidth="0"></iframe>
                 </Box>
 
                 <Box width="100%" display="flex" flexDir={{ base: "column", md: "row" }} justifyContent="space-between" marginY="10px">
@@ -72,7 +72,7 @@ const Guestbook = () => {
                                     fontWeight="200"
                                     width="100%"
                                 >
-                                    Article
+                                    Artikel
                                 </Button>
                             </Link>
                         </Box>
@@ -90,12 +90,12 @@ const Guestbook = () => {
                                     fontWeight="200"
                                     width="100%"
                                 >
-                                    Culture Map
+                                    Peta Budaya
                                 </Button>
                             </Link>
                         </Box>
                         <Box width="48%">
-                            <Link to="/bumibudaya/hope">
+                            <Link to="/bumibudaya/harapan">
                                 <Button 
                                     leftIcon={<HiOutlineSun />} 
                                     variant="solid"
@@ -106,7 +106,7 @@ const Guestbook = () => {
                                     fontWeight="200"
                                     width="100%"
                                 >
-                                    Hope
+                                    Harapan
                                 </Button>
                             </Link>
                         </Box>

@@ -17,3 +17,5 @@ export { default as FamilyHead } from "./family/FamilyHead";
 // Bumi Budaya
 export { default as SmallTab } from "./bumibudaya/SmallTab";
 export { default as LaguAksang } from "./bumibudaya/LaguAksang";
+export { default as Preread } from "./bumibudaya/Preread";
+export { default as Medpart } from "./bumibudaya/Medpart";

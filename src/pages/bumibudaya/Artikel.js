@@ -6,6 +6,7 @@ import {
     Button,
     Grid,
     Skeleton,
+    Image
 } from "@chakra-ui/react"
 import React from "react"
 import { CardAr } from '../../components'
@@ -14,6 +15,7 @@ import { ArrowBackIcon } from '@chakra-ui/icons'
 import { BsFileText, BsGrid } from "react-icons/bs";
 import { HiOutlineSun } from "react-icons/hi";
 import { FiMapPin } from "react-icons/fi";
+import { BiBookContent } from "react-icons/bi";
 import { Link } from "react-router-dom";
 import data from "../../json/artikel.json"
 
@@ -22,7 +24,8 @@ const Guestbook = () => {
 
     return (
         <Box w="100%" h="auto" paddingY={8} bg="gray.50" marginBottom="-50px" display="flex" justifyContent="center">
-            
+            <Image src="/img/bg.png" position="fixed" top="0" right={["-200px", "-200px", "-200px", "0"]} alt="" />
+            <Image src="/img/bg.png" position="fixed" left={["-200px", "-200px", "-200px", "0"]} bottom="0" transform="rotate(180deg)" alt="" />
             <Box display="flex" flexDir="column" width="80%" alignItems="center" position="relative">
                 <Flex width="100%" flexDir="column" justifyContent="center" alignItems="center" marginTop={3}>
                     <Heading fontFamily="Mick Kelly" fontWeight="bold" marginBottom={2} size="2xl" bgGradient="linear(to-r, #85665e, #B4887C)" bgClip="text" lineHeight="65px">
@@ -31,7 +34,7 @@ const Guestbook = () => {
                 </Flex>
                 <Box alignSelf="flex-start" marginBottom="10px">
                     <Link to="/bumibudaya">
-                        <SmallTab icon={<ArrowBackIcon />} text="Back" variant="ghost" />
+                        <SmallTab icon={<ArrowBackIcon />} text="Kembali" variant="ghost" />
                     </Link>
                 </Box>
 
@@ -68,9 +71,9 @@ const Guestbook = () => {
                             </Link>
                         </Box>
                         <Box width="48%">
-                            <Link to="/bumibudaya/article">
+                            <Link to="/bumibudaya/bukutamu">
                                 <Button 
-                                    leftIcon={<BsFileText />} 
+                                    leftIcon={<BiBookContent />} 
                                     variant="solid"
                                     shadow="md"
                                     bgColor="white"
@@ -79,7 +82,7 @@ const Guestbook = () => {
                                     fontWeight="200"
                                     width="100%"
                                 >
-                                    Article
+                                    Buku Tamu
                                 </Button>
                             </Link>
                         </Box>
@@ -97,12 +100,12 @@ const Guestbook = () => {
                                     fontWeight="200"
                                     width="100%"
                                 >
-                                    Culture Map
+                                    Peta Budaya
                                 </Button>
                             </Link>
                         </Box>
                         <Box width="48%">
-                            <Link to="/bumibudaya/hope">
+                            <Link to="/bumibudaya/harapan">
                                 <Button 
                                     leftIcon={<HiOutlineSun />} 
                                     variant="solid"
@@ -113,7 +116,7 @@ const Guestbook = () => {
                                     fontWeight="200"
                                     width="100%"
                                 >
-                                    Hope
+                                    Harapan
                                 </Button>
                             </Link>
                         </Box>

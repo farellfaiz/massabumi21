@@ -10,7 +10,8 @@ import {
     Text,
   } from '@chakra-ui/react'
 
-import { FaRegEnvelope, FaShoppingBag, FaInstagram } from 'react-icons/fa'
+import { FaRegEnvelope, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { IoLogoTiktok } from 'react-icons/io5'
 import { IconFooter } from '.'
 
 const Footer = () => {
@@ -61,11 +62,20 @@ const Footer = () => {
                     </Flex>
                 </form>
                 <Flex marginTop={4} justifyContent="center" alignItems="center" width="100%" bg="gray.100" paddingY={4}>
-                    <a href="mailto:halo@massabumi21.id">
-                        <IconFooter icon={<FaRegEnvelope />} />
+                    <a href="mailto:tanya@massabumi21.id">
+                        <IconFooter icon={<FaRegEnvelope />} mx="1.5" />
                     </a>
                     <a href="https://instagram.com/fitb21">
-                        <IconFooter icon={<FaInstagram />} mx="3" />
+                        <IconFooter icon={<FaInstagram />} mx="1.5" />
+                    </a>
+                    <a href="https://twitter.com/fitb21">
+                        <IconFooter icon={<FaTwitter />} mx="1.5" />
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCwWXzzP7yh60ZzS-udBl2WA">
+                        <IconFooter icon={<FaYoutube />} mx="1.5" />
+                    </a>
+                    <a href="https://tiktok.com/@fitb21">
+                        <IconFooter icon={<IoLogoTiktok />} mx="1.5" />
                     </a>
                 </Flex>
                 <Flex bg="gray.700" color="white" w="100%" justifyContent="center" paddingY={3}>

@@ -36,7 +36,7 @@ function LaguAksang() {
                 <IconButton bgGradient="linear(to-r, #85665e, #B4887C)" color="white" icon={<BsMusicNoteBeamed />} transition="all 0.3s" isRound w="60px" h="60px" shadow="md" _active={{ bgGradient: "linear(to-r, #85665e, #B4887C)", transition: "all 0.3s" }} _hover={{ bgGradient: "linear(to-r, #85665e, #B4887C)", transition: "all 0.3s" }} />
             </PopoverTrigger>
             <Portal>
-                <PopoverContent marginRight="40px">
+                <PopoverContent marginRight="20px">
                     <PopoverArrow />
                     <PopoverHeader fontFamily="Mick Kelly">Lagu Aksi Angkatan FITB 2021</PopoverHeader>
                     <PopoverCloseButton />
@@ -48,7 +48,7 @@ function LaguAksang() {
                             loop
                         />
                     </PopoverBody>
-                    <PopoverFooter textAlign="center" fontStyle="italic" color="gray.500">Enjoy and Happy Exploring!</PopoverFooter>
+                    <PopoverFooter textAlign="center" fontStyle="italic" color="gray.500">Selamat menikmati dan bereksplorasi!</PopoverFooter>
                 </PopoverContent>
             </Portal>
         </Popover>

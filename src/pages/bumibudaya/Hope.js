@@ -35,19 +35,22 @@ const Guestbook = () => {
     return (
         <Box w="100%" height="auto" paddingY={8} bg="gray.50" marginBottom="-50px" display="flex" justifyContent="center">
             
+            <Image src="/img/bg.png" position="fixed" top="0" right={["-200px", "-200px", "-200px", "0"]} alt="" />
+            <Image src="/img/bg.png" position="fixed" left={["-200px", "-200px", "-200px", "0"]} bottom="0" transform="rotate(180deg)" alt="" />
+
             <Modal isOpen={isOpen} onClose={onClose} size="lg">
                 <ModalOverlay />
                 <ModalContent>
-                    <ModalHeader fontFamily="Mick Kelly" fontWeight="300">Apa itu Featured Hope?</ModalHeader>
+                    <ModalHeader fontFamily="Mick Kelly" fontWeight="300">Apa itu Pusparagam Harapan?</ModalHeader>
                     <ModalCloseButton />
                     <ModalBody textAlign="justify">
-                        Featured Hope merupakan kompilasi harapan dan budaya favorit terpilih yang diambil dari data <i>Guest Book</i> yang akan diupdate per harinya.<br /><br />
+                        Laman ini berisikan kompilasi harapan dan budaya favorit terpilih yang diambil dari data <i>Guest Book</i> yang akan diupdate per harinya.<br /><br />
                         Stay tuned terus ya! Siapa tau ada nama kalian di sini :D 
                     </ModalBody>
 
                     <ModalFooter>
                         <Button onClick={onClose}>
-                            Continue Adventure
+                            Lanjutkan Eksplorasi
                         </Button>
                     </ModalFooter>
                 </ModalContent>
@@ -56,17 +59,17 @@ const Guestbook = () => {
             <Box display="flex" flexDir="column" width="80%" alignItems="center" position="relative">
                 <Flex width="100%" flexDir="column" justifyContent="center" alignItems="center" marginTop={3}>
                     <Heading fontFamily="Mick Kelly" fontWeight="bold" marginBottom={2} size="2xl" bgGradient="linear(to-r, #85665e, #B4887C)" bgClip="text" lineHeight="65px">
-                        Featured Hope
+                        Pusparagam Harapan
                     </Heading>
                 </Flex>
                 <Box display="flex" flexDir="row" justifyContent="space-between" w="full">
                     <Box>
                         <Link to="/bumibudaya">
-                            <SmallTab icon={<ArrowBackIcon />} text="Back" variant="ghost" />
+                            <SmallTab icon={<ArrowBackIcon />} text="Kembali" variant="ghost" />
                         </Link>
                     </Box>
                     <Box>
-                        <IconButton icon={<BsFillInfoCircleFill />} onClick={onOpen} />
+                        <IconButton shadow="md" bg="white" icon={<BsFillInfoCircleFill />} onClick={onOpen} />
                     </Box>
                 </Box>
 
@@ -75,7 +78,7 @@ const Guestbook = () => {
                         <h2>
                         <AccordionButton marginBottom={2} marginTop={2}>
                             <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">
-                            Example
+                            Pratinjau
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
@@ -121,8 +124,8 @@ const Guestbook = () => {
                         </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4} textAlign="center" fontStyle="italic" color="gray.500" >
-                        Soon to be updated! Stay Tuned :D<br />
-                        Jangan lupa isi <b><u><Link to="/bumibudaya/guestbook">Guest Book</Link></u></b>!
+                        Akan diperbarui segera! :D<br />
+                        Jangan lupa isi <b><u><Link to="/bumibudaya/bukutamu">Buku Tamu</Link></u></b>!
                         </AccordionPanel>
                     </AccordionItem>
                     
@@ -255,7 +258,7 @@ const Guestbook = () => {
                                     fontWeight="200"
                                     width="100%"
                                 >
-                                    Article
+                                    Artikel
                                 </Button>
                             </Link>
                         </Box>
@@ -273,12 +276,12 @@ const Guestbook = () => {
                                     fontWeight="200"
                                     width="100%"
                                 >
-                                    Culture Map
+                                    Peta Budaya
                                 </Button>
                             </Link>
                         </Box>
                         <Box width="48%">
-                            <Link to="/bumibudaya/hope">
+                            <Link to="/bumibudaya/bukutamu">
                                 <Button 
                                     leftIcon={<FaRegEdit />} 
                                     variant="solid"
@@ -289,7 +292,7 @@ const Guestbook = () => {
                                     fontWeight="200"
                                     width="100%"
                                 >
-                                    Guestbook
+                                    Buku Tamu
                                 </Button>
                             </Link>
                         </Box>

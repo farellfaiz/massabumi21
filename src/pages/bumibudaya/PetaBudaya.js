@@ -18,7 +18,8 @@ import {
     AccordionPanel,
     AccordionIcon,
     Center,
-    Text
+    Text,
+    Image
 } from "@chakra-ui/react"
 import React from "react"
 import { SmallTab } from "../../components"
@@ -28,12 +29,15 @@ import { HiOutlineSun } from "react-icons/hi";
 import { FiMapPin } from "react-icons/fi";
 import { FaRegEdit } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { Medpart } from "../../components"
 
 const PetaBudaya = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
 
     return (
         <Box w="100%" height="auto" paddingY={8} bg="gray.50" marginBottom="-50px" display="flex" justifyContent="center">
+            <Image src="/img/bg.png" position="fixed" top="0" right={["-200px", "-200px", "-200px", "0"]} alt="" />
+            <Image src="/img/bg.png" position="fixed" left={["-200px", "-200px", "-200px", "0"]} bottom="0" transform="rotate(180deg)" alt="" />
             <Modal isOpen={isOpen} onClose={onClose} size="lg">
                 <ModalOverlay />
                 <ModalContent>
@@ -81,7 +85,7 @@ const PetaBudaya = () => {
 
                     <ModalFooter>
                         <Button onClick={onClose}>
-                            Continue Adventure
+                            Lanjutkan Eksplorasi
                         </Button>
                     </ModalFooter>
                 </ModalContent>
@@ -95,7 +99,7 @@ const PetaBudaya = () => {
                 <Box display="flex" flexDir="row" justifyContent="space-between" w="full">
                     <Box>
                         <Link to="/bumibudaya">
-                            <SmallTab icon={<ArrowBackIcon />} text="Back" variant="ghost" />
+                            <SmallTab icon={<ArrowBackIcon />} text="Kembali" variant="ghost" />
                         </Link>
                     </Box>
                     <Box>
@@ -168,14 +172,14 @@ const PetaBudaya = () => {
                                     fontWeight="200"
                                     width="100%"
                                 >
-                                    Article
+                                    Artikel
                                 </Button>
                             </Link>
                         </Box>
                     </Box>
                     <Box width={{ md:"50%" }} display="flex" justifyContent="space-between" margin="10px">
                         <Box width="48%">
-                            <Link to="/bumibudaya/guestbook">
+                            <Link to="/bumibudaya/bukutamu">
                                 <Button 
                                     leftIcon={<FaRegEdit />} 
                                     variant="solid"
@@ -186,12 +190,12 @@ const PetaBudaya = () => {
                                     fontWeight="200"
                                     width="100%"
                                 >
-                                    Guestbook
+                                    Buku Tamu
                                 </Button>
                             </Link>
                         </Box>
                         <Box width="48%">
-                            <Link to="/bumibudaya/hope">
+                            <Link to="/bumibudaya/harapan">
                                 <Button 
                                     leftIcon={<HiOutlineSun />} 
                                     variant="solid"
@@ -202,7 +206,7 @@ const PetaBudaya = () => {
                                     fontWeight="200"
                                     width="100%"
                                 >
-                                    Hope
+                                    Harapan
                                 </Button>
                             </Link>
                         </Box>

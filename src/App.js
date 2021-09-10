@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { ChakraProvider } from "@chakra-ui/react"
+import { ChakraProvider, Box } from "@chakra-ui/react"
 
 import {
   ScrollToTop,
@@ -8,7 +8,9 @@ import {
 import {
   Navigation,
   Footer,
-  LaguAksang
+  LaguAksang,
+  Medpart,
+  Preread
 } from "./components/";
 
 import {
@@ -73,9 +75,9 @@ function App() {
 
           <Route path="/bumibudaya" exact component={() => <MainMenu />} />
           <Route path="/bumibudaya/peta" exact component={() => <PetaBudaya />} />
-          <Route path="/bumibudaya/guestbook" exact component={() => <Guestbook />} />
+          <Route path="/bumibudaya/bukutamu" exact component={() => <Guestbook />} />
           <Route path="/bumibudaya/artikel" exact component={() => <Artikel />} />
-          <Route path="/bumibudaya/hope" exact component={() => <Hope />} />
+          <Route path="/bumibudaya/harapan" exact component={() => <Hope />} />
 
           <Route path="/bumibudaya/artikel/semarak-festival-krakatau" exact component={() => <Satu />} />
           <Route path="/bumibudaya/artikel/tradisi-seba" exact component={() => <Dua />} />
@@ -110,6 +112,9 @@ function App() {
           <Route path="/bumibudaya/artikel/berkenalan-dengan-pupuh-asmarandana" exact component={() => <Tigasatu />} />
 
         </Switch>
+        <Box zIndex="50">
+          <Medpart />
+        </Box>
         <Footer />
       </Router>
     </ChakraProvider>
