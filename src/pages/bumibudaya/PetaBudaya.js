@@ -103,7 +103,7 @@ const PetaBudaya = () => {
                         </Link>
                     </Box>
                     <Box>
-                        <IconButton icon={<BsFillInfoCircleFill />} onClick={onOpen} />
+                    <IconButton shadow="md" bg="white" icon={<BsFillInfoCircleFill />} onClick={onOpen} />
                     </Box>
                 </Box>
                 <Box 
