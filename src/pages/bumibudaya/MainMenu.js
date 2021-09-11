@@ -51,7 +51,7 @@ const Guestbook = () => {
                         <h2>
                         <AccordionButton shadow="md" rounded="3xl" marginBottom={2} marginTop={2} bgColor="white" colorScheme="teal">
                             <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">
-                            Selamat Datang
+                            Selamat Datang!
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>

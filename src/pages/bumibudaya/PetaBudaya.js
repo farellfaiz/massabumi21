@@ -129,15 +129,17 @@ const PetaBudaya = () => {
                                 <AccordionIcon />
                             </AccordionButton>
                             <AccordionPanel pb={4}>
-                            <iframe src="https://open.spotify.com/embed/episode/0nIMRbyHFdNHSxM1Nto52q?theme=0" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                                <Center>
-                                    <Text marginTop={2} color="gray.400" textAlign="center">
-                                        <i>
-                                            Jangan menutup tab <b>Podcast</b> ketika sedang mendengarkan :D<br />
-                                            Kalau lagi nyalain lagu aksang FITB, jangan lupa dipause dulu yaa!
-                                        </i>
-                                    </Text>
-                                </Center>
+                                <Box bgColor="white" padding="10px" rounded="md" shadow="xl">
+                                    <iframe src="https://open.spotify.com/embed/episode/0nIMRbyHFdNHSxM1Nto52q?theme=0" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                                    <Center>
+                                        <Text marginTop={2} color="gray.400" textAlign="center">
+                                            <i>
+                                                Jangan menutup tab <b>Podcast</b> ketika sedang mendengarkan :D<br />
+                                                Kalau lagi nyalain lagu aksang FITB, jangan lupa dipause dulu yaa!
+                                            </i>
+                                        </Text>
+                                    </Center>
+                                </Box>
                             </AccordionPanel>
                         </AccordionItem>
                     </Accordion>

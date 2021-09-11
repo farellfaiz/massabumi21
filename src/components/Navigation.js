@@ -33,11 +33,11 @@ const Navigation = () => {
                 </Box>
                 <Spacer />
                 <Box>
-                    <Link to="/bumibudaya">
-                        <IconButton display={btnDisplay} aria-label="Contact Us" icon={<IoEarth fontSize="13px" />} marginRight={2} variant="ghost" />
-                    </Link>
                     <Link to="/family">
-                        <IconButton aria-label="Shop" icon={<FaUsers fontSize="13px" />} />
+                        <IconButton display={btnDisplay} aria-label="Contact Us" icon={<FaUsers fontSize="13px" />} marginRight={2} variant="ghost" />
+                    </Link>
+                    <Link to="/bumibudaya">
+                        <IconButton aria-label="Shop" icon={<IoEarth fontSize="13px" />} />
                     </Link>
                 </Box>
             </Flex>
