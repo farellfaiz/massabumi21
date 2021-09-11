@@ -13,20 +13,21 @@ import { FaUsers } from "react-icons/fa"
   
   const Hero = () => {
     return (
-      <Container maxW={'4xl'}>
+      <Container maxW={'4xl'} paddingBottom="60px">
         <Stack
           align={'center'}
           spacing={{ base: 8, md: 10 }}
           direction={{ base: 'column', md: 'row' }}>
-          <Stack marginTop="80px" flex={1} spacing={{ base: 5, md: 4 }}>
+          <Stack marginTop="80px" flex={1} spacing={{ base: 6, md: 4 }}>
             <Heading
               fontWeight="bold"
               fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}
               bgGradient="linear(to-l, #604842, #B4887C)" bgClip="text"
+              textAlign={{ base: "center", sm: "left" }}
             >
                 Massa Bumi 2021
             </Heading>
-            <Text color={'gray.500'}>
+            <Text color={'gray.500'} textAlign={{ base: "center", sm: "left" }}>
               Selamat datang di website Massa Bumi 2021
             </Text>
             <Stack

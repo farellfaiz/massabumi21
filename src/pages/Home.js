@@ -7,7 +7,7 @@ const Home = () => {
     const dynamicSize = useBreakpointValue({ base: "300px", sm: "450px", md: "700px" })
 
     return (
-        <Box w="100%" height={responsiveHeight} paddingY={8} bg="gray.50" marginBottom="-50px">
+        <Box w="100%" height="auto" paddingY={8} bg="gray.50" marginBottom="-50px">
             <Hero />
         </Box>
     )
