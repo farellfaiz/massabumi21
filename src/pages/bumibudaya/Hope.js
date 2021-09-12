@@ -35,7 +35,7 @@ const Guestbook = () => {
     return (
         <Box w="100%" height="auto" paddingY={8} bg="gray.50" marginBottom="-50px" display="flex" justifyContent="center">
             
-            <Image src="/img/bg.png" position="fixed" top="0" right={["-200px", "-200px", "-200px", "0"]} alt="" />
+            <Image src="/img/bg.png" position="fixed" top="0" right={["-100px", "-100px", "-100px", "0"]} alt="" />
             <Image src="/img/bg.png" position="fixed" left={["-200px", "-200px", "-200px", "0"]} bottom="0" transform="rotate(180deg)" alt="" />
 
             <Modal isOpen={isOpen} onClose={onClose} size="lg">
@@ -146,7 +146,7 @@ const Guestbook = () => {
                                             <Text fontWeight="bold">Kesan &amp; Harapan terhadap Budaya Indonesia</Text>
                                             <Text textAlign="justify">{hopes.harapan}</Text>
                                             
-                                            <Text marginTop="10px" fontWeight="bold">Budaya Favorit</Text>
+                                            <Text marginTop={{ base: "20px",  md: "10px" }} fontWeight="bold">Budaya Favorit</Text>
                                             <Text textAlign="justify">{hopes.favorit}</Text>
                                         </Box>
                                     </Box>
