@@ -44,7 +44,7 @@ const Guestbook = () => {
                     <ModalHeader fontFamily="Mick Kelly" fontWeight="300">Apa itu Pusparagam Harapan?</ModalHeader>
                     <ModalCloseButton />
                     <ModalBody textAlign="justify">
-                        Laman ini berisikan kompilasi harapan dan budaya favorit terpilih yang diambil dari data <i>Guest Book</i> yang akan diupdate per harinya.<br /><br />
+                        Laman ini berisikan kompilasi beberapa harapan dan budaya favorit terpilih yang diambil dari data <i>Buku Tamu</i> yang akan diupdate per harinya.<br /><br />
                         Stay tuned terus ya! Siapa tau ada nama kalian di sini :D 
                     </ModalBody>
 
@@ -74,7 +74,7 @@ const Guestbook = () => {
                 </Box>
 
                 <Accordion defaultIndex={[0]} allowMultiple allowToggle w="full" marginTop={2}>
-                    <AccordionItem>
+                    {/* <AccordionItem>
                         <h2>
                         <AccordionButton marginBottom={2} marginTop={2}>
                             <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">
@@ -112,24 +112,50 @@ const Guestbook = () => {
                             </Box>
                         ))}
                         </AccordionPanel>
-                    </AccordionItem>
+                    </AccordionItem> */}
                     
                     <AccordionItem>
                         <h2>
                         <AccordionButton shadow="md" rounded="3xl" marginBottom={2} marginTop={2} bgColor="white" colorScheme="teal">
                             <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">
-                            Day 1
+                                Day 1
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
                         </h2>
-                        <AccordionPanel pb={4} textAlign="center" fontStyle="italic" color="gray.500" >
-                        Akan diperbarui segera! :D<br />
-                        Jangan lupa isi <b><u><Link to="/bumibudaya/bukutamu">Buku Tamu</Link></u></b>!
+                        <AccordionPanel pb={4}>
+                            {hopezero.map((hopes) => (
+                                <Box 
+                                    width="100%"
+                                    height="auto"
+                                    minH="250px"
+                                    bgColor="#fff"
+                                    rounded="md"
+                                    shadow="md"
+                                    padding="20px"
+                                    marginTop="10px"
+                                    marginBottom="20px"
+                                >
+                                    <Box display="flex" flexDir={{ base: 'column', sm: 'column', md: 'row' }} width="100%">
+                                        <Box marginRight="20px" bgColor="white" w={{ base: 'full', md: '250px' }} h="auto" display="flex" flexDir="column" alignItems="center" justifyContent="center">
+                                            <Image w="100px" h="auto" src={hopes.gambar} />
+                                            <Text fontWeight="bold" textAlign="center" marginTop={2}>{hopes.nama}</Text>
+                                            <Text textAlign="center">{hopes.instansi}</Text>
+                                        </Box>
+                                        <Box bgColor="white" w="full" h="auto" padding="10px">
+                                            <Text fontWeight="bold">Kesan &amp; Harapan terhadap Budaya Indonesia</Text>
+                                            <Text textAlign="justify">{hopes.harapan}</Text>
+                                            
+                                            <Text marginTop="10px" fontWeight="bold">Budaya Favorit</Text>
+                                            <Text textAlign="justify">{hopes.favorit}</Text>
+                                        </Box>
+                                    </Box>
+                                </Box>
+                            ))}
                         </AccordionPanel>
                     </AccordionItem>
                     
-                    {/* <AccordionItem>
+                    <AccordionItem>
                         <h2>
                         <AccordionButton shadow="md" rounded="3xl" marginBottom={2} marginTop={2} bgColor="white">
                             <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">
@@ -139,11 +165,14 @@ const Guestbook = () => {
                         </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4}>
-                        Tes
+                            <Box textAlign="center" fontStyle="italic" color="gray.500">
+                                Akan diperbarui segera! :D<br />
+                                Jangan lupa isi <b><u><Link to="/bumibudaya/bukutamu">Buku Tamu</Link></u></b>!
+                            </Box>
                         </AccordionPanel>
                     </AccordionItem>
                     
-                    <AccordionItem>
+                    {/* <AccordionItem>
                         <h2>
                         <AccordionButton shadow="md" rounded="3xl" marginBottom={2} marginTop={2} bgColor="white">
                             <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">

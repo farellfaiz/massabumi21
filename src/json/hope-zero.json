@@ -2,9 +2,41 @@
     {
         "id": 1,
         "gambar": "https://upload.wikimedia.org/wikipedia/id/9/95/Logo_Institut_Teknologi_Bandung.png",
-        "nama": "Nama Pengunjung",
-        "instansi": "Nama Instansi",
-        "harapan": "Cras sem nisl, hendrerit molestie sodales nec, egestas id erat. Nulla libero mi, venenatis sit amet mollis et, posuere a massa. Proin maximus diam non nisl elementum, in porttitor nibh ornare. Proin feugiat leo at ex feugiat, eget egestas dolor eleifend. Quisque auctor aliquet laoreet. Nullam sollicitudin ligula id felis venenatis, eget scelerisque tortor efficitur. Nam malesuada pretium lacus vel laoreet. ",
-        "favorit": "Cras sem nisl, hendrerit molestie sodales nec, egestas id erat. Nulla libero mi, venenatis sit amet mollis et, posuere a massa. Proin maximus diam non nisl elementum, in porttitor nibh ornare. Proin feugiat leo at ex feugiat, eget egestas dolor eleifend. Quisque auctor aliquet laoreet. Nullam sollicitudin ligula id felis venenatis, eget scelerisque tortor efficitur. Nam malesuada pretium lacus vel laoreet. "
+        "nama": "Muhammad Insan Hanif",
+        "instansi": "Institut Teknologi Bandung",
+        "harapan": "Bangga memiliki budaya yang beragam sebagai kekayaan Bangsa Indonesia. Semoga keberagaman budaya ini bukan sebagai alat untuk memecah belah Indonesia, tetapi sebagai alasan untuk selalu menjaga persatuan.",
+        "favorit": "Seluruh budaya menarik, kalau yang paling menarik mungkin budaya di Minangkabau yang menjunjung budaya Matrilineal karena budaya ini hanya dimiliki oleh beberapa suku di Indonesia dan suku Minangkabau adalah yang terbesar yang menganut matrilineal ini."
+    },
+    {
+        "id": 2,
+        "gambar": "https://media-exp3.licdn.com/dms/image/C510BAQFOpOlMDKbBOA/company-logo_200_200/0/1523413975228?e=2159024400&v=beta&t=pClKJucQiwEtZsrj1O-ulPmruvESpTUC0oNLHwNuWR0",
+        "nama": "Jihan Shabina",
+        "instansi": "SMAN 26 Jakarta",
+        "harapan": "Ragamnya budaya Indonesia yang menakjubkan. Harapan saya untuk kedepannya keberagaman budaya Indonesia dapat terus di lestarikan agar generasi selanjutnya mengetahui berapa banyak keragaman budaya yg dimiliki oleh negara kita.",
+        "favorit": "Budaya Sumatera Barat karena tarian dan makanannya yang khas."
+    },
+    {
+        "id": 3,
+        "gambar": "https://yt3.ggpht.com/ytc/AKedOLSD-gbP3cisR99TwEP9CP1BUmIr1gITWCM7-gTS=s900-c-k-c0x00ffffff-no-rj",
+        "nama": "Muhammad Fauzan Abdul Jabbar",
+        "instansi": "SMAN 1 Sumedang",
+        "harapan": "Semoga budaya kita semakin dikenal di kancah internasional dan semoga para generasi muda dapat melestarikan budaya tersebut agar tidak punah tergerus oleh zaman.",
+        "favorit": "Sebenarnya semua budaya mempunyai keunikan tersendiri tapi saya suka terhadap budaya adat suku baduy mereka bisa hidup menyatu dengan alam."
+    },
+    {
+        "id": 4,
+        "gambar": "https://report.unsri.ac.id/index.php/public/image/show/f10001/i0003/j0003/3",
+        "nama": "Adellia Aisyah Nurfitri",
+        "instansi": "Universitas Sriwijaya",
+        "harapan": "Budaya Indonesia sangat beragam dan indah, semoga budaya indonesai dapat terus terjaga meski banyaknya pengaruh budaya asing.",
+        "favorit": "Pesona Surga Bumi Sriwijaya, karena saya ingin lebih mengenal daerah asal saya."
+    },
+    {
+        "id": 5,
+        "gambar": "https://upload.wikimedia.org/wikipedia/commons/6/60/Logo-Unimal-Aceh_Utara.png",
+        "nama": "Alfredo Sardion Simarmata",
+        "instansi": "Universitas Malikussaleh",
+        "harapan": "Kesan dan harapan saya agar budaya di indonesia saling merangkul saling menghormati agar budaya di Indonesia terus berkembang.",
+        "favorit": "Keragaman yang membuat persatuan."
     }
 ]
