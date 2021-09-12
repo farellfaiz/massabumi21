@@ -3,7 +3,6 @@ import { Box, Flex, Image, Link, ChakraComponent, Skeleton, chakra } from "@chak
 const Cards = ({ img, title, desc }) => {
     return (
         <Flex
-            bg="#F9FAFB"
             w="230px"
             alignItems="center"
             justifyContent="center"
