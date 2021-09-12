@@ -137,12 +137,12 @@ const Guestbook = () => {
                                     marginBottom="20px"
                                 >
                                     <Box display="flex" flexDir={{ base: 'column', sm: 'column', md: 'row' }} width="100%">
-                                        <Box marginRight="20px" bgColor="white" w={{ base: 'full', md: '250px' }} h="auto" display="flex" flexDir="column" alignItems="center" justifyContent="center">
+                                        <Box marginRight="20px" bgColor="white" w={{ base: 'full', md: '250px' }} h="auto" minH="250px" display="flex" flexDir="column" alignItems="center" justifyContent="center">
                                             <Image w="100px" h="auto" src={hopes.gambar} />
                                             <Text fontWeight="bold" textAlign="center" marginTop={2}>{hopes.nama}</Text>
                                             <Text textAlign="center">{hopes.instansi}</Text>
                                         </Box>
-                                        <Box bgColor="white" w="full" h="auto" padding="10px">
+                                        <Box bgColor="white" w="full" h="auto" minH="250px" padding="10px" display="flex" justifyContent="center" flexDir="column">
                                             <Text fontWeight="bold">Kesan &amp; Harapan terhadap Budaya Indonesia</Text>
                                             <Text textAlign="justify">{hopes.harapan}</Text>
                                             
