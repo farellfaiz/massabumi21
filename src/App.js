@@ -64,7 +64,7 @@ import ReactGA from 'react-ga'
 
 function App() {
 
-  ReactGA.initialize('UA-000000-01');
+  ReactGA.initialize('UA-207295183-1');
   ReactGA.pageview(window.location.pathname + window.location.search);
   
   return (
