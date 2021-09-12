@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 import { BiBookContent } from "react-icons/bi";
 
 const FestivalKrakatau = () => {
-    const judul = "Chit Ngiat Phan, Tradisi Solidaritas Masyarakat Bangka"
+    const judul = "Mengenal Pupuh Asmarandana"
 
     return (
         <Box w="100%" minHeight="1200px" paddingY={8} bg="gray.50" marginBottom="-50px" display="flex" justifyContent="center">
@@ -184,8 +184,8 @@ const FestivalKrakatau = () => {
                     <li>Tontonan: saat pupuh asmarandana dilantuntan di upacara saweran panganten, anak-anak dan orang-orang muda memeriahkan upacara tersebut. Selain itu, terkadang ada pasanggiri (lomba) untuk menyanyikan sebuah pupuh.<br /></li><br />Maka dari itu, pupuh asmarandana merupakan karya sastra masyarakat Sunda dalam bentuk puisi lama. Pupuh asmarandana termasuk ke dalam kelompok pupuh sekar ageung dan bertemakan kehidupan, nasihat-nasihat, dan perasaan kasih sayang.<br />
                     </ul><br />
                     <p><b>Daftar Pustaka</b><br />
-                    <a href="https://kuyahejo.com/pupuh-sunda/#Memahami_Pengertian_Padalisan_Pada_Guru_Wilangan_Guru_Lagu_dan_Watek_Watak">https://kuyahejo.com/pupuh-sunda/#Memahami_Pengertian_Padalisan_Pada_Guru_Wilangan_Guru_Lagu_dan_Watek_Watak</a>
-                    <a href="https://www.sejarahbogor.com/2019/01/pupuh-asmarandana-musik-dan-lirik.html">https://www.sejarahbogor.com/2019/01/pupuh-asmarandana-musik-dan-lirik.html</a>
+                    <a href="https://kuyahejo.com/pupuh-sunda/#Memahami_Pengertian_Padalisan_Pada_Guru_Wilangan_Guru_Lagu_dan_Watek_Watak">https://kuyahejo.com/pupuh-sunda/#Memahami_Pengertian_Padalisan_Pada_Guru_Wilangan_Guru_Lagu_dan_Watek_Watak</a><br />
+                    <a href="https://www.sejarahbogor.com/2019/01/pupuh-asmarandana-musik-dan-lirik.html">https://www.sejarahbogor.com/2019/01/pupuh-asmarandana-musik-dan-lirik.html</a><br />
                     <a href="http://repository.unj.ac.id/1378/8/BAB%20IV%20fix.pdf">http://repository.unj.ac.id/1378/8/BAB%20IV%20fix.pdf</a></p>
 
                 </Box>
