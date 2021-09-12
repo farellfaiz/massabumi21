@@ -64,14 +64,8 @@ import ReactGA from 'react-ga'
 
 function App() {
 
-  function usePageViews() {
-    let location = useLocation();
-    useEffect(() => {
-      InitializeReactGA(ReactGA);
-      ReactGA.set({ page: location.pathname });
-      ReactGA.pageview(location.pathname);
-    }, [location]);
-  }
+  ReactGA.initialize('UA-000000-01');
+  ReactGA.pageview(window.location.pathname + window.location.search);
   
   return (
     <ChakraProvider>
