@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "gambar": "https://seeklogo.com/images/U/universitas-indonesia-logo-AFB1CA1740-seeklogo.com.png",
+        "nama": "Fayza Lugina Nurfajriany",
+        "instansi": "Universitas Indonesia",
+        "harapan": "Semoga budaya Indonesia di setiap daerah selalu ada, berkembang, dan bergelora.",
+        "favorit": "Tari Tortor :D karena tema dan gerakan didalamnya punya arti dan makna filosofi tersendiri untuk masyarakat Suku Batak."
+    },
+    {
+        "id": 2,
+        "gambar": "https://iili.io/R8ZMmP.png",
+        "nama": "Fahru Abdur Rouf",
+        "instansi": "SMPN 4 Purbalingga",
+        "harapan": "Menarik banget!! Budaya Indonesia emang ngga ada habisnya. Semoga generasi muda semakin aware akan budaya negeri sendiri dan mengenalkannya ke mata dunia.",
+        "favorit": "Upacara Pengukuran Gigi dari Sulawesi Selatan. Unik bangett, anak perempuan harus dikikir giginya ketika menginjak dewasa."
+    },
+    {
+        "id": 3,
+        "gambar": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Lambang-Universitas_Islam_Bandung.png",
+        "nama": "Fadhilah Muhammad Fajar",
+        "instansi": "Universitas Islam Bandung",
+        "harapan": "Kesannya sangat bangga sekali dan juga excited saking banyaknya budaya indonesia yang saya sendiri pun sebagai warga negara nya tidak begitu banyak tahu. Harapannya, semoga budayanya dilestarikan dan jadikan itu sebagai identitas negara serta tidak tereleminasi oleh budaya budaya dari luar",
+        "favorit": "Kampung Warna Warni, sebab budaya itu merupakan hal yang unik dan bisa menjadi ikonik."
+    },
+    {
+        "id": 4,
+        "gambar": "https://1.bp.blogspot.com/-tThKR0i2DdQ/XrO4fFiulNI/AAAAAAAAB_s/4_UY2xeR3SsE9_5MGBdvsQtBJgNxf9e_wCLcBGAsYHQ/s1600/Logo%2BUndip%2BUniversitas%2BDiponegoro.png",
+        "nama": "Zulva Fatyazahra",
+        "instansi": "Universitas Diponegoro",
+        "harapan": "Banyak dan beragam banget semoga bisa tetep di lestarikan dengan baik supaya ngga pada hilang.",
+        "favorit": "Sama festival Krakatau di lampung, kayaknya seru pengen lihat hihi."
+    },
+    {
+        "id": 5,
+        "gambar": "http://3.bp.blogspot.com/-XMWnKsm2BTA/U3dGGVsZuzI/AAAAAAAAAIU/ciKi51kugHc/s1600/Logo+SMAN+1+Cikarang+Pusat-2.png",
+        "nama": "Feria Syaharani",
+        "instansi": "SMAN 1 Cikarang Pusat",
+        "harapan": "Saya harap budaya di Indonesia bisa lebih dikenal dan dihargai oleh seluruh masyarakat maupun orang luar. Bagi saya budaya Indonesia itu sangat indah dan sangat amat disayangkan jika kita tidak mengenalnya.",
+        "favorit": "Saya tertarik dengan budaya Pengikiran Gigi Adat Masyarakat Tanah Tadulako. Bagi saya upacara tersebut memiliki makna yang sangat baik dan merupakan hal yang baru yang saya ketahui bahwa ada upacara sejenis itu."
+    },
+    {
+        "id": 6,
+        "gambar": "http://berita.upi.edu/wp-content/uploads/2019/11/LOGO-UPI.jpg",
+        "nama": "Monica Ardiani Darmawan",
+        "instansi": "Universitas Pendidikan Indonesia",
+        "harapan": "Budaya di Indonesia sangat beragam dan bagus. Harapan saya, semoga budaya yang baik di Indonesia dapat terus dilestarikan.",
+        "favorit": "Budaya Chit Ngiat Phan. Seperti yang kita ketahui, Indonesia kaya akan suku, ras, agama, dan adat istiadat. Di budaya Chit Ngiat Phan ini, ciri khas Indonesia yang ramah dan penuh toleransi sangat terasa."
+    },
+    {
+        "id": 7,
+        "gambar": "https://www.unpas.ac.id/wp-content/uploads/2016/10/Logo-Unpas.png",
+        "nama": "Regina Reyana Putri",
+        "instansi": "Universitas Pasundan",
+        "harapan": "Negara kita tuh keren banget budayanya, beragam budaya yangg sangat menarik untuk di jelajah... Pastinya harapan ku semoga budaya lama tetap dilestarikan dan budaya baru lebih dikembangkan lagi.",
+        "favorit": "Seni Tari Saman Aceh, karena budaya ini tuh seru dan keren banget untuk dilihat, tidak mudah bagi tari yang dilakukan dengan banyak anggota ini bisa kompak dan cepet banget pergerakannya, yang pastinya membutuhkan latihan yang ekstra."
+    },
+    {
+        "id": 8,
+        "gambar": "https://lppm.unnes.ac.id/storage/2015/08/Logo-Transparan-Warna-1.png",
+        "nama": "Devi Martha Tri Antika",
+        "instansi": "Universitas Negeri Semarang",
+        "harapan": "Budaya indonesia bener-bener seindah itu dan patut di lestarikan secara turun temurun agar tidak terkubur oleh budaya luar yang hampir menyelimuti seluruh muka nusantara tercinta ini.",
+        "favorit": "Kuliner indonesia sih gaada tandingannya,alesan aku pilih kulinernya beragam dan juga lezat-lezat,dan yang bikin aku bangga ada beberapa makanan khas indonesia yang sudah go-internasional."
+    },
+    {
+        "id": 9,
+        "gambar": "https://upload.wikimedia.org/wikipedia/id/9/95/Logo_Institut_Teknologi_Bandung.png",
+        "nama": "Putri Nur Azizah",
+        "instansi": "Institut Teknologi Bandung",
+        "harapan": "Excelent!! keren banget ternyata banyak budaya yang belum aku tau padahal di negeri sendiri.",
+        "favorit": "Benteng Indrapatra, Aceh. Hal yang baru buat aku bahwa di Aceh berdiri kokoh bangunan benteng megah yang merupakan saksi bahwa agama hindu pernah berpijak disana."
+    },
+    {
+        "id": 10,
+        "gambar": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Logo_Universitas_Brawijaya.svg/1200px-Logo_Universitas_Brawijaya.svg.png",
+        "nama": "Nafis Satya Athaya",
+        "instansi": "Universitas Brawijaya",
+        "harapan": "Semoga tetap banyak budaya Indonesia yang dikenal orang Indonesia sendiri, tidak malah ditinggalkan dan beralih ke budaya luar.",
+        "favorit": "Budaya ngaben di Bali. Karena itu adalah satu satunya cara meng kremasi jenazah dengan cara yang super duper menguras kantong. Tidak sembarang orang jugavyang bisa melakukan upacara ngaben, keren sih, sakral banget juga."
+    }
+]

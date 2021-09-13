@@ -6,6 +6,7 @@ import {
     FaRegEnvelope,
     FaPhoneAlt
 } from 'react-icons/fa'
+import ReactGA from 'react-ga'
 
 const Contact = () => {
 

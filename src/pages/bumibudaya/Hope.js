@@ -27,7 +27,9 @@ import { BsFileText, BsGrid, BsFillInfoCircleFill } from "react-icons/bs";
 import { FiMapPin } from "react-icons/fi";
 import { FaRegEdit } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import hopezero from "../../json/hope-zero.json";
+import hopesatu from "../../json/hope-satu.json";
+import hopedua from "../../json/hope-dua.json";
+import ReactGA from 'react-ga'
 
 const Guestbook = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
@@ -73,7 +75,7 @@ const Guestbook = () => {
                     </Box>
                 </Box>
 
-                <Accordion defaultIndex={[0]} allowMultiple allowToggle w="full" marginTop={2}>
+                <Accordion defaultIndex={[1]} allowMultiple allowToggle w="full" marginTop={2}>
                     {/* <AccordionItem>
                         <h2>
                         <AccordionButton marginBottom={2} marginTop={2}>
@@ -124,7 +126,7 @@ const Guestbook = () => {
                         </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4}>
-                            {hopezero.map((hopes) => (
+                            {hopesatu.map((hopes) => (
                                 <Box 
                                     width="100%"
                                     height="auto"
@@ -165,14 +167,38 @@ const Guestbook = () => {
                         </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4}>
-                            <Box textAlign="center" fontStyle="italic" color="gray.500">
-                                Akan diperbarui segera! :D<br />
-                                Jangan lupa isi <b><u><Link to="/bumibudaya/bukutamu">Buku Tamu</Link></u></b>!
-                            </Box>
+                            {hopedua.map((hopes) => (
+                                <Box 
+                                    width="100%"
+                                    height="auto"
+                                    minH="250px"
+                                    bgColor="#fff"
+                                    rounded="md"
+                                    shadow="md"
+                                    padding="20px"
+                                    marginTop="10px"
+                                    marginBottom="20px"
+                                >
+                                    <Box display="flex" flexDir={{ base: 'column', sm: 'column', md: 'row' }} width="100%">
+                                        <Box marginRight="20px" bgColor="white" w={{ base: 'full', md: '250px' }} h="auto" minH="250px" display="flex" flexDir="column" alignItems="center" justifyContent="center">
+                                            <Image w="100px" h="auto" src={hopes.gambar} />
+                                            <Text fontWeight="bold" textAlign="center" marginTop={2}>{hopes.nama}</Text>
+                                            <Text textAlign="center">{hopes.instansi}</Text>
+                                        </Box>
+                                        <Box bgColor="white" w="full" h="auto" minH="250px" padding="10px" display="flex" justifyContent="center" flexDir="column">
+                                            <Text fontWeight="bold">Kesan &amp; Harapan terhadap Budaya Indonesia</Text>
+                                            <Text textAlign="justify">{hopes.harapan}</Text>
+                                            
+                                            <Text marginTop={{ base: "20px",  md: "10px" }} fontWeight="bold">Budaya Favorit</Text>
+                                            <Text textAlign="justify">{hopes.favorit}</Text>
+                                        </Box>
+                                    </Box>
+                                </Box>
+                            ))}
                         </AccordionPanel>
                     </AccordionItem>
                     
-                    {/* <AccordionItem>
+                    <AccordionItem>
                         <h2>
                         <AccordionButton shadow="md" rounded="3xl" marginBottom={2} marginTop={2} bgColor="white">
                             <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">
@@ -182,11 +208,14 @@ const Guestbook = () => {
                         </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4}>
-                        Tes
+                            <Box textAlign="center" fontStyle="italic" color="gray.500">
+                                Akan diperbarui segera! :D<br />
+                                Jangan lupa isi <b><u><Link to="/bumibudaya/bukutamu">Buku Tamu</Link></u></b>!
+                            </Box>
                         </AccordionPanel>
                     </AccordionItem>
                     
-                    <AccordionItem>
+                    {/* <AccordionItem>
                         <h2>
                         <AccordionButton shadow="md" rounded="3xl" marginBottom={2} marginTop={2} bgColor="white">
                             <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">

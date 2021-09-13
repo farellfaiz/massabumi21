@@ -30,6 +30,7 @@ import { FiMapPin } from "react-icons/fi";
 import { FaRegEdit } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { Medpart } from "../../components"
+import ReactGA from 'react-ga'
 
 const PetaBudaya = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()

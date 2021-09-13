@@ -1,6 +1,7 @@
 import { Box, useBreakpointValue } from "@chakra-ui/react"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Hero } from "../components"
+import ReactGA from 'react-ga'
 
 const Home = () => {
     const responsiveHeight = useBreakpointValue({ base: "900px", sm: "400px", md: "550px" })

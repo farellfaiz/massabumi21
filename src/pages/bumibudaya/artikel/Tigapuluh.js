@@ -13,6 +13,7 @@ import { HiOutlineSun } from "react-icons/hi";
 import { FiMapPin } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { BiBookContent } from "react-icons/bi";
+import ReactGA from 'react-ga'
 
 const FestivalKrakatau = () => {
     const judul = "Mengenal Suku Kubu di Pedalaman Sumatera"

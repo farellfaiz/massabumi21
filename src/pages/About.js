@@ -2,6 +2,7 @@
 
 import { Box, Center, Grid, Heading, Text, useBreakpointValue } from '@chakra-ui/react'
 import React from 'react'
+import ReactGA from 'react-ga'
 
 const About = () => {
     const responsiveHeight = useBreakpointValue({ base: "1600px", sm: "1300px", md: "1200px" })

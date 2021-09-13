@@ -18,6 +18,7 @@ import { FiMapPin } from "react-icons/fi";
 import { BiBookContent } from "react-icons/bi";
 import { Link } from "react-router-dom";
 import data from "../../json/artikel.json"
+import ReactGA from 'react-ga'
 
 const Guestbook = () => {
     const responsiveGrid = useBreakpointValue({ base: "repeat(1, 1fr)", sm: "repeat(2, 1fr)", md: "repeat(3, 1fr)", lg: "repeat(4, 1fr)" })
