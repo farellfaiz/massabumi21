@@ -2,7 +2,7 @@ import { Grid, Box, useBreakpointValue, Flex, Link } from "@chakra-ui/react"
 import { Cards, FamilyHead } from '../components'
 import families from "../json/family.json"
 import Skeleton from 'react-loading-skeleton';
-import ReactGA from 'react-ga'
+
 
 const Family = () => {
     const responsiveGrid = useBreakpointValue({ base: "repeat(1, 1fr)", sm: "repeat(2, 1fr)", md: "repeat(3, 1fr)", lg: "repeat(4, 1fr)" })

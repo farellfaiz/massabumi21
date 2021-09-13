@@ -20,7 +20,7 @@ import { Link } from "react-router-dom";
 import { Medpart, Carousel, Preread } from "../../components"
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
-import ReactGA from 'react-ga'
+
 
 const Guestbook = () => {
     /* const MySwal = withReactContent(Swal)

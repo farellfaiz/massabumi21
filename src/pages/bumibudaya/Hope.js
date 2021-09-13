@@ -29,7 +29,7 @@ import { FaRegEdit } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import hopesatu from "../../json/hope-satu.json";
 import hopedua from "../../json/hope-dua.json";
-import ReactGA from 'react-ga'
+
 
 const Guestbook = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()

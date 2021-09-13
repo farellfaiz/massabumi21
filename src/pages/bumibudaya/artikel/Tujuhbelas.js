@@ -8,12 +8,12 @@ import {
 import React from "react"
 import { SmallTab } from "../../../components"
 import { ArrowBackIcon } from '@chakra-ui/icons'
-import { BsFileText, BsGrid } from "react-icons/bs";
+import { BsGrid } from "react-icons/bs";
 import { HiOutlineSun } from "react-icons/hi";
 import { FiMapPin } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { BiBookContent } from "react-icons/bi";
-import ReactGA from 'react-ga'
+
 
 const FestivalKrakatau = () => {
     const judul = "Festival Panen Sumbun"

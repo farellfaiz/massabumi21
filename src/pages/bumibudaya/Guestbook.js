@@ -12,7 +12,7 @@ import { BsFileText, BsGrid } from "react-icons/bs";
 import { HiOutlineSun } from "react-icons/hi";
 import { FiMapPin } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import ReactGA from 'react-ga'
+
 
 const Guestbook = () => {
     return (
