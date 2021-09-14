@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "gambar": "https://upload.wikimedia.org/wikipedia/commons/1/15/Bogor_Agricultural_University_%28IPB%29_symbol.svg",
+        "nama": "Raden Muhammad Bismi Saliansyah",
+        "instansi": "Institut Pertanian Bogor",
+        "harapan": "Indonesia memiliki keberagaman kebudayaan yang terlahir di masyarakat, baik tarian, bahasa, lagu-lagu, upacara adat, dan sebagainya. Hal ini merupakan hadiah dari Tuhan kepada Indonesia yang tidak diberikan kepada negara lain. Maka dari itu, kita sebagai generasi penerus bangsa, harus terus menjaga dan melestarikan budaya-budaya kita ini.",
+        "favorit": "Tatanen dan Ogi Wijaya Tarigan. Tatanen itu selain berkebun, juga bisa membuat lingkungan menjadi indah sehingga bisa menambah kesan artistik dan bisa berfoto ria di sana. Kalau Ogi Wijaya Tarigan itu kan tarian yang dilakukan bersama sehingga bisa merekatkan persaudaraan dan juga rame gitu keliatannya. "
+    },
+    {
+        "id": 2,
+        "gambar": "https://pmb.itg.ac.id/logo_mobile.png",
+        "nama": "Muflih Rafi Rabbani",
+        "instansi": "Institut Teknologi Garut",
+        "harapan": "Kesan saya tentang budaya yang ada di Indonesia sangat menarik, karena mereka mempunyai keunikan tersendiri yang tentunya memiliki nilai-nilai mereka sendiri. Dan harapan saya semoga Budaya Indonesia dapat tetap bisa bertahan ditengah modernisasi yang bisa saja menghilangkan budaya budaya yang ada di indonesia, karena Budaya Indonesia memilikin keunikan tersendiri yang tentunya harus dilestarikan agar anak cucu kita bisa memahami arti indonesia itu sendiri.",
+        "favorit": "Tentang bali kedua, karena daerah tersebut sangat indah sehingga membuat saya saya bahwa tidak hanya sekedar bali atau lombok saja yang pantainya bagus, namun kalimantan juga, dan mungkin saja masih ada tempat wisata menarik yang belum terekspos seperti pulau derawan ini yang keindahan alamnya tak kalah bagus."
+    },
+    {
+        "id": 3,
+        "gambar": "https://i1.wp.com/uns.ac.id/id/wp-content/uploads/logo-uns-biru.png?fit=528%2C526&ssl=1",
+        "nama": "Farida Dwi Rahmawati",
+        "instansi": "Universitas Sebelas Maret",
+        "harapan": "Tetep bisa bersatu walaupun ada beragam budaya yang ada.",
+        "favorit": "Surakarta, sudah dekat dengan kota ini sejak lama."
+    },
+    {
+        "id": 4,
+        "gambar": "https://upload.wikimedia.org/wikipedia/id/9/95/Logo_Institut_Teknologi_Bandung.png",
+        "nama": "Muhammad Izhar Muharam",
+        "instansi": "Institut Teknologi Bandung",
+        "harapan": "Keren banget emang budaya-budaya di Indonesia, dari kebudayaan benda hingga kebudayaan non-benda itu semuanya keren. Harapan aku semoga budaya di Indonesia terus lestari, bukan hanya diakui UNESCO, tapi senantiasa hidup dan terus dibahas pada tiap lapisan masyarakat.",
+        "favorit": "Lomba perahu naga dari Pangkal Pinang, dari dulu pengen banget ke Kepulauan Riau nonton lomba itu karena emang meriah dan heboh banget."
+    },
+    {
+        "id": 5,
+        "gambar": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Logo_Universitas_Brawijaya.svg/1200px-Logo_Universitas_Brawijaya.svg.png",
+        "nama": "Nafis Satya Athaya",
+        "instansi": "Universitas Brawijaya",
+        "harapan": "Semoga tetap banyak budaya Indonesia yang dikenal orang Indonesia sendiri, tidak malah ditinggalkan dan beralih ke budaya luar.",
+        "favorit": "Budaya ngaben di Bali. Karena itu adalah satu satunya cara meng kremasi jenazah dengan cara yang super duper menguras kantong. Tidak sembarang orang juga yang bisa melakukan upacara ngaben, keren sih, sakral banget juga"
+    },
+    {
+        "id": 6,
+        "gambar": "https://upload.wikimedia.org/wikipedia/commons/1/15/Bogor_Agricultural_University_%28IPB%29_symbol.svg",
+        "nama": "Muhammad Ardiansyah Ma'ruf",
+        "instansi": "Institut Pertanian Bogor",
+        "harapan": "Keren-keren banget! Semoga budaya-budaya yang ada di Indonesia tetap terjaga karena hal tersebut merupakan identitas dari bangsa Indonesia, walaupun pasti menjadi tantangan tersendiri karena sekarang sudah serba modern.",
+        "favorit": "Ludruk, karena dalam satu pementasan banyak sekali kesenian yang ditampilkan, mulai dari seni tari, seni peran, bahkan sampai musiknya sekalipun yang menggunakan musik tradisional."
+    },
+    {
+        "id": 7,
+        "gambar": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Logo_Universitas_Brawijaya.svg/1200px-Logo_Universitas_Brawijaya.svg.png",
+        "nama": "Dustin Fauzan",
+        "instansi": "Universitas Brawijaya",
+        "harapan": "Budaya di Indonesia keren-keren,Semoga Generasi muda dapat terus melestarikan budaya yang ada di Indonesia.",
+        "favorit": "Malam Satu Suro. Karena ada sejarah menarik dari munculnya budaya tersebut."
+    },
+    {
+        "id": 8,
+        "gambar": "https://upload.wikimedia.org/wikipedia/id/9/95/Logo_Institut_Teknologi_Bandung.png",
+        "nama": "Virginia Putri Annisa",
+        "instansi": "Institut Teknologi Bandung",
+        "harapan": "Ini udah kerenn banget. Bikin sadar kalo Indonesia's culture naturally amazing. Ke depannya semogaaa budaya kita bisa hidup berdampingan bareng dunia modern.",
+        "favorit": "Ssinya keren bgtkaya tertata aja gituuu, trus aksesnya mudah banget. Big applause buat temen temen yang udah nulis artikel bagussss bgt, juga peta budayanya aaa gila kereen. Semangat temen temen panitia aksangg, semangat juga web developernyaa! Anw madi ama adriann lagunya enak bgt huhu semangat gaiss!"
+    }
+]

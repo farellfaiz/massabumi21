@@ -131,7 +131,7 @@ const PetaBudaya = () => {
                             </AccordionButton>
                             <AccordionPanel pb={4}>
                                 <Box bgColor="white" padding="20px" rounded="md" shadow="xl">
-                                    {/* <iframe src="https://open.spotify.com/embed/episode/0nIMRbyHFdNHSxM1Nto52q?theme=0" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                                    <iframe src="https://open.spotify.com/embed/episode/7FBsdwh29sGDqY7FFrjynl?theme=0" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                                     <Center>
                                         <Text marginTop={2} color="gray.400" textAlign="center">
                                             <i>
@@ -139,15 +139,15 @@ const PetaBudaya = () => {
                                                 Kalau lagi nyalain lagu aksang FITB, jangan lupa dipause dulu yaa!
                                             </i>
                                         </Text>
-                                    </Center> */}
-                                    <Center display="flex" flexDir="column">
+                                    </Center>
+                                    {/* <Center display="flex" flexDir="column">
                                         <Text fontWeight="bold">
                                             Segera Hadir!
                                         </Text>
                                         <Text>
                                             Selasa, 14 September 2021
                                         </Text>
-                                    </Center>
+                                    </Center> */}
                                 </Box>
                             </AccordionPanel>
                         </AccordionItem>
