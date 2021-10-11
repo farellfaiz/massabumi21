@@ -45,7 +45,6 @@ function LaguAksang() {
                     <PopoverBody bgColor="#232323">
                         <ReactAudioPlayer
                             src="/sound/lagu-aksang.wav"
-                            autoPlay
                             controls
                             loop
                             volume={0.5}

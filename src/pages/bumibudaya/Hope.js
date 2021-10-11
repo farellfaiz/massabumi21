@@ -119,7 +119,7 @@ const Guestbook = () => {
                     
                     <AccordionItem>
                         <h2>
-                        <AccordionButton shadow="md" rounded="3xl" marginBottom={2} marginTop={2} bgColor="white" colorScheme="teal">
+                        <AccordionButton shadow="md" rounded="3xl" marginBottom={2} marginTop={2} bgColor="white" _hover={{bg:"gray.100"}}>
                             <Box flex="1" textAlign="Center" fontFamily="Mick Kelly">
                                 Day 1
                             </Box>
