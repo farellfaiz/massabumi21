@@ -29,12 +29,12 @@ const Cards = ({ img, title, desc }) => {
                 />
                 <Box display="flex" flexDir="column" textAlign="center" justifyContent="center" h="95px">
                     
-                    <chakra.span
+                    {/* <chakra.span
                         fontSize="sm"
                         color="gray.500"
                     >
                         16321025
-                    </chakra.span>
+                    </chakra.span> */}
                     <Link
                         display="block"
                         fontSize="md"

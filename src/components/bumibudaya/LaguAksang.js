@@ -43,12 +43,13 @@ function LaguAksang() {
                     <PopoverHeader fontFamily="Mick Kelly" display="flex" flexDir="row" justifyContent="flex-start" alignItems="center"><a href="https://www.youtube.com/watch?v=b73t07QamIs"><FaYoutube fontSize="20px" /></a><Text marginLeft="15px">Niskala - OST Bumi Budaya</Text></PopoverHeader>
                     <PopoverCloseButton />
                     <PopoverBody bgColor="#232323">
-                        <ReactAudioPlayer
+                        {/* <ReactAudioPlayer
                             src="/sound/lagu-aksang.wav"
                             controls
                             loop
                             volume={0.5}
-                        />
+                        /> */}
+                        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/b73t07QamIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </PopoverBody>
                     <PopoverFooter textAlign="center" fontStyle="italic" color="gray.500">Selamat menikmati dan bereksplorasi!</PopoverFooter>
                 </PopoverContent>
