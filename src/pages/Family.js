@@ -3,7 +3,6 @@ import { Cards, FamilyHead } from '../components'
 import families from "../json/family.json"
 import Skeleton from 'react-loading-skeleton';
 
-
 const Family = () => {
     const responsiveGrid = useBreakpointValue({ base: "repeat(1, 1fr)", sm: "repeat(2, 1fr)", md: "repeat(3, 1fr)", lg: "repeat(4, 1fr)" })
     /* const responsiveHeight = useBreakpointValue({ base: "1500px", sm: "1000px" }) */
