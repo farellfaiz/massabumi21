@@ -34,7 +34,7 @@ const Navigation = () => {
                 <Spacer />
                 <Box>
                     <Link to="/family">
-                        <IconButton display={btnDisplay} aria-label="Contact Us" icon={<FaUsers fontSize="13px" />} marginRight={2} variant="ghost" />
+                        <IconButton display={btnDisplay} aria-label="Contact Us" icon={<FaUsers fontSize="13px" />} marginRight={2} />
                     </Link>
                     <Link to="/bumibudaya">
                         <IconButton aria-label="Shop" icon={<IoEarth fontSize="13px" />} />
