@@ -24,7 +24,7 @@ const DetailMhs = () => {
                             <Heading
                                 fontFamily='MonumentExtended-Regular' fontWeight={'bold'} fontSize='40px' position={'static'}
                             >
-                                221
+                                261
                             </Heading>
                         </Stack>
                         <Stack>
@@ -43,7 +43,7 @@ const DetailMhs = () => {
                             <Heading
                                 fontFamily='MonumentExtended-Regular' fontWeight={'bold'} fontSize='40px' position={'static'}
                             >
-                                125
+                                37
                             </Heading>
                         </Stack>
                         <Stack>
