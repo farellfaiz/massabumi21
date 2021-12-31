@@ -8,81 +8,177 @@ import {
     Divider,
     Button,
     Text,
+    Stack,
+    Image,
+    HStack
   } from '@chakra-ui/react'
 
-import { FaRegEnvelope, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaRegEnvelope, FaInstagram, FaTwitter, FaYoutube} from 'react-icons/fa'
 import { IoLogoTiktok } from 'react-icons/io5'
 import { IconFooter } from '.'
 
 const Footer = () => {
     return (
-        <Box 
-            position="relative" 
-            bottom="-10"
-            left="0"
-            w="100%" 
-            bg="white"
-            paddingTop={10}
-        >
-            <Divider position="absolute" top="0"/>
-            <Flex flexDirection="column" justifyContent="center" alignItems="center">
-                <Heading size="md" mb={2}>
-                    Subscribe
-                </Heading>
-                <Text align="center" maxWidth="400px" marginX={4} marginBottom={7}>
-                    Updates you’ll want to know about FITB ITB students batch 2021. Our stories, events, and another updates.
-                </Text>
-                <form action="https://formsubmit.co/dev.fitb21@gmail.com" method="POST">
-                    <Flex justifyContent="center" alignItems="center" marginX={5} marginBottom={7}>
-                        <InputGroup>
-                            <Input 
-                                borderRadius="8px 0px 0px 8px" 
-                                _focus={{ boxShadow:"none" }}
-                                placeholder="Email"
-                                name="Email"
-                            />
-                            <InputLeftElement>
-                                <FaRegEnvelope />
-                            </InputLeftElement>
-                        </InputGroup>
-                        <Button 
-                            type="submit"
-                            paddingX={7} 
-                            variant="solid" 
-                            size="md" 
-                            borderRadius="0px 8px 8px 0px"
-                            color="white"
-                            bg="gray.700"
-                            _hover={{ bg:'gray.700' }}
-                            _active={{ bg:'gray.700' }} 
-                            _focus={{ boxShadow:"0 0 1px 2px black, 0 1px 1px rgba(0, 0, 0, .15)" }}
-                        >
-                            Subscribe
-                        </Button>
-                    </Flex>
-                </form>
-                <Flex marginTop={4} justifyContent="center" alignItems="center" width="100%" bg="gray.100" paddingY={4}>
-                    <a href="mailto:tanya@massabumi21.id">
-                        <IconFooter icon={<FaRegEnvelope />} mx="1.5" />
-                    </a>
-                    <a href="https://instagram.com/fitb21">
-                        <IconFooter icon={<FaInstagram />} mx="1.5" />
-                    </a>
-                    <a href="https://twitter.com/fitb21">
-                        <IconFooter icon={<FaTwitter />} mx="1.5" />
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCwWXzzP7yh60ZzS-udBl2WA">
-                        <IconFooter icon={<FaYoutube />} mx="1.5" />
-                    </a>
-                    <a href="https://tiktok.com/@fitb21">
-                        <IconFooter icon={<IoLogoTiktok />} mx="1.5" />
-                    </a>
-                </Flex>
-                <Flex bg="gray.700" color="white" w="100%" justifyContent="center" paddingY={3}>
-                    <Text fontWeight="thin" fontSize="15px">&copy; 2021 Massa Bumi. All rights reserved.</Text>
-                </Flex>
+        <div>
+            <Box
+                w='100%'
+                h='1985px'
+                display='flex'
+                justifyContent='center'
+                marginTop={'50px'}
+                id='footer-main'
+            >
+                <Box
+                    w={'82vw'}
+                    h={'163vh'}
+                    bg='white'
+                    borderRadius={'40px'}
+                    marginTop={'195px'}
+                    boxShadow={'dark-lg'}
+                >
+                    <Stack
+                        marginTop='100px'
+                        align={'center'}
+                        spacing={'215px'}
+                    >
+                        <Stack>
+                            <Stack align={'center'}>
+                                <Heading
+                                    marginBottom='40px' 
+                                    fontFamily='MonumentExtended-Regular'
+                                    fontWeight={'bold'}
+                                    fontSize='35px'
+                                    color='#330F11'
+                                >
+                                    Sub<span className='underl'>sc</span>ribe
+                                </Heading>
+                            </Stack>
+                            <Stack
+                            textAlign='center'
+                            alignContent='center'
+                            color='#600E0E'
+                            fontFamily='TextaNarrowAlt-Book'
+                            fontSize='23px'
+                            fontWeight={'normal'}
+                            >
+                                <p>Updates you'll want to know about FITB ITB students batch 2021.<br/>Our stories, events, and another updates.</p>
+                            </Stack>
+                            <Stack align={'center'}>
+                                <form id='newsletter' action="https://formsubmit.co/dev.fitb21@gmail.com" method="POST">
+                                    <InputGroup>
+                                        <Input 
+                                        _focus={{ boxShadow:"none" }}
+                                        name='email'
+                                        id='email'
+                                        type='email'
+                                        placeholder="Enter your email"
+                                        />
+                                        <InputLeftElement marginLeft={'5px'}>
+                                            <FaRegEnvelope />
+                                        </InputLeftElement>
+                                    </InputGroup>
+                                    <Button type='submit' id='submit'>Subscribe</Button>    
+                                </form>
+                            </Stack>
+                        </Stack>
+                        <Stack>
+                            <Stack align={'center'}>
+                                <Heading
+                                marginBottom='40px' 
+                                fontFamily='MonumentExtended-Regular'
+                                fontWeight={'bold'}
+                                fontSize='35px'
+                                color='#330F11'
+                                >
+                                    Fee<span className='underl'>db</span>ack
+                                </Heading>
+                            </Stack>
+                            <Stack
+                            textAlign='center'
+                            alignContent='center'
+                            color='#600E0E'
+                            fontFamily='TextaNarrowAlt-Book'
+                            fontSize='23px'
+                            fontWeight={'normal'}
+                            >
+                                <p>Please write your feedback for further improvements of this website.</p>
+                            </Stack>
+                            <Stack align={'center'}>
+                                <form 
+                                action='https://docs.google.com/forms/d/e/1FAIpQLScwwMVMuRmRRfCCSLlZDEeVDqq-NAfbOsmsFNWvlq3F9ZzzWA/formResponse'
+                                method='POST'
+                                >
+                                    <Stack spacing={'10px'}>
+                                        <textarea id='feedback' name='entry.1487572390'></textarea>
+                                        <Button type='submit' id='submit' width={'40vw'}>Send</Button>
+                                    </Stack>
+                                </form>
+                            </Stack>
+                        </Stack>
+                        <Stack>
+                            <Box
+                            w='100%'
+                            h='auto'
+                            display='flex'
+                            justifyContent='center'
+                            marginTop={'130px'}
+                            >
+                                <Stack
+                                align={'center'}
+                                spacing={'40px'}
+                                >
+                                    <Stack align={'center'}>
+                                        <Image 
+                                        src='/img/logoL.png'
+                                        width='215px'
+                                        height='215px'
+                                        alt=''
+                                        marginBottom={'10px'}
+                                        />
+                                        <Heading
+                                        fontFamily='TextaNarrowAlt-Book'
+                                        fontWeight={700}
+                                        fontSize='25px'
+                                        textAlign={'center'}
+                                        >
+                                            Massa Bumi 2021 <br/>#InovatifResilienBerprestasi
+                                        </Heading>
+                                    </Stack>
+                                    <Stack align={'center'}>
+                                        <Heading
+                                        fontFamily='TextaNarrowAlt-Book'
+                                        fontWeight={700}
+                                        fontSize='17px'
+                                        textAlign={'center'}
+                                        marginBottom={'17px'}
+                                        >
+                                            Ikuti kami
+                                        </Heading>
+                                        <HStack>
+                                            <a href='https://instagram.com/fitb21/'>
+                                                <IconFooter icon={<FaInstagram/>} mx={'1.5'} />
+                                            </a>
+                                            <a href='twitter.com/fitb21'>
+                                                <IconFooter icon={<FaTwitter/>} mx={'1.5'} />
+                                            </a>
+                                            <a href='https://www.youtube.com/channel/UCwWXzzP7yh60ZzS-udBl2WA'>
+                                                <IconFooter icon={<FaYoutube/>} mx={'1.5'} />
+                                            </a>
+                                            <a href='https://tiktok.com/@fitb21'>
+                                                <IconFooter icon={<IoLogoTiktok/>} mx={'1.5'} />
+                                            </a>
+                                        </HStack>
+                                    </Stack>
+                                </Stack>
+                            </Box>
+                        </Stack>
+                    </Stack>
+                </Box>
+            </Box>
+            <Flex bg="white" color="black" w="100%" justifyContent="center" paddingY={3}>
+                <Text fontWeight="bold" fontSize="15px" fontFamily={'TextaNarrowAlt-Book'}>&copy; Copyright 2021 Massa Bumi. All rights reserved.</Text>
             </Flex>
-        </Box>
+        </div>
     )
 }
 

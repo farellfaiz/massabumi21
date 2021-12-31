@@ -1,17 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600;700;800&family=Quicksand:wght@300;400;600;700&display=swap');
 @font-face {
   font-family: 'Mick Kelly';
   src: local('Mick Kelly'), url(./fonts/Mick\ Kelly.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'MonumentExtended-Regular';
+  src: local('MonumentExtended-Regular'), url(./fonts/MonumentExtended-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'MonumentExtended-Ultrabold' ;
+  src: local('MonumentExtended-Ultrabold'), url(./fonts/MonumentExtended-Ultrabold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'TextaNarrowAlt-Black';
+  src: local('TextaNarrowAlt-Black'), url('./fonts/TextaNarrowAlt-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TextaNarrowAlt-Bold';
+  src: local('TextaNarrowAlt-Bold'), url('./fonts/TextaNarrowAlt-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TextaNarrowAlt-Book';
+  src: local('TextaNarrowAlt-Book'), url('./fonts/TextaNarrowAlt-Book.ttf') format('truetype');
+}
+
 html {
   background-color: #F4F8FB;
   overflow-x: hidden;
+  height: 100%;
+  margin: 0px !important;
+  margin-top: 0;
+  margin-block-start: 0;
+}
+
+h2 {
+  margin-block-start: 0px !important;
 }
 
 body {
-  margin: 0;
+  margin: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 div{
@@ -41,4 +76,140 @@ table {
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+#main-nav {
+  list-style-type: none;
+  overflow: hidden;
+  float: left;
+  margin-right: 50px;
+  font-size: 23px;
+  font-family: 'TextaNarrowAlt-Book', sans-serif;
+  margin: 0;
+}
+
+#main-nav li{
+  display: inline-block;
+  text-align: center;
+  height: 100%;
+}
+
+#main-nav li a {
+  padding: 0 20px;
+  display: block;
+  line-height: 90px;
+}
+
+#main-nav li:hover{
+  background-color: #AA2920;
+  color: white;
+}
+
+#main-nav li:active {
+  background-color: #e26c64;
+}
+
+#home-heading {
+  font-family: 'MonumentExtended-Regular';
+  font-weight: bold;
+  font-size: 90px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.home-year {
+  color: #AA2920;
+}
+
+#homeheading2 {
+  font-family: 'MonumentExtended-Regular';
+  font-weight: bold;
+  color: #FDCC03;
+  font-size: 40px;
+  letter-spacing: 4px;
+}
+
+#family {
+  font-family: 'TextaNarrowAlt-Bold', sans-serif;
+  align-items: center;
+}
+
+.underl {
+  border-bottom: 5px solid #AA2920;
+}
+
+.detailmhs {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.logo-home {
+  font-family: 'Bebas Neue' !important;
+  font-size: 25px !important;
+  color: #600F0E;
+}
+
+.logo-p {
+  font-family: 'TextaNarrowAlt-Book' !important;
+  font-size: 15px !important;
+  font-weight: bold;
+  color: #AA2920;
+}
+
+.logo-bolder {
+  font-family: 'TextaNarrowAlt-Black';
+}
+
+#footer-main {
+  background-image: url(./img/footerbg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#newsletter {
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+  border: 2px solid #AA2920;
+  border-radius: 30px;
+}
+
+#email {
+  border: none;
+  width: 35vw;
+  flex-grow: 2;
+  font-family: 'TextaNarrowAlt-Bold';
+  font-size: 20px;
+  color: #600E0E;
+}
+
+#submit {
+  background-color: #AA2920;
+  color: white;
+  border-radius: 30px;
+}
+
+::placeholder {
+  color: #AA2920;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #AA2920;
+  opacity: 1;
+}
+
+#feedback {
+  border: 2px solid #AA2920;
+  border-radius: 12px;
+  width: 40vw;
+  height: 39vh;
+  font-family: 'TextaNarrowAlt-Book';
+  font-size: 20px;
+  color: #600E0E;
+}
+
+#feedback:focus {
+  outline: none;
 }
