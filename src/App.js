@@ -23,7 +23,6 @@ import {
   MainMenu,
   PetaBudaya,
   Test,
-  ComingSoon,
   Guestbook,
   Artikel,
   Hope,
@@ -72,7 +71,7 @@ function App() {
     <ChakraProvider>
       <Router>
         <Navigation />
-        {/* <LaguAksang /> */}
+        <LaguAksang />
         <ScrollToTop />
         <Switch>
           <Route path="/" exact component={() => <Home />} />
@@ -80,7 +79,6 @@ function App() {
           <Route path="/contact" exact component={() => <Contact />} />
           <Route path="/about" exact component={() => <About />} />
           <Route path="/test" exact component={() => <Test />} />
-          <Route path="/comingsoon" exact component={() => <ComingSoon />} />
 
           <Route path="/bumibudaya" exact component={() => <MainMenu />} />
           <Route path="/bumibudaya/peta" exact component={() => <PetaBudaya />} />
@@ -121,6 +119,7 @@ function App() {
           <Route path="/bumibudaya/artikel/berkenalan-dengan-pupuh-asmarandana" exact component={() => <Tigasatu />} />
 
         </Switch>
+        <Medpart />
         <Footer />
       </Router>
     </ChakraProvider>

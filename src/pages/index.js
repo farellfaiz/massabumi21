@@ -4,7 +4,6 @@ export { default as Family } from "./Family";
 export { default as About } from "./About";
 export { default as Contact } from "./Contact";
 export { default as Test } from "./Test";
-export { default as ComingSoon } from './ComingSoon'
 
 export { default as MainMenu } from "./bumibudaya/MainMenu";
 export { default as PetaBudaya } from "./bumibudaya/PetaBudaya";
