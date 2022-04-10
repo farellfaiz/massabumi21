@@ -37,6 +37,9 @@ const Guestbook = () => {
     return (
         <Box w="100%" h="auto" paddingY={8} bg="gray.50" marginBottom="-50px" display="flex" justifyContent="center">
             {/* <Preread /> */}
+            <Image src="/img/bg.png" position="fixed" top="0" right={["-100px", "-100px", "-100px", "0"]} alt="" />
+            <Image src="/img/bg.png" position="fixed" left={["-100px", "-100px", "-100px", "0"]} bottom="0" transform="rotate(180deg)" alt="" />
+
             <Box marginBottom="40px" display="flex" flexDir="column" width="80%" alignItems="center" position="relative">
                 <Flex width="100%" flexDir="column" justifyContent="center" alignItems="center" marginTop={3}>
                     <Heading fontFamily="Mick Kelly" fontWeight="bold" marginBottom={6} size="2xl" bgGradient="linear(to-r, #85665e, #B4887C)" bgClip="text" lineHeight="65px">
