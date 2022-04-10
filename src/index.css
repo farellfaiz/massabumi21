@@ -47,6 +47,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
+  background-color: white !important;
 }
 
 div{
@@ -78,41 +79,10 @@ table {
   margin-bottom: 20px;
 }
 
-#main-nav {
-  list-style-type: none;
-  overflow: hidden;
-  float: left;
-  margin-right: 50px;
-  font-size: 23px;
-  font-family: 'TextaNarrowAlt-Book', sans-serif;
-  margin: 0;
-}
-
-#main-nav li{
-  display: inline-block;
-  text-align: center;
-  height: 100%;
-}
-
-#main-nav li a {
-  padding: 0 20px;
-  display: block;
-  line-height: 90px;
-}
-
-#main-nav li:hover{
-  background-color: #AA2920;
-  color: white;
-}
-
-#main-nav li:active {
-  background-color: #e26c64;
-}
-
 #home-heading {
   font-family: 'MonumentExtended-Regular';
   font-weight: bold;
-  font-size: 90px;
+  font-size: 80px;
   color: white;
   letter-spacing: 5px;
 }
@@ -155,6 +125,26 @@ table {
   font-weight: bold;
   color: #AA2920;
 }
+
+@media screen and (max-width: 950px) {
+  .logo-home {
+    font-size: 20px !important;
+  }
+
+  .logo-p {
+    font-size: 15px !important;
+  }
+
+  .branchhdg {
+    font-size: 41px !important;
+    max-width: 50vw !important;
+    margin-left: 20px !important;
+  }
+
+  .vl {
+    height: 120px !important;
+  }
+}  
 
 .logo-bolder {
   font-family: 'TextaNarrowAlt-Black';
@@ -204,7 +194,7 @@ table {
   border: 2px solid #AA2920;
   border-radius: 12px;
   width: 40vw;
-  height: 39vh;
+  height: 35vh;
   font-family: 'TextaNarrowAlt-Book';
   font-size: 20px;
   color: #600E0E;
@@ -212,4 +202,28 @@ table {
 
 #feedback:focus {
   outline: none;
+}
+
+.branchpage {
+  background-image: url(./img/branchbg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.branchhdg {
+  font-family: 'MonumentExtended-Regular';
+  font-weight: bold;
+  font-size: 80px;
+  color: white;
+  margin-left: 30px;
+  margin-bottom: 120px;
+  max-width: 30vw;
+}
+
+.vl {
+  border-left: 10px solid #AA2920;
+  height: 200px;
+  margin-left: 80px;
+  border-radius: 15px;
 }

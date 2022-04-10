@@ -5,39 +5,51 @@ import { Link } from "react-router-dom";
 import {
     IoEarth
 } from "react-icons/io5";
+import './Navbar.css';
+import { useState } from "react";
 
 const Navigation = () => {
-    const [phoneSize] = useMediaQuery("(max-width: 500px)")
+    const [phoneSize] = useMediaQuery("(max-width: 950px)")
     const btnDisplay = useBreakpointValue({ base: "none", md: "inline-flex" })
+    const [isNavExpanded, setIsNavExpanded] = useState(false)
 
     return (
-        <Box 
-            paddingX={10}
-            position="sticky"
-            top="0"
-            bg="white"
-            zIndex={10}
-            w="100%"
-            shadow="md"
-            height='90px'
-        >
-            <Flex justifyContent="left">
-                <Box position="absolute" top={phoneSize ? "8px" : "-8px"}>
-                    <Link to="/">
-                        <Image src="/img/logo512.png" alt="" width={phoneSize ? "60px" : "65px"} marginTop={phoneSize ? "-6px" : "20px"} marginLeft={71}/>
-                    </Link>
-                </Box>
-                <Spacer />
-                <ul id='main-nav'>
+        <nav className="navigation"> 
+            <a href="/" className="brand-name">
+                <Image src="/img/logo.png" alt="" width={phoneSize ? "60px" : "60px"} marginLeft={phoneSize ? "45vw" : "10vw"}/>
+            </a>
+            <button className="hamburger" onClick={() => {
+            setIsNavExpanded(!isNavExpanded);
+            }}>
+                {/* icon from heroicons.com */}
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="white"
+                >
+                    <path
+                    fillRule="evenodd"
+                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                    clipRule="evenodd"
+                    />
+                </svg>
+            </button>
+            <div className={
+                isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+            }>
+                <ul>
                     <li><a href='/'>Beranda</a></li>
                     <li><a href='/comingsoon'>Kepengurusan</a></li>
-                    <li><a href='/comingsoon'>Layanan Mahasiswa</a></li>
-                    <li><a href='/comingsoon'>Berita</a></li>
-                    <li><a href='/comingsoon'>Agenda</a></li>
+                    <li><a href='/infomhs'>Layanan Mahasiswa</a></li>
+                    <li><a href='/news'>Berita</a></li>
+                    <li><a href='/activity'>Kegiatan</a></li>
+                    <li><a href='/agenda'>Agenda</a></li>
                     <li><a href='/bumibudaya'>Campaign</a></li>
+
                 </ul>
-            </Flex>
-        </Box>
+            </div>
+        </nav>
     )
 }
 

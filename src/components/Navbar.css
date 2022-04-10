@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'TextaNarrowAlt-Book';
+    src: local('TextaNarrowAlt-Book'), url('../fonts/TextaNarrowAlt-Book.ttf') format('truetype');
+}
+
+.navigation {
+    height: 60px !important;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 0rem 0rem;
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+    font-family: 'TextaNarrowAlt-Book', sans-serif;
+    font-size: 20px;
+}
+
+.brand-name {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0px;
+}
+.navigation-menu {
+    margin-left: auto;
+}
+
+.navigation-menu ul {
+    display: flex;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation-menu li {
+    /* // removes default disc bullet for li tags and applies margin to left & right side */
+    list-style-type: none;
+    margin: 0 0.5rem;
+    flex-grow: 1;
+}
+
+.navigation-menu li a {
+    /* // increases the surface area of the anchor tag to span more than just the anchor text */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 0.75em 0.5em;
+}
+
+.navigation-menu li a:hover {
+    background-color: #AA2920;
+    color: white;
+}
+
+.navigation-menu li a:active {
+    background-color: #e26c64;
+}
+.hamburger {
+    /* // removes default border on button element */
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #AA2920;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  /* positions the icon to the right and center aligns it vertically */
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+}
+
+.hamburger:hover {
+    background-color: #AA2920;
+    color: white;
+}
+
+.hamburger:active{
+    background-color: #e26c64;
+}
+
+@media screen and (max-width: 950px) {
+    .hamburger {
+        display: block;
+    }
+
+    .navigation-menu ul {
+        /* // navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
+        position: absolute;
+        top: 60px !important;
+        left: 0;
+        /* // stacks the li tags vertically  */
+        flex-direction: column;
+       /* // makes menu span full height and width */
+        width: 100%;
+        height: 545px;
+        background-color: white;
+        border-top: 1px solid black;
+        text-align: center;
+        display: none;
+    }
+
+    .navigation-menu.expanded ul {
+        display: block;
+    }
+
+    .navigation-menu li {
+        /* // centers link text and strips off margin */
+        text-align: center !important;
+        margin: 0;
+        list-style-type: none;
+    }
+    .navigation-menu li a {
+        color: black;
+        /* // increases the surface area of the anchor tag to span the full width of the menu */
+        width: 100%;
+        padding: 1.5rem 0;
+    }
+
+    .navigation-menu li:hover {
+        background-color: #eee;
+    }
+
+    .navigation-menu li:active {
+        background-color: #AA2920;
+        color: white !important;
+    }
+}

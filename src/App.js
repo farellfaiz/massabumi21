@@ -57,11 +57,16 @@ import {
   Duadelapan,
   Duasembilan,
   Tigapuluh,
-  Tigasatu
+  Tigasatu,
 } from "./pages/";
 
 import articles from "./json/artikel.json"
 import ReactGA from 'react-ga'
+import InfoMhs from "./pages/InfoMhs";
+import BeritaFITB from "./pages/BeritaFITB";
+import Actmhs from "./pages/Actmhs";
+import AgendaMhs from "./pages/AgendaMhs";
+
 
 function App() {
 
@@ -81,6 +86,10 @@ function App() {
           <Route path="/about" exact component={() => <About />} />
           <Route path="/test" exact component={() => <Test />} />
           <Route path="/comingsoon" exact component={() => <ComingSoon />} />
+          <Route path="/infomhs" exact component={() => <InfoMhs />} />
+          <Route path="/news" exact component={() => <BeritaFITB />} />
+          <Route path="/activity" exact component={() => <Actmhs />} />
+          <Route path="/agenda" exact component={() => <AgendaMhs />} />
 
           <Route path="/bumibudaya" exact component={() => <MainMenu />} />
           <Route path="/bumibudaya/peta" exact component={() => <PetaBudaya />} />

@@ -10,7 +10,8 @@ import {
     Text,
     Stack,
     Image,
-    HStack
+    HStack,
+    useMediaQuery
   } from '@chakra-ui/react'
 
 import { FaRegEnvelope, FaInstagram, FaTwitter, FaYoutube} from 'react-icons/fa'
@@ -18,6 +19,7 @@ import { IoLogoTiktok } from 'react-icons/io5'
 import { IconFooter } from '.'
 
 const Footer = () => {
+    const [phoneSize] = useMediaQuery("(max-width: 950px)")
     return (
         <div>
             <Box
@@ -30,7 +32,7 @@ const Footer = () => {
             >
                 <Box
                     w={'82vw'}
-                    h={'163vh'}
+                    h={phoneSize? '1110px':'163vh'}
                     bg='white'
                     borderRadius={'40px'}
                     marginTop={'195px'}
@@ -39,7 +41,7 @@ const Footer = () => {
                     <Stack
                         marginTop='100px'
                         align={'center'}
-                        spacing={'215px'}
+                        spacing={'180px'}
                     >
                         <Stack>
                             <Stack align={'center'}>
@@ -58,7 +60,7 @@ const Footer = () => {
                             alignContent='center'
                             color='#600E0E'
                             fontFamily='TextaNarrowAlt-Book'
-                            fontSize='23px'
+                            fontSize={phoneSize ? '18px' : '23px'}
                             fontWeight={'normal'}
                             >
                                 <p>Updates you'll want to know about FITB ITB students batch 2021.<br/>Our stories, events, and another updates.</p>
@@ -84,7 +86,7 @@ const Footer = () => {
                         <Stack>
                             <Stack align={'center'}>
                                 <Heading
-                                marginBottom='40px' 
+                                marginBottom='30px' 
                                 fontFamily='MonumentExtended-Regular'
                                 fontWeight={'bold'}
                                 fontSize='35px'
@@ -121,7 +123,7 @@ const Footer = () => {
                             h='auto'
                             display='flex'
                             justifyContent='center'
-                            marginTop={'130px'}
+                            marginTop='180px'
                             >
                                 <Stack
                                 align={'center'}
@@ -130,8 +132,8 @@ const Footer = () => {
                                     <Stack align={'center'}>
                                         <Image 
                                         src='/img/logoL.png'
-                                        width='215px'
-                                        height='215px'
+                                        width={phoneSize ? '100px' : '215px'}
+                                        height={phoneSize ? '100px' : '215px'}
                                         alt=''
                                         marginBottom={'10px'}
                                         />
@@ -150,7 +152,7 @@ const Footer = () => {
                                         fontWeight={700}
                                         fontSize='17px'
                                         textAlign={'center'}
-                                        marginBottom={'17px'}
+                                        marginBottom={phoneSize ? '0px':'17px'}
                                         >
                                             Ikuti kami
                                         </Heading>

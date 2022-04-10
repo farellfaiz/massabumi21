@@ -4,7 +4,11 @@ export { default as Family } from "./Family";
 export { default as About } from "./About";
 export { default as Contact } from "./Contact";
 export { default as Test } from "./Test";
-export { default as ComingSoon } from './ComingSoon'
+export { default as ComingSoon } from './ComingSoon';
+export { default as InfoMhs } from './InfoMhs';
+export { default as BeritaFITB } from './BeritaFITB';
+export { default as Actmhs} from './Actmhs';
+export { default as AgendaMhs} from './AgendaMhs';
 
 export { default as MainMenu } from "./bumibudaya/MainMenu";
 export { default as PetaBudaya } from "./bumibudaya/PetaBudaya";

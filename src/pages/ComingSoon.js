@@ -1,10 +1,13 @@
 import {
     Box,
-    Heading
+    Heading,
+    useMediaQuery
 } from '@chakra-ui/react'
 import React from 'react'
 
 const ComingSoon = () => {
+    const [phoneSize] = useMediaQuery("(max-width: 500px)")
+
     return (
         <Box
         width='100%'
@@ -17,7 +20,8 @@ const ComingSoon = () => {
             <Heading
             fontFamily='MonumentExtended-Regular'
             fontWeight={'bold'}
-            fontSize={'120px'}
+            fontSize={phoneSize ? '70px':'120px'}
+            textAlign={'center'}
             color='#330F11'
             >
                 COMING SOON
