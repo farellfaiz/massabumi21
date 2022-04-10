@@ -13,74 +13,44 @@ import { FaUsers } from "react-icons/fa"
   
   const Hero = () => {
     return (
-      <Container maxW={'4xl'} paddingBottom="60px">
+      <Container maxWidth='fit-content' paddingBottom="60px" id='home1' textAlign={'center'}>
         <Stack
           align={'center'}
-          spacing={{ base: 8, md: 10 }}
           direction={{ base: 'column', md: 'row' }}>
           <Stack marginTop="80px" flex={1} spacing={{ base: 6, md: 4 }}>
             <Heading
-              fontWeight="bold"
-              fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}
+              id='home-heading'
               bgGradient="linear(to-l, #604842, #B4887C)" bgClip="text"
-              textAlign={{ base: "center", sm: "left" }}
+              textAlign={{ base: "center"}}
             >
-                Massa Bumi 2021
+                MASSA BUMI <span className='home-year'>2021</span>
             </Heading>
-            <Text color={'gray.500'} textAlign={{ base: "center", sm: "left" }}>
-              Selamat datang di website Massa Bumi 2021
-            </Text>
-            <Stack
-              spacing={{ base: 4, sm: 6 }}
-              direction={{ base: 'column', sm: 'row' }}>
-              <Link to="/family">
-                <Button
+            <Heading
+              id='homeheading2'
+              textAlign={{ base: "center"}}
+            >
+                EKSTRUSI INOVASI, MERAKI AKSI
+            </Heading>
+            <Stack maxW={'fit-content'}
+              alignSelf={'center'}>
+              <Link to='/family'>
+                <Button id='family'
                   rounded={'full'}
-                  size={'lg'}
-                  fontWeight="medium"
                   px={6}
-                  color="white"
-                  bg="#402B0E"
-                  iconSpacing={3} 
+                  size={'lg'}
+                  fontWeight='normal'
+                  color="black"
+                  bg="#C68787" 
                   leftIcon={ <FaUsers /> } 
-                  _hover={{ bg:'#CCBA92' }}
-                  _active={{ bg:'#C8B19C' }} 
-                  _focus={{ boxShadow:"0 0 1px 2px #9c8067, 0 1px 1px rgba(0, 0, 0, .15)" }}
+                  _hover={{ bg:'#d8aeae'}}
+                  _active={{ bg:'#e2c2c2'}} 
+                  _focus={{ boxShadow:"0 0 1px 2px black, 0 1px 1px rgba(0, 0, 0, .15)" }}                
                 >
                   Our Family
                 </Button>
               </Link>
             </Stack>
           </Stack>
-          <Flex
-            flex={1}
-            justify={'center'}
-            align={'center'}
-            position={'relative'}
-            w={'full'}  
-          >
-            <Box
-              position={'relative'}
-              display="flex"
-              flexDir="column"
-              height={'280px'}
-              rounded={'2xl'}
-              width={'full'}
-              marginTop="80px"
-              overflow={'hidden'}>
-              <Image
-                alt={''}
-                fit={'contain'}
-                align={'center'}
-                w={'100%'}
-                h={'100%'}
-                src={
-                  '/img/logo.png'
-                }
-                boxShadow="lg"
-              />
-            </Box>
-          </Flex>
         </Stack>
       </Container>
     );
